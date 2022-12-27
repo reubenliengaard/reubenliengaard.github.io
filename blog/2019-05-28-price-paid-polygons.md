@@ -9,9 +9,8 @@ authors:
 tags: [spatial, gis]
 ---
 
-test
 
-# Price Paid Cadastral
+# Price Paid Cadastral - test
 
 ## Connect to server
 
