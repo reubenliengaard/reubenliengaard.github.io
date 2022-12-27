@@ -20,8 +20,6 @@ jobs:
       # Node is required for npm
       - name: Set up Node
         uses: actions/setup-node@v2
-        with:
-          node-version: "12"
       # Install and build Docusaurus website
       - name: Build Docusaurus website
         run: |
