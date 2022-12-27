@@ -5,6 +5,8 @@ authors: [reubenliengaard]
 tags: [facebook, hello, docusaurus]
 ---
 
+does it work yet?
+
 this is where i document short stories of my spatial adventures, and hopefully github workflows will update it for me
 
 change 
