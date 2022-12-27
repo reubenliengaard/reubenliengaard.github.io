@@ -12,8 +12,8 @@
         <id>welcome</id>
         <link href="https://reubenliengaard.github.io/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[this is where i document short stories of my spatial adventures.]]></summary>
-        <content type="html"><![CDATA[<p>this is where i document short stories of my spatial adventures.</p><p>change </p><p>also</p><ul><li>this</li></ul>]]></content>
+        <summary type="html"><![CDATA[does it work yet?]]></summary>
+        <content type="html"><![CDATA[<p>does it work yet?</p><p>this is where i document short stories of my spatial adventures, and hopefully github workflows will update it for me</p><p>change </p><p>also</p><ul><li>this</li></ul>]]></content>
         <author>
             <name>Reuben Liengaard</name>
             <uri>https://github.com/reubenliengaard</uri>

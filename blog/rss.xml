@@ -13,8 +13,8 @@
             <link>https://reubenliengaard.github.io/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[this is where i document short stories of my spatial adventures.]]></description>
-            <content:encoded><![CDATA[<p>this is where i document short stories of my spatial adventures.</p><p>change </p><p>also</p><ul><li>this</li></ul>]]></content:encoded>
+            <description><![CDATA[does it work yet?]]></description>
+            <content:encoded><![CDATA[<p>does it work yet?</p><p>this is where i document short stories of my spatial adventures, and hopefully github workflows will update it for me</p><p>change </p><p>also</p><ul><li>this</li></ul>]]></content:encoded>
             <category>facebook</category>
             <category>hello</category>
             <category>docusaurus</category>
