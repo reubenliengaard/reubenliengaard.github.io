@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Upload Land Registry Price Paid Data
 
-## Download data
+## Download data from the land registry
 
 ``` bash
 $ wget http://prod.publicdata.landregistry.gov.uk.s3-website-eu-west-

@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
 
-setup a spatial data analasis stack on a lenovo t470 laptop
+
+so this is how i setup a spatial data analasis stack on a lenovo t470 laptop
 
 ## Getting Started
 
