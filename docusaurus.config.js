@@ -87,25 +87,19 @@ const config = {
         },
         items: [
           {
-            to: '/docs/Intro',    // ./docs/Intro.md
-            label: 'Docs Title',
-            position: 'left',
-            activeBaseRegex: `/docs/`,
-          },
-          {
-            to: '/docs-spatial/intro',    // ./docs-api/Intro.md
+            to: '/docs-spatial/intro',    // ./docs-api/intro.md
             label: 'Spatial',
             position: 'left',
             activeBaseRegex: `/docs-spatial/`,
           },
           {
-            to: '/docs-parametric/intro',  // ./docs-system/Intro.md
+            to: '/docs-parametric/intro',  // ./docs-system/intro.md
             label: 'Parametric',
             position: 'left',
             activeBaseRegex: `/docs-parametric/`,
           },
           {
-            to: '/docs-automation/intro',  // ./docs-system/Intro.md
+            to: '/docs-automation/intro',  // ./docs-system/intro.md
             label: 'Automation',
             position: 'left',
             activeBaseRegex: `/docs-automation/`,
