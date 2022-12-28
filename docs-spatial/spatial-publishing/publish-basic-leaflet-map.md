@@ -2,4 +2,4 @@
 sidebar_position: 2
 ---
 
-# Publish Basic Leaflet Map
+# Basic Leaflet Map

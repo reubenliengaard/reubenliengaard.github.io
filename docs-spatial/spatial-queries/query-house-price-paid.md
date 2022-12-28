@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
- # Query House Price Paid
+ # House Price Paid
 
 ## Connect to server
 

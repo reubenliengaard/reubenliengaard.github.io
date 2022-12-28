@@ -2,7 +2,8 @@
 sidebar_position: 4
 ---
 
-# PSQL Database Front-End 
+# PSQL 
+## Database Front-End 
 
 ### connect to database using psql
 

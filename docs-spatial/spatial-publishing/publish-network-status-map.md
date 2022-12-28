@@ -2,4 +2,4 @@
 sidebar_position: 1
 ---
 
-# Publish Network Status Map
+# Network Status Map

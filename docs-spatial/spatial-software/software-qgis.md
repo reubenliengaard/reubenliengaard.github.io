@@ -2,7 +2,8 @@
 sidebar_position: 6
 ---
 
-# Qgis Geographic Information System
+# Qgis 
+## Geographic Information System
 
 ## Install Qgis
 ``` bash
