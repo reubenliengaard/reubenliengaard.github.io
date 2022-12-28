@@ -3,7 +3,7 @@ sidebar_position: 2
 --- 
 
 # PostGIS
-##  Spatial Database
+PostGIS is a Spatial Database
 
 Why PostGIS?
 - Strong community

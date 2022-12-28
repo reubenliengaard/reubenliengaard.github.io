@@ -3,7 +3,8 @@ sidebar_position: 7
 ---
 
 # Geoserver 
-## Geospatial Server
+Geoserver is a Geospatial Server
+
 Why GeoServer?
 - Is there another option?
 
