@@ -2,14 +2,13 @@
 sidebar_position: 3
 ---
 
-# General Process
+## Introduction
+### What?
 
+### Why?
 
-## What
-
-## Why?
-
-## How?
+## Body
+### How?
 
 ## Conclusion
 

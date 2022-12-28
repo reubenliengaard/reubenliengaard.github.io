@@ -5,11 +5,13 @@ sidebar_position: 3
  # Thermocouple
 
 
-## What
+## Introduction
+### What?
 
-## Why?
+### Why?
 
-## How?
+## Body
+### How?
 
 ## Conclusion
 

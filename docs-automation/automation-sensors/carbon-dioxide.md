@@ -5,11 +5,13 @@ sidebar_position: 2
  # Carbon Dioxide
 
 
-## What
+## Introduction
+### What?
 
-## Why?
+### Why?
 
-## How?
+## Body
+### How?
 
 ## Conclusion
 

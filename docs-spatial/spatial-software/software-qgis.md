@@ -14,15 +14,14 @@ sudo dnf install qgis
 
 ## References
 
-## Similar Projects
+## Introduction
+### What?
 
-**this is strong text**
-*this is emphe text*
+### Why?
 
-> this is
-> written in 
-> block quotes
+## Body
+### How?
 
-this is a normal line
+## Conclusion
 
-    this is a code block
+## References

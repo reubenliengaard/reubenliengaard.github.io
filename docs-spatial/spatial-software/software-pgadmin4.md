@@ -12,3 +12,15 @@ sidebar_position: 5
 ``` bash
 sudo dnf install pgadmin4
 ```
+
+## Introduction
+### What?
+
+### Why?
+
+## Body
+### How?
+
+## Conclusion
+
+## References
