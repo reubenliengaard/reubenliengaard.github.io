@@ -2,8 +2,8 @@
 sidebar_position: 7
 ---
 
-# Install Geoserver Geospatial Server
-
+# Geoserver 
+## Geospatial Server
 Why GeoServer?
 - Is there another option?
 

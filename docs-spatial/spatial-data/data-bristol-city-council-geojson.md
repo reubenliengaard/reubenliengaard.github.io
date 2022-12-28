@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Upload Bristol City Council Data
+# Bristol City Council GeoJson
 
 ## download all spatial data in gejson format
 

@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Upload Land Registry Price Paid Data
+# Land Registry Price Paid
 
 ## Download data from the land registry
 

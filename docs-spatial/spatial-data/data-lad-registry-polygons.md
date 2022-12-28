@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Upload Land Registry Polygons
+# Land Registry Polygons
 
 ## Download data
 
