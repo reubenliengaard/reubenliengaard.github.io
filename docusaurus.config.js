@@ -126,7 +126,7 @@ const config = {
             to: '/docs-prototype/intro',  // ./docs-system/intro.md
             label: 'Prototype',
             position: 'left',
-            activeBaseRegex: `/docs-linux/`,
+            activeBaseRegex: `/docs-prototype/`,
           },
           {
             to: '/docs-automation/intro',  // ./docs-system/intro.md
