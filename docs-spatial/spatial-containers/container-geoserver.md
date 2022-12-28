@@ -3,10 +3,15 @@ sidebar_position: 7
 ---
 
 # Geoserver 
+
+## What?
 Geoserver is a Geospatial Server
 
+## Why?
 Why GeoServer?
 - Is there another option?
+
+## How?
 
 ``` bash
 podman pull kartoza/geoserver
@@ -52,3 +57,8 @@ systemctl enable --user geoserver.service
 ```
 
 Just enter [http://$ip:8600/geoserver/](http://$ip:8600/geoserver/) into your browsers address bar an log in.
+
+
+## Conclusion
+
+## References

@@ -9,7 +9,7 @@ sidebar_position: 6
 sudo dnf install qgis
 ```
 
-## Concluding Remarks
+## Conclusion
 
 ## References
 

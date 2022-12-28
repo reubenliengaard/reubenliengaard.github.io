@@ -4,7 +4,8 @@ sidebar_position: 1
 
 # Fedora Workstation
 
-Why Fedora?
+## What?
+## Why?
 
 - Easy to install
 - Up to data packge repositories without conflicts
@@ -142,3 +143,7 @@ sudo dnf install tlp tlp-rdw
 ``` bash
 sudo dnf install -y unzip ranger vim
 ```
+
+## Conclusion
+
+## References

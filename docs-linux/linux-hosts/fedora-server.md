@@ -2,4 +2,14 @@
 sidebar_position: 2
 ---
 
- # Fedora Server
+# Fedora Server
+
+## What
+
+## Why?
+
+## How?
+
+## Conclusion
+
+## References
