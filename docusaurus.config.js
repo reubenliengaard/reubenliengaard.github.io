@@ -93,19 +93,19 @@ const config = {
             activeBaseRegex: `/docs/`,
           },
           {
-            to: '/docs-spatial/Intro',    // ./docs-api/Intro.md
+            to: '/docs-spatial/intro',    // ./docs-api/Intro.md
             label: 'Spatial',
             position: 'left',
             activeBaseRegex: `/docs-spatial/`,
           },
           {
-            to: '/docs-parametric/Introducao',  // ./docs-system/Intro.md
+            to: '/docs-parametric/intro',  // ./docs-system/Intro.md
             label: 'Parametric',
             position: 'left',
             activeBaseRegex: `/docs-parametric/`,
           },
           {
-            to: '/docs-automation/Introducao',  // ./docs-system/Intro.md
+            to: '/docs-automation/intro',  // ./docs-system/Intro.md
             label: 'Automation',
             position: 'left',
             activeBaseRegex: `/docs-automation/`,
