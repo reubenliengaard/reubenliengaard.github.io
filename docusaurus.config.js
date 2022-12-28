@@ -47,6 +47,36 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-spatial',
+        path: 'docs-spatial',
+        routeBasePath: 'docs-spatial',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-parametric',
+        path: 'docs-parametric',
+        routeBasePath: 'docs-parametric',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-automation',
+        path: 'docs-automation',
+        routeBasePath: 'docs-automation',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+],
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
