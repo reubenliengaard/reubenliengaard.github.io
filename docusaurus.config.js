@@ -88,16 +88,29 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            to: '/docs/Intro',    // ./docs/Intro.md
+            label: 'Docs Title',
             position: 'left',
-            label: 'Tutorial',
+            activeBaseRegex: `/docs/`,
           },
           {
-            href: 'https://github.com/reubenliengaard',
-            label: 'GitHub',
-            position: 'right',
+            to: '/docs-spatial/Intro',    // ./docs-api/Intro.md
+            label: 'API',
+            position: 'left',
+            activeBaseRegex: `/docs-api/`,
           },
+          {
+            to: '/docs-parametric/Introducao',  // ./docs-system/Intro.md
+            label: 'My System',
+            position: 'left',
+            activeBaseRegex: `/docs-system/`,
+          },
+          {
+            to: '/docs-automation/Introducao',  // ./docs-system/Intro.md
+            label: 'My System',
+            position: 'left',
+            activeBaseRegex: `/docs-system/`,
+          }
         ],
       },
       footer: {
