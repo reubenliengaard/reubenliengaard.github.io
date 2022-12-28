@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Dymaxion
+# Lorry Balcony
 
 ## Introduction
 ### What?

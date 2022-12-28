@@ -16,7 +16,6 @@ sidebar_position: 1
 ## References
 
 ## Markdown
-- print cheatsheet
 - read lots of documentation / blogs
 - write lots of markdown
 
@@ -26,12 +25,10 @@ sidebar_position: 1
 - logo
 - authors
 - headshot
+- add project thumbnails
+- find old code
 
-## Community
-- facebook
-- github
-- instagram
-- linkedin
+
 
 ## Install Guides Screenshots
 - cisco setup with screenshots
