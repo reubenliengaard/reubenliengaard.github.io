@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Install pgAdmin4 Database Frontend
+# pgAdmin4 Database Frontend
 
 ## Add repository
 

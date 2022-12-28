@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Install Fedora Workstation Linux
+# Fedora Workstation Linux
 
 Why Fedora?
 

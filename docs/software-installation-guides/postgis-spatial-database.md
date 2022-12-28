@@ -2,7 +2,7 @@
 sidebar_position: 2
 --- 
 
-# Install PostGIS Spatial Database
+# PostGIS Spatial Database
 
 Why PostGIS?
 - Strong community
