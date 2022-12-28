@@ -22,5 +22,3 @@ find . -name "*.zip" -exec unzip {} \;
 
 ## References
 
-#!/usr/bin/bash
-find . -name "*.zip" -exec unzip {} \;
