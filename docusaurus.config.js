@@ -68,6 +68,15 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'docs-linux',
+        path: 'docs-linux',
+        routeBasePath: 'docs-linux',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'docs-automation',
         path: 'docs-automation',
         routeBasePath: 'docs-automation',
@@ -97,6 +106,12 @@ const config = {
             label: 'Parametric',
             position: 'left',
             activeBaseRegex: `/docs-parametric/`,
+          },
+          {
+            to: '/docs-linux/intro',  // ./docs-system/intro.md
+            label: 'Linux',
+            position: 'left',
+            activeBaseRegex: `/docs-linux/`,
           },
           {
             to: '/docs-automation/intro',  // ./docs-system/intro.md
