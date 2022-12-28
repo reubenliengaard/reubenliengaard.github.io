@@ -1,14 +1,15 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
- # Fedora IOT
+# Fedora IOT
 
 ## Introduction
 
 ### What?
 
 ### Why?
+
  - uses OStree upgrade system
  - fully atomic updates
  - easy update rollbacks
