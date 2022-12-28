@@ -4,7 +4,10 @@ sidebar_position: 1
 
 # Upload Ordnance Survey MasterMap Topography
 
-setup loader in pod?
+## how to get the data
+- sign up
+- navigate to
+- select data
 
 ## install ashtun loader
 
