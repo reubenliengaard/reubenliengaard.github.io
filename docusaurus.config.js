@@ -77,6 +77,15 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'docs-prototype',
+        path: 'docs-prototype',
+        routeBasePath: 'docs-prototype',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'docs-automation',
         path: 'docs-automation',
         routeBasePath: 'docs-automation',
@@ -114,6 +123,12 @@ const config = {
             activeBaseRegex: `/docs-linux/`,
           },
           {
+            to: '/docs-prototype/intro',  // ./docs-system/intro.md
+            label: 'Prototype',
+            position: 'left',
+            activeBaseRegex: `/docs-linux/`,
+          },
+          {
             to: '/docs-automation/intro',  // ./docs-system/intro.md
             label: 'Automation',
             position: 'left',
@@ -128,8 +143,24 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Spatial',
+                to: '/docs-spatial/intro',
+              },
+              {
+                label: 'Parametric',
+                to: '/docs-parametric/intro',
+              },
+              {
+                label: 'Linux',
+                to: '/docs-linux/intro',
+              },
+              {
+                label: 'Prototype',
+                to: '/docs-prototype/intro',
+              },
+              {
+                label: 'Automation',
+                to: '/docs-automation/intro',
               },
             ],
           },
