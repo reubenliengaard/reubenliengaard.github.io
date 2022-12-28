@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreubenliengaard_github_io=self.webpackChunkreubenliengaard_github_io||[]).push([[47],{9912:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"docs-spatial"}')}}]);
