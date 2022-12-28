@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Reuben Liengaard',
-  tagline: 'Reuben is Reuben',
+  title: 'My Site',
+  tagline: 'Dinosaurs are cool',
   url: 'https://reubenliengaard.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -38,7 +38,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/reubenliengaard/reubenliengaard.gihtub.io/',
+            'https://github.com/reubenliengaard/',
+        },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/reubenliengaard/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -61,19 +68,13 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Parametric',
+            label: 'Tutorial',
           },
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Automation',
-          },
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Spatial',
+            href: 'https://github.com/reubenliengaard',
+            label: 'GitHub',
+            position: 'right',
           },
         ],
       },
@@ -81,28 +82,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Spatial',
+            title: 'Docs',
             items: [
               {
-                label: 'Spatial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Parametric',
-            items: [
-              {
-                label: 'Parametric',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Automation',
-            items: [
-              {
-                label: 'Automation',
+                label: 'Tutorial',
                 to: '/docs/intro',
               },
             ],
@@ -127,6 +110,10 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/reubenliengaard',
