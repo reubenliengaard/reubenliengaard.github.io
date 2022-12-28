@@ -5,9 +5,9 @@ sidebar_position: 2
 # PostGIS
 
 ## Introduction
+
 ### What?
 PostGIS is a Spatial Database
-
 
 ### Why?
 Why PostGIS?
@@ -29,7 +29,6 @@ Create a pod and expose some ports
 podman pod create -p 8080:8080 -p 5432:5432 -n spatial
 ```
 
-
 Confirm the new pod exists
 
 ``` bash
@@ -46,7 +45,6 @@ podman pull postgis/postgis
 
 select docker source
 
-
 ### Applying the PostGIS image to a container
 
 Specify username, password, container name, and create a container.
@@ -54,7 +52,6 @@ Specify username, password, container name, and create a container.
 ``` bash
 podman run -d -t --name postgis --pod spatial -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres postgis/postgis
 ```
-
 
 Auto create a systemd service for the PostGIS container
 ``` bash

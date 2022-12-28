@@ -5,8 +5,8 @@ sidebar_position: 7
 # Geoserver 
 
 ## Introduction
-### What?
 
+### What?
 
 Geoserver is a Geospatial Server
 
@@ -15,8 +15,6 @@ Why GeoServer?
 - Is there another option?
 
 ## Body
-
-
 
 ## How?
 
@@ -33,32 +31,32 @@ $user \
 -e GEOSERVER_ADMIN_PASSWORD= kartoza/geoserver my-secret-password \
 ```
 
-### auto generate systemd service
+### Auto generate systemd service
 ``` bash
 podman generate systemd geoserver >/home/$user/.config/systemd/user/geoserver.service
 ```
 
-### check exists
+### Check exists
 ``` bash
 cat /home/$user/.config/systemd/user/geoserver.service
 ```
 
-### reload systemd service
+### Reload systemd service
 ``` bash
 systemctl --user daemon-reload
 ```
 
-### start systemd service
+### Start systemd service
 ``` bash
 systemctl start --user geoserver.service
 ```
 
-### check service is running
+### Check service is running
 ``` bash
 systemctl status --user geoserver.service
 ```
 
-### enable service
+### Enable service
 ``` bash
 systemctl enable --user geoserver.service
 ```

@@ -3,14 +3,16 @@ sidebar_position: 1
 ---
 
 # House Price Paid
+
 ## Introduction
+
 ### What?
 
 ### Why?
 
 ## Body
-### How?
 
+### How?
 
 ### Connect to server
 

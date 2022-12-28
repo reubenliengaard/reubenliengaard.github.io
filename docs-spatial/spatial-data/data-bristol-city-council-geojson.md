@@ -14,16 +14,16 @@ Bristol City Council has quite allot of spatial data available at ?
 ## Body
 ### How?
 
-### download all spatial data in gejson format
+### Download all spatial data in gejson format
 
-### create new schema for council data
+### Create new schema for council data
 
-### upload bristol council data to new schema in postgis database
+### Upload bristol council data to new schema in postgis database
 
-#### with ogr2ogr
+#### With ogr2ogr
 ogr2ogr -f "PostgreSQL" PG:"dbname=your-database-name user=your-username password=mypassword" /path/to/jour/GeoJSon/file -nln table-name
 
-### upload data with ogr2ogr
+### Upload data with ogr2ogr
 ```
 ogr2ogr \
 -f "PostgreSQL" \
@@ -36,7 +36,7 @@ password='$password'" \
 Land_Registry_Cadastral_Parcels.gml
 ```
 
-### or ashtun loader?
+### Or ashtun loader?
 
 ## Conclusion
 

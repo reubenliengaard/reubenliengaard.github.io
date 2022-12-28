@@ -3,11 +3,13 @@ sidebar_position: 3
 ---
 
 ## Introduction
+
 ### What?
 
 ### Why?
 
 ## Body
+
 ### How?
 
 ## Conclusion
@@ -16,7 +18,6 @@ sidebar_position: 3
 
 ## Draw on Screen
 Alt+Super+d
-
 
 ## Take screenshot
 PrtSc

@@ -2,14 +2,16 @@
 sidebar_position: 6
 ---
 
- # Flat Parking Spots
+# Flat Parking Spots
 
- ## Introduction
+## Introduction
+
 ### What?
 
 ### Why?
 
 ## Body
+
 ### How?
 
 ## Conclusion

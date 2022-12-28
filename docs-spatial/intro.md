@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# intro
+# Introduction
 
-## notes
-- using fedora workstaion host
+## Notes
+- Using fedora workstaion host
 
-## process
-- install software
-- setup podman containers
-- upload data into postgis
-- query with sql
+## Process
+- Install software
+- Setup podman containers
+- Upload data into postgis
+- Query with sql

@@ -3,8 +3,11 @@ sidebar_position: 1
 ---
 
 # Fedora Workstation
+
 ## Introduction
+
 ### What?
+
 ### Why?
 - Easy to install
 - Up to data packge repositories without conflicts
@@ -18,81 +21,86 @@ sidebar_position: 1
 - Wayland display manager, no more X11
 
 ## Body
+
 ### How?
 
-## live usb using media writer
+## Live usb using media writer
 
-### download tool
+### Download tool
 Download it [here](https://getfedora.org/en/workstation/download/)
 
-### run tool
+### Run tool
 insert usb, run tool, select desired version
 
-## installer
+## Installer
 
-### reboot into installer
+### Reboot into installer
 once finished, reboot whilst holding down boot menu key and boot into usb stick
 
-### installation
+### Installation
 click through installation, select encrypt and use a strong password
 
-## first boot
+## First boot
 reboot and remove usb stick
 
-### enter wifi
+### Enter wifi
 
-### connect online account
+### Connect online account
 
-## fast updates
+## Fast updates
 
-### increase max downloads
+### Increase max downloads
 ``` bash
 sudo echo 'max_parallel_downloads=10' >> /etc/dnf/dnf.conf
 ```
 
-### switch to fast mirrors
+### Switch to fast mirrors
 ``` bash
 sudo echo 'fastestmirror=True' >> /etc/dnf/dnf.conf
 ```
 
-### update and upgrade
+### Update and upgrade
 ``` bash
 sudo dnf update && sudo dnf upgrade
 ```
 
-## repositories
+## Repositories
 
-### rpm fusion
+### RPM fusion
 
-free rpm repository
+Free rpm repository
 
 ``` bash
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 ```
-non-free rpm repository
+Non-free rpm repository
 
 ``` bash
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 ```
 
-### flathub
+### Flathub
+
 ``` bash
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-## updates
+## Updates
 
-### upgrade
+### Upgrade
+
 ``` bash
 sudo dnf upgrade --refresh
 ```
 
-### update
+### Update
+
 ``` bash
 sudo dnf groupupdate core
 ```
 
-### firmware updates
+### Firmware updates
+
 ``` bash
 sudo fwupdmgr refresh --force
 ```
@@ -103,49 +111,55 @@ sudo fwupdmgr get-updates
 sudo fwupdmgr update
 ```
 
-### reboot
+### Reboot
+
 ``` bash
 reboot
 ```
 
-## tweaks
+## Tweaks
 
-### enable tap to click in settings
+### Enable tap to click in settings
 
-### install gnome tweak tool
+### Install gnome tweak tool
+
 ``` bash
 sudo dnf install gnome-tweak-tool
 ```
-### show battery as percentage
+### Show battery as percentage
+
 ``` bash
 gsettings set org.gnome.desktop.interface show-battery-percentage true
 ```
 
-### extensions manager 
+### Extensions manager 
+
 ``` bash
 flatpak install org.gnome.Extensions
 ```
 
-## add draw on screen 2 extension
+## Add draw on screen 2 extension
+
 Draw on screen 2 extension
 
-### add bluetooth quick connect extension
+### Add bluetooth quick connect extension
 
 ### fonts
 ``` bash
 sudo dnf install -y ibm-plex-fonts-all 'google-roboto*' 'mozilla-fira*' fira-code-fonts
 ```
 
-### battery optimize
+### Battery optimize
+
 ``` bash
 sudo dnf install tlp tlp-rdw
 ```
 
-## basic software
+## Basic software
+
 ``` bash
 sudo dnf install -y unzip ranger vim
 ```
-
 ## Conclusion
 
 ## References

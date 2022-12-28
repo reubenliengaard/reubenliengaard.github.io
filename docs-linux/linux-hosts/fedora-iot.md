@@ -5,6 +5,7 @@ sidebar_position: 4
  # Fedora IOT
 
 ## Introduction
+
 ### What?
 
 ### Why?
@@ -18,6 +19,7 @@ sidebar_position: 4
  - uses btrfs for easy snapshots
 
 ## Body
+
 ### How?
 
 ## Conclusion

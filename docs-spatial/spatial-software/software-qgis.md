@@ -15,11 +15,13 @@ sudo dnf install qgis
 ## References
 
 ## Introduction
+
 ### What?
 
 ### Why?
 
 ## Body
+
 ### How?
 
 ## Conclusion

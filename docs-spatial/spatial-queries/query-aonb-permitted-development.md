@@ -2,14 +2,16 @@
 sidebar_position: 2
 ---
 
- # AONB Permitted Development
+# AONB Permitted Development
 
- ## Introduction
+## Introduction
+
 ### What?
 
 ### Why?
 
 ## Body
+
 ### How?
 
 ## Conclusion

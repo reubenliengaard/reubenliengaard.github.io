@@ -2,14 +2,16 @@
 sidebar_position: 4
 ---
 
- # Heat Loss
+# Heat Loss
 
- ## Introduction
+## Introduction
+
 ### What?
 
 ### Why?
 
 ## Body
+
 ### How?
 
 ## Conclusion

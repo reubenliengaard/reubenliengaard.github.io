@@ -6,6 +6,7 @@ sidebar_position: 3
 
 
 ## Introduction
+
 ### What?
 - MAX31855  ?
 
@@ -13,7 +14,6 @@ sidebar_position: 3
 - monitor pottery kiln temperature
 - store data to understand effect firing temperature has on pots
 - control temperature through switch solid state relay
-
 
 ## Body
 
@@ -51,7 +51,6 @@ while True:
     except:
         pass
 ```
-
 
 ## Conclusion
 

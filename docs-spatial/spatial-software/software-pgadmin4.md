@@ -9,16 +9,19 @@ sidebar_position: 5
 ## Add repository
 
 ## Install Qgis
+
 ``` bash
 sudo dnf install pgadmin4
 ```
 
 ## Introduction
+
 ### What?
 
 ### Why?
 
 ## Body
+
 ### How?
 
 ## Conclusion

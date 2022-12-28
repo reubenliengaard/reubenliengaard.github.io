@@ -4,14 +4,15 @@ sidebar_position: 1
 
  # Cisco Wireless Cloud Controller
 
- ## Introduction
+## Introduction
+
 ### What?
 
 ### Why?
 
 ## Body
-### How?
 
+### How?
 
 ## Adding syntax hilighting for RouterOS code
 
@@ -20,14 +21,12 @@ Ctrl + P
 ext install cperezabo.routeros-syntax```
 ```
 
-
 # Set up RouterOS
 
 ## Install Winbox
 
 Here's a github project I found which helps automate installing Winbox on linux. clone https://github.com/mriza/winbox-installer.git cd winbox-installer sudobash cd /tmp git
 ./winbox-setup install
-
 
 ## Update RouterOS
 
@@ -92,7 +91,6 @@ action=redirect to-ports=
 ```
 ### Disable everything to do with MAC Server
 
-
 ```
 /tool mac-server /tool mac-server setprint allowed-interface-list =none
 ```
@@ -115,7 +113,6 @@ action=redirect to-ports=
 ```
 /ip ssh set strong-crypto=yes
 ```
-
 
 ## Conclusion
 

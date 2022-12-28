@@ -3,6 +3,7 @@ sidebar_position: 2
 ---
 
 # Tensegrity
+
 ## Introduction
 
 ### What?
@@ -13,6 +14,7 @@ sidebar_position: 2
 - understand where power is being used
 
 ## Body
+
 ### How?
 
 ## Conclusion

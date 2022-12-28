@@ -2,8 +2,7 @@
 sidebar_position: 2
 ---
 
- # Carbon Dioxide
-
+# Carbon Dioxide
 
 ## Introduction
 
@@ -18,8 +17,8 @@ General
 - small space living
 - control ventilation fans
 
-
 ## Body
+
 ### How?
 
 ## Conclusion

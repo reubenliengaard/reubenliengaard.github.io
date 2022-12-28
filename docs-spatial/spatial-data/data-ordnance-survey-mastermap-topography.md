@@ -7,14 +7,16 @@ sidebar_position: 1
 ## Introduction
 
 ### What?
+
 ### Why?
 
 ## Body
+
 ### How?
 
 setup loader in pod?
 
-### install ashtun loader
+### Install ashtun loader
 
 Download loader
 
@@ -23,7 +25,7 @@ git clone https://github.com/AstunTechnology/Loader.git
 
 ```
 
-### change directory
+### Change directory
 
 ``` bash
 cd Loader
@@ -41,7 +43,7 @@ make directories
 mkdir source temporary output
 ```
 
-### prepare data
+### Prepare data
 
  Download MasterMap data
 wget ???
@@ -59,7 +61,7 @@ rm source/manifest.txt
 ```
 
 
-### edit loader configuration
+### Edit loader configuration
 
  backup original
 
@@ -94,7 +96,7 @@ sed -i '29s/.*/ogr_cmd=ogr2ogr --config GML_EXPOSE_FID NO -append -skipfailures 
 ```
 
 
-### run ashtun loader
+### Run ashtun loader
 
  change directory
 
@@ -108,7 +110,7 @@ run
 python loader.py loader.config
 ```
 
-### qgis style
+### Qgis style
  launch qgis
 super, then type qgis, then enter
 

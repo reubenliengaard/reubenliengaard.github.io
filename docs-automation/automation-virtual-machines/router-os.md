@@ -2,16 +2,17 @@
 sidebar_position: 1
 ---
 
- # RouterOS
+# RouterOS
 
- ## Introduction
+## Introduction
+
 ### What?
 
 ### Why?
 
 ## Body
-### How?
 
+### How?
 
 ``` ios
 conf t
@@ -49,7 +50,6 @@ conf t
 ip name-server 1.1.1.1
 ntp server pool.ntp.org
 ```
-
 
 ## Conclusion
 
