@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Rhinoceros 3d
+# Tensegrity
 ## Introduction
 ### What?
 

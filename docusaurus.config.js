@@ -139,57 +139,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Spatial',
-                to: '/docs-spatial/intro',
-              },
-              {
-                label: 'Parametric',
-                to: '/docs-parametric/intro',
-              },
-              {
-                label: 'Linux',
-                to: '/docs-linux/intro',
-              },
-              {
-                label: 'Prototype',
-                to: '/docs-prototype/intro',
-              },
-              {
-                label: 'Automation',
-                to: '/docs-automation/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/reubenliengaard',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/reubenliengaard',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/reubenliengaard',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/reubenliengaard',
-              },
-            ],
-          },
+          
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
