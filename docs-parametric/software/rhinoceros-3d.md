@@ -2,5 +2,5 @@
 sidebar_position: 2
 ---
 
-# Grasshopper 3d
+# Rhinoceros 3d
 Why?
