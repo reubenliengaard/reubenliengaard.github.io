@@ -21,6 +21,8 @@ Why PostGIS?
 ### How?
 
 ## Body
+
+### How?
 Create a pod and expose some ports
 
 ``` bash

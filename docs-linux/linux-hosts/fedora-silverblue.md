@@ -4,7 +4,11 @@ sidebar_position: 3
 
  # Fedora Silverblue
 
-## What?
+## Introduction
+### What?
+
+### Why?
+
 
  > Fedora Silverblue is an immutable desktop operating system. It aims to be extremely stable and reliable. It also aims to be an excellent platform for developers and for those using container-focused workflows.
 
@@ -18,7 +22,8 @@ sidebar_position: 3
  - uses podman
  - uses btrfs for easy snapshots
 
-## How?
+## Body
+### How?
 
 ## Conclusion
 

@@ -3,12 +3,13 @@ sidebar_position: 2
 ---
 
 # Rhinoceros 3d
+## Introduction
+### What?
 
-## What?
+### Why?
 
-## Why?
-
-## How?
+## Body
+### How?
 
 ## Conclusion
 

@@ -4,11 +4,13 @@ sidebar_position: 1
 
 # Windows 11
 
-## What?
+## Introduction
+### What?
 
-## Why?
+### Why?
 
-## How?
+## Body
+### How?
 
 ## Conclusion
 

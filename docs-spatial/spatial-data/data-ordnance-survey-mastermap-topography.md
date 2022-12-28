@@ -4,74 +4,82 @@ sidebar_position: 1
 
 # Ordnance Survey MasterMap Topography
 
+## Introduction
+
+### What?
+### Why?
+
+## Body
+### How?
+
 setup loader in pod?
 
-## install ashtun loader
+### install ashtun loader
 
-### Download loader
+Download loader
 
 ``` bash
 git clone https://github.com/AstunTechnology/Loader.git
 
 ```
 
-## change directory
+### change directory
 
 ``` bash
 cd Loader
 ```
 
-### install dependancies 
+install dependancies 
 
 ``` bash
 sudo dnf install gdal
 ```
 
-### make directories
+make directories
 
 ``` bash
 mkdir source temporary output
 ```
 
-## prepare data
+### prepare data
 
-### Download MasterMap data
+ Download MasterMap data
 wget ???
 
-### Unzip mastermap data to source directory
+ Unzip mastermap data to source directory
 
 ``` bash
 unzip OS_order_6148593_OSMasterMapTopography5km_2022-12-22_1.zip -d source
 ```
 
-### Remove manifest text file in source directory
+ Remove manifest text file in source directory
 
 ``` bash
 rm source/manifest.txt
 ```
 
 
-## edit loader configuration
+### edit loader configuration
 
-### backup original
+ backup original
 
 ``` bash
 cp python/loader.config python/loader.config.bak
 ```
 
-### replace line 8 source directory
+ replace line 8 source directory
 
 ``` bash
 sed -i '8s/.*/src_dir=\$HOME\/Loader\/source/' python/loader.config
 ```
 
-### replace line 13 temp directory
+ replace line 13 temp directory
 
 ``` bash
 sed -i '13s/.*/tmp_dir=\$HOME\/Loader\/temporary/' python/loader.config
 ```
 
-### replace line 17 output directory
+replace line 17 output directory
 
 ``` bash
 sed -i '17s/.*/out_dir=\$HOME\/Loader\/output/' python/loader.config
@@ -79,54 +87,57 @@ sed -i '17s/.*/out_dir=\$HOME\/Loader\/output/' python/loader.config
 
 
 
-### change line 29 database parameters
+ change line 29 database parameters
 
 ``` bash
 sed -i '29s/.*/ogr_cmd=ogr2ogr --config GML_EXPOSE_FID NO -append -skipfailures -f PostgreSQL PG:\x27dbname=postgres active_schema=public host=0\.0\.0\.0 user=postgres password=postgres\x27 \$file_path/' python/loader.config
 ```
 
 
-## run ashtun loader
+### run ashtun loader
 
-### change directory
+ change directory
 
 ``` bash
 cd python
 ```
 
-### run
+run
 
 ``` bash
 python loader.py loader.config
 ```
 
-## qgis style
-### launch qgis
+### qgis style
+ launch qgis
 super, then type qgis, then enter
 
-### Create new project
+ Create new project
 
-### Set default CRS to OSGB
+ Set default CRS to OSGB
 
 
-### Connect to PostGIS
+Connect to PostGIS
 
-### connect to postgres
+ connect to postgres
 
-### add each layer to project
+ add each layer to project
 
-### download styles
+ download styles
 ``` bash
 git clone https://github.com/OrdnanceSurvey/OS-Master-Map-Topography.git
 ```
 
-### attach corrosponding styles to each layer
+ attach corrosponding styles to each layer
 
-### copy symbols
+ copy symbols
 cp -R osmmsymbol directory to svg directory
 
-### copy font
+ copy font
 cp font to font directory
 
-### make qgis plugins work
+ make qgis plugins work
 
+## Conclusion
+
+## References

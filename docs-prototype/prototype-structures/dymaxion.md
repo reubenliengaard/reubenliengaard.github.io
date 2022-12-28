@@ -4,11 +4,13 @@ sidebar_position: 2
 
 # Dymaxion
 
-## What?
+## Introduction
+### What?
 
-## Why?
+### Why?
 
-## How?
+## Body
+### How?
 
 ## Conclusion
 

@@ -5,7 +5,7 @@ sidebar_position: 2
  # Grafana
 
 ## Introduction
-### What
+### What?
 
 ### Why?
 

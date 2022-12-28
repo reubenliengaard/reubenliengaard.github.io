@@ -3,10 +3,9 @@ sidebar_position: 1
 ---
 
 # Fedora Workstation
-
-## What?
-## Why?
-
+## Introduction
+### What?
+### Why?
 - Easy to install
 - Up to data packge repositories without conflicts
 - Very polished well integrated experience
@@ -17,6 +16,9 @@ sidebar_position: 1
 - Stock Gnome
 - Native podman support
 - Wayland display manager, no more X11
+
+## Body
+### How?
 
 ## live usb using media writer
 

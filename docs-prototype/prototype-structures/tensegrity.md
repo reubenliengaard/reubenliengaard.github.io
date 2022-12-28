@@ -4,11 +4,13 @@ sidebar_position: 3
 
 # Tensegrity
 
-## What?
+## Introduction
+### What?
 
-## Why?
+### Why?
 
-## How?
+## Body
+### How?
 
 ## Conclusion
 

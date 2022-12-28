@@ -4,9 +4,10 @@ sidebar_position: 4
 
  # Fedora IOT
 
-## What?
+## Introduction
+### What?
 
-## Why?
+### Why?
  - uses OStree upgrade system
  - fully atomic updates
  - easy update rollbacks
@@ -16,8 +17,8 @@ sidebar_position: 4
  - uses podman
  - uses btrfs for easy snapshots
 
-
-## How?
+## Body
+### How?
 
 ## Conclusion
 

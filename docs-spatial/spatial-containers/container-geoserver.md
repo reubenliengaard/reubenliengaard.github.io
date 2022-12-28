@@ -4,12 +4,19 @@ sidebar_position: 7
 
 # Geoserver 
 
-## What?
+## Introduction
+### What?
+
+
 Geoserver is a Geospatial Server
 
-## Why?
+### Why?
 Why GeoServer?
 - Is there another option?
+
+## Body
+
+
 
 ## How?
 

@@ -4,11 +4,13 @@ sidebar_position: 1
 
 # Tablet Carrier
 
-## What?
+## Introduction
+### What?
 
-## Why?
+### Why?
 
-## How?
+## Body
+### How?
 
 ## Conclusion
 
