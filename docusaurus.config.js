@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Reuben Liengaard',
+  tagline: 'Reuben is Reuben',
   url: 'https://reubenliengaard.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -61,7 +61,19 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Parametric',
+          },
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Automation',
+          },
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Spatial',
           },
         ],
       },
@@ -73,6 +85,24 @@ const config = {
             items: [
               {
                 label: 'Spatial',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: 'Parametric',
+            items: [
+              {
+                label: 'Parametric',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: 'Automation',
+            items: [
+              {
+                label: 'Automation',
                 to: '/docs/intro',
               },
             ],
