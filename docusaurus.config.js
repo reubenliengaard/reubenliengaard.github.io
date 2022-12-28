@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Reuben Liengaard',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Simplifying Complexity  ',
   url: 'https://reubenliengaard.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
