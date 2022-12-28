@@ -32,10 +32,4 @@ sidebar_position: 1
 
 - store all files on cloud
 
-## Things
-- sections
-    - spatial
-    - parametric
-    - automation
-    - building
-    
+
