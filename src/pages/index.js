@@ -15,7 +15,7 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <p id="p">
-          I have been content working as a stonemason whilst I explore technology in my spare time, but now I'm ready to start working in technology.
+          I have been content working as a stonemason whilst I explore technology in my spare time, but now I'm ready to start working full time in technology.
         </p>
         <div className={styles.buttons}>
 

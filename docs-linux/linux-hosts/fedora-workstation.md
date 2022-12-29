@@ -163,3 +163,5 @@ sudo dnf install -y unzip ranger vim
 ## Conclusion
 
 ## References
+
+[The guide I used]

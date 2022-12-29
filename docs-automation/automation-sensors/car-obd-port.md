@@ -8,6 +8,8 @@ sidebar_position: 2
 
 ### What?
 
+> OBD-II PIDs (On-board diagnostics Parameter IDs) are codes used to request data from a vehicle, used as a diagnostic tool.
+
 ### Why?
 
 ## Body
@@ -17,3 +19,5 @@ sidebar_position: 2
 ## Conclusion
 
 ## References
+
+[Wikipedia](https://en.wikipedia.org/wiki/OBD-II_PIDs)

@@ -13,3 +13,5 @@ sidebar_position: 2
 ## Conclusion
 
 ## References
+
+[FedoraServer](https://docs.fedoraproject.org/en-US/fedora-server/virtualization/vm-install-diskimg-fedoraserver/)

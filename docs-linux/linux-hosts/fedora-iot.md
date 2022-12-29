@@ -26,3 +26,5 @@ sidebar_position: 1
 ## Conclusion
 
 ## References
+
+[FedoraIOT]{https://docs.fedoraproject.org/en-US/iot/physical-device-setup/}

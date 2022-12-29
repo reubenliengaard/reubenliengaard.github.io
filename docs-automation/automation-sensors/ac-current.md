@@ -8,9 +8,9 @@ sidebar_position: 1
 
 ### What?
 
-- RPICT7V1
-- SCT-013-000
-- UK: 77DB-06-09
+- RPICT7V1 AC current sensor 
+- SCT-013-000 100a Current Transformer
+- UK: 77DB-06-09 Voltage Sensor
 
 ### Why?
 
@@ -21,3 +21,5 @@ sidebar_position: 1
 ## Conclusion
 
 ## References
+
+[RPICT7V1](http://lechacal.com/wiki/index.php?title=Raspberrypi_Current_and_Temperature_Sensor_Adaptor#RPICT_Series)

@@ -17,3 +17,5 @@ sidebar_position: 2
 ## Conclusion
 
 ## References
+
+[https://en.wikipedia.org/wiki/Dymaxion_house](https://en.wikipedia.org/wiki/Dymaxion_house)

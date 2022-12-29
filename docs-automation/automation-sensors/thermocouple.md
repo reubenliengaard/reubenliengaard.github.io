@@ -7,9 +7,10 @@ sidebar_position: 3
 ## Introduction
 
 ### What?
-- MAX31855  ?
+> Thermocouples are very sensitive, requiring a good amplifier with a cold-compensation reference. The MAX31855K does everything for you, and can be easily interfaced with any microcontroller, even one without an analog input. This breakout board has the chip itself, a 3.3V regulator with 10uF bypass capacitors and level shifting circuitry, all assembled and tested. Comes with a 2 pin terminal block (for connecting to the thermocouple) and pin header (to plug into any breadboard or perfboard).
 
 ### Why?
+
 - monitor pottery kiln temperature
 - store data to understand effect firing temperature has on pots
 - control temperature through switch solid state relay
@@ -54,3 +55,5 @@ while True:
 ## Conclusion
 
 ## References
+
+[Adafruit](https://www.adafruit.com/product/269)

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Cisco Wireless Cloud Controller
@@ -8,112 +8,53 @@ sidebar_position: 1
 
 ### What?
 
+> The Cisco Catalyst 9800-CL is the next generation of enterprise-class wireless controller for cloud that runs open Cisco IOS XE Software and sets the standard for always-on and secure wireless network, bringing the world's most popular wireless networking platform to AWS
+
 ### Why?
 
 ## Body
 
 ### How?
 
-## Adding syntax hilighting for RouterOS code
-
-```
-Ctrl + P
-ext install cperezabo.routeros-syntax```
-```
-
-# Set up RouterOS
-
-## Install Winbox
-
-Here's a github project I found which helps automate installing Winbox on linux. clone https://github.com/mriza/winbox-installer.git cd winbox-installer sudobash cd /tmp git
-./winbox-setup install
-
-## Update RouterOS
-
-```
-System > Packages > Check For Updates > Download And InstallSystem > Routerboard > Upgrade > Yes
-```
-## Forward a port for NextCloud remote access
-
-Will also probably need to open port 80 and dstnat it to port 8080 in order for LetsEncrypt to renew itscertificate at some point.
-
-/ip firewall natadd action=dst-nat (^) chain=dstnat dst-port=$port in-interface-list=WAN
-protocol tcp =\to-addresses (^) =$ip to-ports=$port
-
-## Create a static DNS entry for the server
-
-/ip dns add addressstatic=$ip (^) name=$domain
-
-## Redirect DNS packets to LAN
-
-```
-/ip firewall nat add chain=dstnat in-interface-list=lan protocol=tcp dst-port=
-action =redirect to-ports=
-/ip firewall nat add chain=dstnat in-interface-list=lan protocol=udp dst-port=
-action=redirect to-ports=
-```
-
-## Set up DNS over HTTPS
-
-```
-/tool /certificate import fetch url="https://cacerts.digicert.com/DigiCertGlobalRootCA.crt.pem"file-name=DigiCertGlobalRootCA.crt.pem
-/ip dns cert=yesset use-doh-server=https://cloudflare-dns.com/dns-query verify-doh-
-/ip dns set servers=1.1.1.
-```
-## Disable peer DNS
-
-```
-/ip dhcp-client set use-peer-dns=no
-```
-## Create a new user and password, and delete the old one
-
-```
-/user /user addremove name admin=$name password=$password group=full
-```
-## Restrict user login to local network.
-
-```
-/user set 0 allowed-address=$ip
-```
-## Disable un-neccisary services
-
-/ip service /ip service printdisable (^) telnet,ftp,www,api,api-ssl
-
-## Change SSH to non default port
-
-```
-/ip service /ip service setprint ssh port=$new_port
-```
-## Restict Winbox login to local network.
-
-```
-/ip service set winbox address=192.168.88.0/
-```
-### Disable everything to do with MAC Server
-
-```
-/tool mac-server /tool mac-server setprint allowed-interface-list =none
-```
-(^) /tool mac-server mac-winbox set allowed-interface-list=none
-/tool mac-server mac-winbox print
-/tool mac-server ping /tool mac-server ping setprint enabled=no
-
-### Turn off local discovery
-
-```
-/ip neighbor discovery-settings set discover-interface-list=none
-```
-### Disable bandwidth server
-
-```
-/tool bandwidth-server set enabled=no
-```
-## Force secure SSH
-
-```
-/ip ssh set strong-crypto=yes
+``` ios
+conf t
+hostname 9800-1
+user-name admin
+ privilege 15
+ password 0 Cisco123
+ exit
+int gig 1
+ no switchport
+ ip address 10.10.10.10 255.255.255.0
+ no shut
+ exit
+int gig 2
+ switchport
+ switchport mode trunk
+ switchport trunk native vlan 77
+ no shut
+ exit
+int vlan 77
+ ip address 192.168.77.10 255.255.255.0
+ no shut
+ exit
+ip route 10.10.10.0 255.255.255.0 10.10.10.1
+ip route 0.0.0.0 0.0.0.0 192.168.77.1
+wireless management interface vlan 77
+ap dot11 5ghz shutdown 
+ap dot11 24ghz shutdown 
+ap country BE,US
+no ap dot11 5ghz shutdown
+no ap dot11 24ghz shutdown
+exit
+wireless config vwlc-ssc key-size 2048 signature-algo sha256 password 0 Cisco123
+conf t
+ip name-server 1.1.1.1
+ntp server pool.ntp.org
 ```
 
 ## Conclusion
 
 ## References
+
+[AWS](https://aws.amazon.com/marketplace/pp/prodview-bf37zxhtkrox6#:~:text=The%20C9800%2DCL%2DK9%20AMI,%2C%20streaming%20telemetry%2C%20and%20patching.)
