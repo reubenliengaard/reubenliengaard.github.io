@@ -17,3 +17,5 @@ sidebar_position: 1
 ## Conclusion
 
 ## References
+
+[Wikipedia](https://en.wikipedia.org/wiki/Bamboo_bicycle)

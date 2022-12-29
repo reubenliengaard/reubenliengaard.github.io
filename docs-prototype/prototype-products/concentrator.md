@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Balcony
+# Concentrated solar power
 
 ## Introduction
 
@@ -17,3 +17,5 @@ sidebar_position: 3
 ## Conclusion
 
 ## References
+
+[Wikipedia](https://en.wikipedia.org/wiki/Concentrated_solar_power)

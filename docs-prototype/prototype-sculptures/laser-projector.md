@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Laser
+# Laser Projector
 
 ## Introduction
 
@@ -17,3 +17,5 @@ sidebar_position: 2
 ## Conclusion
 
 ## References
+
+[Wikipedia](https://en.wikipedia.org/wiki/Laser_projector)
