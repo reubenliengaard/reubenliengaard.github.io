@@ -27,3 +27,5 @@ sudo dnf install pgadmin4
 ## Conclusion
 
 ## References
+
+[Wikipedia](https://en.wikipedia.org/wiki/PostgreSQL)

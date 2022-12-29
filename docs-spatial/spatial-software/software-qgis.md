@@ -27,3 +27,4 @@ sudo dnf install qgis
 ## Conclusion
 
 ## References
+[Wikipedia](https://en.wikipedia.org/wiki/QGIS)
