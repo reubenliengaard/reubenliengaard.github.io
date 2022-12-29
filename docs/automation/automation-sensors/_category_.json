@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "quick gis setup"
+    "description": "Read sensor values from various Raspberry Pi sensors, and push to database using python"
   }
 }

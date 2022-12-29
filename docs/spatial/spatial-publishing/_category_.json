@@ -2,6 +2,7 @@
   "label": "Publishing",
   "position": 5,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Publish interactive maps online using PostGIS backend"
   }
 }

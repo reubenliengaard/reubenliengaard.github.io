@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Building automation, also known as building management system or building energy management system, is the automatic centralized control of a building's HVAC (heating, ventilation and air conditioning), electrical, lighting, shading, Access Control, Security Systems, and other interrelated systems. Some objectives of building automation are improved occupant comfort, efficient operation of building systems, reduction in energy consumption, reduced operating and maintaining costs and increased security."
+    "description": "Record sensor values to database, and automate heating, ventilation, etc, based on logic working on this data"
   }
 }
