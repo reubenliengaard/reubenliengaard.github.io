@@ -1,7 +1,7 @@
 ---
-slug: long-blog-post
+slug: house-price-paid
 title: House Price Paid
-authors: endi
+authors: reubenliengaard
 tags: [hello, docusaurus]
 ---
 

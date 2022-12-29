@@ -1,7 +1,7 @@
 ---
-slug: long-blog-post
+slug: flat-sunny-spots
 title: Flat Sunny Spots
-authors: endi
+authors: reubenliengaard
 tags: [hello, docusaurus]
 ---
 

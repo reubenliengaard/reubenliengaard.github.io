@@ -2,19 +2,7 @@
 sidebar_position: 1
 ---
 
-## Introduction
-
-### What?
-
-### Why?
-
-## Body
-
-### How?
-
-## Conclusion
-
-## References
+# Notes
 
 ## Markdown
 
@@ -22,15 +10,10 @@ sidebar_position: 1
 - write lots of markdown
 
 ## Website
-
 - add date
-- github pages
-- blog posts
 - logo
-- authors
 - headshot
 - add project thumbnails
-- find old code
 
 ## Install Guides Screenshots
 

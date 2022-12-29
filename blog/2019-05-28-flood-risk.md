@@ -1,11 +1,7 @@
 ---
-slug: first-blog-post
+slug: flood-risk
 title: Flood Risk
-authors:
-  name: Reuben Lienagaard
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
+authors: reubenliengaard
 tags: [hola, docusaurus]
 ---
 

@@ -1,7 +1,7 @@
 ---
-slug: long-blog-post
+slug: flat-parking
 title: Flat Parking
-authors: endi
+authors: reubenliengaard
 tags: [hello, docusaurus]
 ---
 
