@@ -2,80 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://reubenliengaard.github.io/blog</id>
     <title>Reuben Liengaard Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2019-05-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://reubenliengaard.github.io/blog"/>
     <subtitle>Reuben Liengaard Blog</subtitle>
     <icon>https://reubenliengaard.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>welcome</id>
-        <link href="https://reubenliengaard.github.io/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="facebook" term="facebook"/>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Flat Parking]]></title>
-        <id>long-blog-post</id>
-        <link href="https://reubenliengaard.github.io/blog/long-blog-post"/>
+        <id>flat-parking</id>
+        <link href="https://reubenliengaard.github.io/blog/flat-parking"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Identify flat spots on in LIDAR data, then buffer roads by 2.5m, and hilight flat spots within these buffers.]]></summary>
         <content type="html"><![CDATA[<p>Identify flat spots on in LIDAR data, then buffer roads by 2.5m, and hilight flat spots within these buffers.</p>]]></content>
         <author>
-            <name>Endilie Yacop Sucipto</name>
-            <uri>https://github.com/endiliey</uri>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
         </author>
         <category label="hello" term="hello"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Flat Sunny Spots]]></title>
-        <id>long-blog-post</id>
-        <link href="https://reubenliengaard.github.io/blog/long-blog-post"/>
+        <id>flat-sunny-spots</id>
+        <link href="https://reubenliengaard.github.io/blog/flat-sunny-spots"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[flat sunny spots]]></summary>
-        <content type="html"><![CDATA[<p>Identify flat spots on in LIDAR data, then buffer roads by 2.5m, and hilight flat spots within these buffers.</p>]]></content>
+        <content type="html"><![CDATA[<p>flat sunny spots</p>]]></content>
         <author>
-            <name>Endilie Yacop Sucipto</name>
-            <uri>https://github.com/endiliey</uri>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
         </author>
         <category label="hello" term="hello"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[House Price Paid]]></title>
-        <id>long-blog-post</id>
-        <link href="https://reubenliengaard.github.io/blog/long-blog-post"/>
+        <id>house-price-paid</id>
+        <link href="https://reubenliengaard.github.io/blog/house-price-paid"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[House price paid]]></summary>
-        <content type="html"><![CDATA[<p>Identify flat spots on in LIDAR data, then buffer roads by 2.5m, and hilight flat spots within these buffers.</p>]]></content>
+        <content type="html"><![CDATA[<p>House price paid</p>]]></content>
         <author>
-            <name>Endilie Yacop Sucipto</name>
-            <uri>https://github.com/endiliey</uri>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
         </author>
         <category label="hello" term="hello"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Flood Risk]]></title>
-        <id>first-blog-post</id>
-        <link href="https://reubenliengaard.github.io/blog/first-blog-post"/>
+        <id>flood-risk</id>
+        <link href="https://reubenliengaard.github.io/blog/flood-risk"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <author>
-            <name>Reuben Lienagaard</name>
-            <uri>https://github.com/wgao19</uri>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
         </author>
         <category label="hola" term="hola"/>
         <category label="docusaurus" term="docusaurus"/>
