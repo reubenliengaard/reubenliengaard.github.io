@@ -1,0 +1,8 @@
+{
+  "label": "Parametric",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Procedural modeling is an umbrella term for a number of techniques in computer graphics to create 3D models and textures from sets of rules. L-Systems, fractals, and generative modeling are procedural modeling techniques since they apply algorithms for producing scenes. The set of rules may either be embedded into the algorithm, configurable by parameters, or the set of rules is separate from the evaluation engine. The output is called procedural content, which can be used in computer games, films, be uploaded to the internet, or the user may edit the content manually. Procedural models often exhibit database amplification, meaning that large scenes can be generated from a much smaller number of rules. If the employed algorithm produces the same output every time, the output need not be stored. Often, it suffices to start the algorithm with the same random seed to achieve this."
+  }
+}

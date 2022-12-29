@@ -53,53 +53,7 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'docs-spatial',
-        path: 'docs-spatial',
-        routeBasePath: 'docs-spatial',
-        sidebarPath: require.resolve('./sidebars.js'),
-      }, 
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'docs-parametric',
-        path: 'docs-parametric',
-        routeBasePath: 'docs-parametric',
-        sidebarPath: require.resolve('./sidebars.js'),
-      }, 
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'docs-linux',
-        path: 'docs-linux',
-        routeBasePath: 'docs-linux',
-        sidebarPath: require.resolve('./sidebars.js'),
-      }, 
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'docs-prototype',
-        path: 'docs-prototype',
-        routeBasePath: 'docs-prototype',
-        sidebarPath: require.resolve('./sidebars.js'),
-      }, 
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'docs-automation',
-        path: 'docs-automation',
-        routeBasePath: 'docs-automation',
-        sidebarPath: require.resolve('./sidebars.js'),
-      }, 
-    ],
-],
+
   
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -112,42 +66,48 @@ const config = {
         },
         items: [
           {
-            to: '/docs-spatial/intro',    // ./docs-api/intro.md
-            label: 'Spatial',
+            type: 'doc',
+            docId: 'intro',
             position: 'left',
-            activeBaseRegex: `/docs-spatial/`,
+            label: 'Tutorial',
           },
-          {
-            to: '/docs-parametric/intro',  // ./docs-system/intro.md
-            label: 'Parametric',
-            position: 'left',
-            activeBaseRegex: `/docs-parametric/`,
-          },
-          {
-            to: '/docs-linux/intro',  // ./docs-system/intro.md
-            label: 'Linux',
-            position: 'left',
-            activeBaseRegex: `/docs-linux/`,
-          },
-          {
-            to: '/docs-prototype/intro',  // ./docs-system/intro.md
-            label: 'Prototype',
-            position: 'left',
-            activeBaseRegex: `/docs-prototype/`,
-          },
-          {
-            to: '/docs-automation/intro',  // ./docs-system/intro.md
-            label: 'Automation',
-            position: 'left',
-            activeBaseRegex: `/docs-automation/`,
-          },
-          {to: '/blog', label: 'Blog', position: 'left'}
+          {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Tutorial',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/reubenliengaard',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/facebook/reubenliengaard',
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },

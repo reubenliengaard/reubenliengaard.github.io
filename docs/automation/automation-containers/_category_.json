@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "quick gis setup"
+    "description": "Use Podman to quickly install and configure services"
   }
 }
