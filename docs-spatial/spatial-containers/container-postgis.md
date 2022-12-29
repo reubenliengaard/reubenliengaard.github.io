@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ### What?
 
-PostGIS is a Spatial Database
+> PostGIS is a spatial database extender for PostgreSQL object-relational database. It adds support for geographic objects allowing location queries to be run in SQL.
 
 ### Why?
 
@@ -91,3 +91,4 @@ systemctl status --user postgis.service
 ## References
 
 [Docker](https://hub.docker.com/r/kartoza/postgis/)
+[postgis.net](https://postgis.net/)
