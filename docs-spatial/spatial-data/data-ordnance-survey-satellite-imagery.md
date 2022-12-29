@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Ordnance Survey Satellite Imagery
@@ -14,7 +14,7 @@ sidebar_position: 3
 
 ### How?
 
-### load sattelite data with raster2pgsql?
+### Load sattelite data with raster2pgsql?
 
 ## Conclusion
 

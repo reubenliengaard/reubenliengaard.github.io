@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # Land Registry Price Paid
@@ -7,6 +7,7 @@ sidebar_position: 4
 ## Intorduction
 
 ### What?
+
 ### Why?
 
 ## Body
@@ -27,6 +28,7 @@ $ wget http://prod.publicdata.landregistry.gov.uk.s3-website-eu-west-
 ```
 
 ## Option 1: Prepare  data with BASH
+
 ### Prepare prices data
 Concatenating the three price paid files together into one file, removing unnecessary field quotes,
 selecting only rows which contain the string GL followed by a number between zero and nine, then printing

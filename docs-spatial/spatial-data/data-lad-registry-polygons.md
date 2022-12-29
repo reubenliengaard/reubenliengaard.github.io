@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 ---
 
 # Land Registry Polygons
@@ -19,7 +19,7 @@ sidebar_position: 5
 Downloading a csv file of property price paid data for each of the last three years, postcode coordinates,
 and land registry cadastral parcels for Stoud.
 
-```
+``` bash
 wget https://use-land-property-
 data.service.gov.uk/datasets/inspire/download/Stroud.zip \
 && unzip Stroud.zip

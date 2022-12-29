@@ -1,6 +1,7 @@
 ---
 sidebar_position: 8
 ---
+
 # Tensegrity
 
 ## Introduction

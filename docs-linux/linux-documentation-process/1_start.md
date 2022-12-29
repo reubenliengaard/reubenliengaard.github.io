@@ -17,10 +17,12 @@ sidebar_position: 1
 ## References
 
 ## Markdown
+
 - read lots of documentation / blogs
 - write lots of markdown
 
 ## Website
+
 - github pages
 - blog posts
 - logo
@@ -30,6 +32,7 @@ sidebar_position: 1
 - find old code
 
 ## Install Guides Screenshots
+
 - cisco setup with screenshots
 - qgis setup screenshots
 - proxmox / esxi setup with screenshots

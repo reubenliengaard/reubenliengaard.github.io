@@ -1,10 +1,10 @@
 ---
-sidebar_position: 8
+sidebar_position: 6
 ---
 
- # Sunny Spots
+# Sunny Spots
 
- ## Introduction
+## Introduction
 
 ### What?
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 # Ordnance Survey MasterMap Topography
@@ -14,7 +14,7 @@ sidebar_position: 1
 
 ### How?
 
-setup loader in pod?
+Setup loader in pod?
 
 ### Install ashtun loader
 
@@ -31,7 +31,7 @@ git clone https://github.com/AstunTechnology/Loader.git
 cd Loader
 ```
 
-install dependancies 
+Install dependancies 
 
 ``` bash
 sudo dnf install gdal
@@ -45,100 +45,105 @@ mkdir source temporary output
 
 ### Prepare data
 
- Download MasterMap data
+Download MasterMap data
+
 wget ???
 
- Unzip mastermap data to source directory
+Unzip mastermap data to source directory
 
 ``` bash
 unzip OS_order_6148593_OSMasterMapTopography5km_2022-12-22_1.zip -d source
 ```
 
- Remove manifest text file in source directory
+Remove manifest text file in source directory
 
 ``` bash
 rm source/manifest.txt
 ```
 
-
 ### Edit loader configuration
 
- backup original
+Backup original
 
 ``` bash
 cp python/loader.config python/loader.config.bak
 ```
 
- replace line 8 source directory
+Replace line 8 source directory
 
 ``` bash
 sed -i '8s/.*/src_dir=\$HOME\/Loader\/source/' python/loader.config
 ```
 
- replace line 13 temp directory
+Replace line 13 temp directory
 
 ``` bash
 sed -i '13s/.*/tmp_dir=\$HOME\/Loader\/temporary/' python/loader.config
 ```
 
-replace line 17 output directory
+Replace line 17 output directory
 
 ``` bash
 sed -i '17s/.*/out_dir=\$HOME\/Loader\/output/' python/loader.config
 ```
 
-
-
- change line 29 database parameters
+Change line 29 database parameters
 
 ``` bash
 sed -i '29s/.*/ogr_cmd=ogr2ogr --config GML_EXPOSE_FID NO -append -skipfailures -f PostgreSQL PG:\x27dbname=postgres active_schema=public host=0\.0\.0\.0 user=postgres password=postgres\x27 \$file_path/' python/loader.config
 ```
 
-
 ### Run ashtun loader
 
- change directory
+Change directory
 
 ``` bash
 cd python
 ```
 
-run
+Run
 
 ``` bash
 python loader.py loader.config
 ```
 
 ### Qgis style
- launch qgis
-super, then type qgis, then enter
 
- Create new project
+Launch qgis
 
- Set default CRS to OSGB
+> super, then type qgis, then enter
 
+Create new project
+
+Set default CRS to OSGB
 
 Connect to PostGIS
 
- connect to postgres
+connect to postgres
 
- add each layer to project
+Add each layer to project
 
- download styles
+Download styles
+
 ``` bash
 git clone https://github.com/OrdnanceSurvey/OS-Master-Map-Topography.git
 ```
 
- attach corrosponding styles to each layer
+Attach corrosponding styles to each layer
 
- copy symbols
-cp -R osmmsymbol directory to svg directory
+Copy symbols
 
- copy font
+``` bash
+cp -R osmmsymbol $directory $svgdirectory
+```
+
+Copy font
+
+``` bash
 cp font to font directory
+```
 
- make qgis plugins work
+Make Qgis plugins work
 
 ## Conclusion
 

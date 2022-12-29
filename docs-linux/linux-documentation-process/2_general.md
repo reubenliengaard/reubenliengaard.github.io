@@ -17,9 +17,11 @@ sidebar_position: 3
 ## References
 
 ## Draw on Screen
+
 Alt+Super+d
 
 ## Take screenshot
+
 PrtSc
 
 ## Copy screenshots to docs/project/img directory

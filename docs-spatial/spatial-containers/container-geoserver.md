@@ -11,6 +11,7 @@ sidebar_position: 7
 Geoserver is a Geospatial Server
 
 ### Why?
+
 Why GeoServer?
 - Is there another option?
 
@@ -32,37 +33,42 @@ $user \
 ```
 
 ### Auto generate systemd service
+
 ``` bash
 podman generate systemd geoserver >/home/$user/.config/systemd/user/geoserver.service
 ```
 
 ### Check exists
+
 ``` bash
 cat /home/$user/.config/systemd/user/geoserver.service
 ```
 
 ### Reload systemd service
+
 ``` bash
 systemctl --user daemon-reload
 ```
 
 ### Start systemd service
+
 ``` bash
 systemctl start --user geoserver.service
 ```
 
 ### Check service is running
+
 ``` bash
 systemctl status --user geoserver.service
 ```
 
 ### Enable service
+
 ``` bash
 systemctl enable --user geoserver.service
 ```
 
 Just enter [http://$ip:8600/geoserver/](http://$ip:8600/geoserver/) into your browsers address bar an log in.
-
 
 ## Conclusion
 

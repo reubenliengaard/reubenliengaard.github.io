@@ -7,9 +7,11 @@ sidebar_position: 2
 ## Introduction
 
 ### What?
+
 PostGIS is a Spatial Database
 
 ### Why?
+
 Why PostGIS?
 - Strong community
 - Robust and stable
@@ -23,6 +25,7 @@ Why PostGIS?
 ## Body
 
 ### How?
+
 Create a pod and expose some ports
 
 ``` bash
@@ -54,22 +57,26 @@ podman run -d -t --name postgis --pod spatial -e POSTGRES_PASSWORD=postgres -e P
 ```
 
 Auto create a systemd service for the PostGIS container
+
 ``` bash
 podman generate systemd postgis >/home/reuben/.config/systemd/user/postgis.service
 ```
 
 Reload user systemd
+
 ``` bash
 systemctl --user daemon-reload
 ```
 Start and enable the postgis service
 
 Use the user flag for non-root containers.
+
 ``` bash
 systemctl start --user postgis.service
 ```
 
 Enable it so it will be persistent after reboots.
+
 ``` bash
 systemctl enable --user postgis.service
 ```

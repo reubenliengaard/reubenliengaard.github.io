@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Tensegrity
@@ -7,10 +7,12 @@ sidebar_position: 2
 ## Introduction
 
 ### What?
+
 - RPICT7V1
 - SCT-013-000
 
 ### Why?
+
 - understand where power is being used
 
 ## Body
