@@ -14,8 +14,6 @@ Using Podman Play Kube
 
 ### Why?
 
-
-
 ## Body?
 
 ### How?

@@ -23,6 +23,7 @@ sidebar_position: 1
 
 ## Website
 
+- add date
 - github pages
 - blog posts
 - logo
@@ -40,3 +41,7 @@ sidebar_position: 1
 - store all files on cloud
 
 
+Ideas
+- use podman play kubes for containers
+- minimal hardware for sensors
+- machine learning
