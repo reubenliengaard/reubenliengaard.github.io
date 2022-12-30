@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Cisco Wireless Cloud Controller
+# Cisco Virtual Wifi Controller with KVM
 
 ## Introduction
 

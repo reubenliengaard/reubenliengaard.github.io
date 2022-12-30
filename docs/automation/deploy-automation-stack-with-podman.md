@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Podman Play Kubes
+# Deploy Automation Stack with Podman
 
 
 # Save the output of this file and use kubectl create -f to import
