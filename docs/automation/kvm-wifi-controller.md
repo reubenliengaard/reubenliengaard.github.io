@@ -2,19 +2,49 @@
 sidebar_position: 2
 ---
 
-# Cisco c9800-CL with KVM
+# KVM Wifi Controller
 
 ## Introduction
+Cisco c9800-CL with KVM
 
 ### What?
 
 > The Cisco Catalyst 9800-CL is the next generation of enterprise-class wireless controller for cloud that runs open Cisco IOS XE Software and sets the standard for always-on and secure wireless network, bringing the world's most popular wireless networking platform to AWS
 
-### Why?
+### 
+``` bash
+sudo dnf group install --with-optional virtualization
+```
 
-## Body
+``` bash
+sudo systemctl start libvirtd && sudo systemctl enable libvirtd
+```
 
-### How?
+## Install Virtual Machine
+``` bash
+virt-install \
+
+--connect=qemu:///system \
+--os-type=linux \
+--os-variant=rhel4 \
+--arch=x86_64 \
+--cpu host \
+--console pty,target_type=virtio \
+--hvm \
+--import \
+--name=my_c9k_vm \
+--disk path=<path_to_c9800-c_qcow2>,bus=ide,format=qcow2 \
+--vcpus=1,sockets=1,cores=1,threads=1 \
+--ram=4096 \
+--network=network:<network name>,model=virtio \
+--network=network:<network name>,model=virtio \
+--network=network:<network name>,model=virtio  \
+--noreboot \
+
+```
+
+
+### Enter these commands on the controller to setup the web gui
 
 ``` ios
 conf t
@@ -53,8 +83,7 @@ ip name-server 1.1.1.1
 ntp server pool.ntp.org
 ```
 
-## Conclusion
 
 ## References
 
-[AWS](https://aws.amazon.com/marketplace/pp/prodview-bf37zxhtkrox6#:~:text=The%20C9800%2DCL%2DK9%20AMI,%2C%20streaming%20telemetry%2C%20and%20patching.)
+[FedoraVirtGuide](https://docs.fedoraproject.org/en-US/quick-docs/getting-started-with-virtualization/)

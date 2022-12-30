@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
 Attempt at streamlining my technology stacks.

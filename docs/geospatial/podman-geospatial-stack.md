@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Geospatial Stack Podman
 
-
-
 ### Create a pod
 ``` bash
 podman pod create -p 8080:8080 -p 5432:5432 -n geospatial
@@ -43,21 +41,7 @@ kartoza/postgis
 
 ### Generate YAML file
 ``` bash
-podman generate kube geospatial-stack-podman.yaml
-```
-
-### Test YAML file
-``` bash
-podman rm -vf postgis
-```
-``` bash
-podman rm -vf geoserver
-```
-``` bash
-podman pod rm spatial
-```
-``` bash
-podman play kube geospatial-stack-podman.yaml
+podman generate kube geospatial -f geospatial-stack-podman.yaml
 ```
 
 ## Here's the YAML file
@@ -138,5 +122,18 @@ spec:
     persistentVolumeClaim:
       claimName: 3276e85c3fc649e1904e0161ff79599dcc3292e9121982d648c0f2c47585abaf
 status: {}
+```
 
+### Test YAML file
+``` bash
+podman rm -vf postgis
+```
+``` bash
+podman rm -vf geoserver
+```
+``` bash
+podman pod rm spatial
+```
+``` bash
+podman play kube geospatial-stack-podman.yaml
 ```
