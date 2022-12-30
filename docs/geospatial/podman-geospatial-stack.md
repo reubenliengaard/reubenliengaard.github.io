@@ -125,15 +125,23 @@ status: {}
 ```
 
 ### Test YAML file
+
+#### Remove postgis container
 ``` bash
 podman rm -vf postgis
 ```
+
+#### Remove geoserver container
 ``` bash
 podman rm -vf geoserver
 ```
+
+#### Remove spatial pod
 ``` bash
 podman pod rm spatial
 ```
+
+#### Install everything again using the YAML file
 ``` bash
 podman play kube geospatial-stack-podman.yaml
 ```
