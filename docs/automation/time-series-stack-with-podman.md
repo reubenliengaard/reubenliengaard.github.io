@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Grafana + Influxdb with Podman
+# Timeseries Stack with Podman
 
 ### Create a pod
 ``` bash
