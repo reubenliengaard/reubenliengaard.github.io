@@ -10,7 +10,7 @@ The YAML file can be used to recreate the pod in podman, or in kubernetes.
 
 ### Create a pod
 ``` bash
-podman pod create -p 8086:8086 -n automation
+podman pod create -p 8086:8086 -n monitoring
 ```
 
 ### Pull postgis image
@@ -22,13 +22,13 @@ podman pull influxdb:latest
 ``` bash
 podman run -d -t \
 --name influxdb \
---pod automation \
+--pod monitoring \
 influxdb:latest
 ```
 
 ### Generate YAML file
 ``` bash
-podman generate kube automation -f automation-stack-podman.yaml
+podman generate kube monitoring -f monitoring-stack.yaml
 ```
 
 ## Here's the YAML file
@@ -50,8 +50,8 @@ metadata:
     io.podman.annotations.publish-all/influxdb: "FALSE"
   creationTimestamp: "2022-12-30T19:42:08Z"
   labels:
-    app: automation
-  name: automation
+    app: monitoring
+  name: monitoring
 spec:
   automountServiceAccountToken: false
   containers:
@@ -76,7 +76,7 @@ spec:
     - mountPath: /etc/influxdb2
       name: 0ef8bec1d4f74ecc07366abfe90077413b6a6ca093c510443e350b4a8c118288-pvc
   enableServiceLinks: false
-  hostname: automation
+  hostname: monitoring
   restartPolicy: Never
   volumes:
   - name: 36831ad4fbc16de21fa23d0036a1c5e96457432aee4485e2d62a06b11617628c-pvc
@@ -100,13 +100,13 @@ podman rm -vf influxdb
 Delete pod
 
 ``` bash
-podman pod rm automation
+podman pod rm monitoring
 ```
 
 Re-build pod using podman play and YAML file.
 
 ``` bash
-podman play kube automation-stack-podman.yaml
+podman play kube monitoring-stack.yaml
 ```
 
 ### Reference
