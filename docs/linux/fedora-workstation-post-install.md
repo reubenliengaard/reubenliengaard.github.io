@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Fedora Workstation
+# Fedora Workstation Post Install
 
 ## Introduction
 
