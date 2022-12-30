@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# House Price Paid
+# House price paid
 
 ## Introduction
 

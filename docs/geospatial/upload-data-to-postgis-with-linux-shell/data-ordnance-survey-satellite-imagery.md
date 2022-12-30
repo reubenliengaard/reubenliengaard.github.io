@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Ordnance Survey Satellite Imagery
+# Ordnance survey satellite imagery
 
 ## Introduction
 

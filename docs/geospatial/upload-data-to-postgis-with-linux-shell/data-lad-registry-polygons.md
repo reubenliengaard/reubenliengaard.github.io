@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Land Registry Polygons
+# Land registry polygons
 
 ## Introduction
 

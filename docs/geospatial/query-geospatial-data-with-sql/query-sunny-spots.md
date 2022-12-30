@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Sunny Spots
+# Sunny spots
 
 ## Introduction
 

@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Cisco Cloud Wireless Controller in a KVM Environment
+# Cisco cloud wireless controller in a KVM environment
 
 ## Introduction
 Cisco c9800-CL with KVM

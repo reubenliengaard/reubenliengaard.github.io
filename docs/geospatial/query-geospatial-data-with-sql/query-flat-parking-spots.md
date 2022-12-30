@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Flat Parking Spots
+# Flat parking spots
 
 ## Introduction
 

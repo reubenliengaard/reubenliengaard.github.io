@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Land Registry Price Paid
+# Land registry price paid
 
 ## Intorduction
 

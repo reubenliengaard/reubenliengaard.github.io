@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Bristol City Council GeoJson
+# Bristol city council GeoJson
 
 ## Introduction
 

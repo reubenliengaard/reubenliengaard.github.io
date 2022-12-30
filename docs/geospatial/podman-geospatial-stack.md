@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Geospatial Stack Podman
+# Geospatial stack sodman
 
 ### Create a pod
 ``` bash
