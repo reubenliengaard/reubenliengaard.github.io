@@ -1,5 +1,5 @@
 {
-  "label": "Automation",
+  "label": "rpi4 sensors into podman influxdb on fedora coreos with python",
   "position": 2,
   "link": {
     "type": "generated-index",

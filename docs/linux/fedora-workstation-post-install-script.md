@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Setup Fedora Workstation
+# Setup Fedora Workstation Post Install Scipt
 
 ## Fast updates
 
