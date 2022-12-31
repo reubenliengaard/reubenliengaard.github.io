@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Fedora workstation post install scipt
+# Setting up a PostGIS database
 
 ## To do
 - qgis
