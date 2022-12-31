@@ -9,8 +9,6 @@ sidebar_position: 1
 - write CoreOS to SD and boot pi with external monitor
 - test whether /dev/ttyAMA0 is accesible with CoreOS on RPI4
 
-
-
 ### Install stuff
 ``` bash
 sudo dnf install -y rpi-imager coreos-installer butane ignition-validate
