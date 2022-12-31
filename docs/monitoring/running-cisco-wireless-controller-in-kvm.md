@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Running a cisco wireless in KVM 
+# Running a cisco wireless controller in KVM 
 
 ## Introduction
 Cisco c9800-CL with KVM

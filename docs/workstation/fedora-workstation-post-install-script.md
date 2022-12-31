@@ -4,6 +4,13 @@ sidebar_position: 4
 
 # Setup Fedora Workstation Post Install Scipt
 
+## To do
+- qgis
+- psql
+- pgadmin4
+- wallpaper
+
+
 ## Fast updates
 
 ### Increase max downloads
@@ -83,6 +90,13 @@ reboot
 ``` bash
 sudo dnf install gnome-tweak-tool
 ```
+
+### Install stuff
+``` bash
+sudo dnf install -y rpi-imager coreos-installer butane ignition-validate
+```
+
+
 ### Show battery as percentage
 
 ``` bash
