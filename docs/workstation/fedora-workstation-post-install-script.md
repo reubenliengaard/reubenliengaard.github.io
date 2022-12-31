@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Fedora Workstation Post Install Scipt
+# Fedora workstation post install scipt
 
 ## To do
 - qgis
