@@ -4,16 +4,6 @@ sidebar_position: 5
 
 # House price paid
 
-## Introduction
-
-### What?
-
-### Why?
-
-## Body
-
-### How?
-
 ### Connect to server
 
 Starting a psql instance on the client in order to interact with the database on the server.
