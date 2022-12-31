@@ -2,11 +2,11 @@
 sidebar_position: 4
 ---
 
-# MasterMap topography with ahtun loader
+# MasterMap topography with astun loader
 
 
-
-Setup loader in pod?
+## To do
+- Setup loader in pod?
 
 ### Install astun loader
 
@@ -137,6 +137,6 @@ cp font to font directory
 
 Make Qgis plugins work
 
-## Conclusion
+
 
 ## References

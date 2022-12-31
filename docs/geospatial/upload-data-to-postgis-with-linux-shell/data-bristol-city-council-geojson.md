@@ -4,18 +4,6 @@ sidebar_position: 1
 
 # Bristol city council GeoJson
 
-## Introduction
-
-## What?
-
-Bristol City Council has quite allot of spatial data available at ?
-
-## Why?
-
-## Body
-
-### How?
-
 ### Download all spatial data in gejson format
 
 ### Create new schema for council data
@@ -44,7 +32,6 @@ Land_Registry_Cadastral_Parcels.gml
 
 ### Or ashtun loader?
 
-## Conclusion
 
 ## References
 

@@ -4,16 +4,6 @@ sidebar_position: 3
 
 # Land registry price paid
 
-## Intorduction
-
-### What?
-
-### Why?
-
-## Body
-
-### How?
-
 ## Download data from the land registry
 
 ``` bash
@@ -57,6 +47,6 @@ coordinates.csv \
 
 ### Option 2: Upload raw CSV files to Database, and restructure with SQL queries
 
-## Conclusion
+
 
 ## References

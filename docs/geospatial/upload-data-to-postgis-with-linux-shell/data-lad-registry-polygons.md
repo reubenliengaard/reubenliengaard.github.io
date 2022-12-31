@@ -4,16 +4,6 @@ sidebar_position: 2
 
 # Land registry polygons
 
-## Introduction
-
-### What?
-
-### Why?
-
-## Body
-
-### How?
-
 ### Download data
 
 Downloading a csv file of property price paid data for each of the last three years, postcode coordinates,
@@ -41,7 +31,5 @@ PG:"dbname='gis' host='$ip' port='5432' user='$user'
 password='$password'" \
 Land_Registry_Cadastral_Parcels.gml
 ```
-
-## Conclusion
 
 ## References
