@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Coreos sensor container with butane
+# Provisioning Fedora CoreOS on the Raspberry Pi 4
 
 ## To do
 - setup MQTT gateway

@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Mosquitto and influxdb with podman play kube
+# Setting up InfluxDB Database Server with Podman
 
 ## To do
 - mosquitto configuration

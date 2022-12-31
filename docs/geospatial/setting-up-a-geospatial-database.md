@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# PostGIS and Geoserver with podman play kube
+# Setting up PostGIS Database Server
 
 ### Create a pod
 ``` bash
