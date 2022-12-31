@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Copy files into Directories by Extension
+# Copy files into directories by extension
 
 ## Introduction
 

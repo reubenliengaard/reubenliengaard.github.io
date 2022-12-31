@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Rename All Linux Frendly
+# Rename all linux frendly
 
 ## Introduction
 
