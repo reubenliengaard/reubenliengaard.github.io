@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Cisco cloud wireless controller in a KVM environment
+# Running a cisco wireless in KVM 
 
 ## Introduction
 Cisco c9800-CL with KVM
@@ -20,25 +20,31 @@ sudo dnf group install --with-optional virtualization
 sudo systemctl start libvirtd && sudo systemctl enable libvirtd
 ```
 
+> We use the backing_store option to virt-install --disk to quickly create a new disk image and avoid writing to the original image we have downloaded. This new disk image can be easily thrown away.
+
+CTRL + ] to exit kvm
+to destroy run
+virsh destroy fcos
+virsh undefine --remove-all-storage fcos
+
+
 ## Install Virtual Machine
 ``` bash
 virt-install \
-
 --connect=qemu:///system \
---os-type=linux \
---os-variant=rhel4 \
+--os-variant=rhel4.0 \
 --arch=x86_64 \
 --cpu host \
 --console pty,target_type=virtio \
 --hvm \
 --import \
 --name=my_c9k_vm \
---disk path=<path_to_c9800-c_qcow2>,bus=ide,format=qcow2 \
+--disk path=C9800-CL.qcow2,bus=ide,format=qcow2 \
 --vcpus=1,sockets=1,cores=1,threads=1 \
 --ram=4096 \
---network=network:<network name>,model=virtio \
---network=network:<network name>,model=virtio \
---network=network:<network name>,model=virtio  \
+--network=network:br10,model=virtio \
+--network=network:br10,model=virtio \
+--network=network:br10,model=virtio  \
 --noreboot \
 
 ```

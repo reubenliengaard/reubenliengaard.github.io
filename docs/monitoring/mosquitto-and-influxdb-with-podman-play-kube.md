@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Influxdb using podman play kube
+# Mosquitto and influxdb with podman play kube
 
 First create a pod and inflluxdb container using podman, then generate a YAML file using podman play.
 
