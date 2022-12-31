@@ -4,8 +4,12 @@ sidebar_position: 2
 
 # Network Status Map
 
-## Introduction
+## To do
+- cross platform smart phone app that can scan qr code and post to database along with gps location
+- can select whether being deployed or derigged after scanned
+- show map of network status of devices on map
+- database connects to cloud controller / router for network status
 
-Two QR Codes on each device. When deploying cover one, and take a photo. When derigging, cover the other one, and take a photo. Photos are posted to a channel. Photos of QR codes are processed on the back end and added to the database.
+
 
 ## References
