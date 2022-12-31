@@ -53,7 +53,17 @@ const config = {
     ],
   ],
 
-
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'about',
+        path: 'about',
+        routeBasePath: 'about',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
+],
   
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -72,6 +82,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/about', label: 'About', position: 'left'},
         ],
       },
       footer: {
