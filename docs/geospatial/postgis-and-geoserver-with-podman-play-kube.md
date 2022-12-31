@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Geospatial stack sodman
+# PostGIS and Geoserver with podman play kube
 
 ### Create a pod
 ``` bash
