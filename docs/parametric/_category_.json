@@ -1,0 +1,8 @@
+{
+  "label": "Workstation",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Scripts for working with files in the Linux shell"
+  }
+}
