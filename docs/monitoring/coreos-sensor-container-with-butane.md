@@ -2,12 +2,12 @@
 sidebar_position: 1
 ---
 
-# Coreos AC current with pod on RPI4
+# Coreos sensor container with butane
 
 ## To do
 - setup MQTT gateway
-- write CoreOS to SD and boot pi with monitor
-- test whether /dev/ttyAMA0 is accesible on CoreOS on RPI4
+- write CoreOS to SD and boot pi with external monitor
+- test whether /dev/ttyAMA0 is accesible with CoreOS on RPI4
 
 
 
