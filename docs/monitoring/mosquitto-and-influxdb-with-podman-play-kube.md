@@ -4,18 +4,23 @@ sidebar_position: 2
 
 # Mosquitto and influxdb with podman play kube
 
+## To do
+- mosquitto configuration
+- influxdb directory
+
+
 First create a pod and inflluxdb container using podman, then generate a YAML file using podman play.
 
 The YAML file can be used to recreate the pod in podman, or in kubernetes.
 
 ### Create a pod
 ``` bash
-podman pod create -p 8086:8086 -n monitoring
+podman pod create -p 8086:8086 -p 1883:1883 -p 9001:9001 -n monitoring
 ```
 
-### Pull postgis image
+### Pull influxdb image
 ``` bash
-podman pull influxdb:latest
+podman pull docker.io/influxdb:latest
 ```
 
 ### Run image in pod
@@ -25,6 +30,20 @@ podman run -d -t \
 --pod monitoring \
 influxdb:latest
 ```
+
+### Pull mosquitto image
+``` bash
+podman pull docker.io/eclipse-mosquitto
+```
+
+### Run image in pod
+``` bash
+podman run -t \
+--name mosquitto \
+--pod monitoring \
+eclipse-mosquitto
+```
+
 
 ### Generate YAML file
 ``` bash
@@ -42,13 +61,20 @@ kind: Pod
 metadata:
   annotations:
     io.kubernetes.cri-o.ContainerType/influxdb: container
-    io.kubernetes.cri-o.SandboxID/influxdb: 2d22998804363b3df085ac8fac27ed13c9b1914f8264e2c79f30ef05fc47cf2
+    io.kubernetes.cri-o.ContainerType/mosquitto: container
+    io.kubernetes.cri-o.SandboxID/influxdb: 3e6d0de4f62b7090a2b3e0e4d64f69881894d6d4988b4f87cde736c43e26a62
+    io.kubernetes.cri-o.SandboxID/mosquitto: 3e6d0de4f62b7090a2b3e0e4d64f69881894d6d4988b4f87cde736c43e26a62
     io.kubernetes.cri-o.TTY/influxdb: "true"
+    io.kubernetes.cri-o.TTY/mosquitto: "true"
     io.podman.annotations.autoremove/influxdb: "FALSE"
+    io.podman.annotations.autoremove/mosquitto: "FALSE"
     io.podman.annotations.init/influxdb: "FALSE"
+    io.podman.annotations.init/mosquitto: "FALSE"
     io.podman.annotations.privileged/influxdb: "FALSE"
+    io.podman.annotations.privileged/mosquitto: "FALSE"
     io.podman.annotations.publish-all/influxdb: "FALSE"
-  creationTimestamp: "2022-12-30T19:42:08Z"
+    io.podman.annotations.publish-all/mosquitto: "FALSE"
+  creationTimestamp: "2022-12-31T02:23:51Z"
   labels:
     app: monitoring
   name: monitoring
@@ -60,8 +86,12 @@ spec:
     image: docker.io/library/influxdb:latest
     name: influxdb
     ports:
+    - containerPort: 1883
+      hostPort: 1883
     - containerPort: 8086
       hostPort: 8086
+    - containerPort: 9001
+      hostPort: 9001
     resources: {}
     securityContext:
       capabilities:
@@ -71,32 +101,58 @@ spec:
         - CAP_AUDIT_WRITE
     tty: true
     volumeMounts:
-    - mountPath: /var/lib/influxdb2
-      name: 36831ad4fbc16de21fa23d0036a1c5e96457432aee4485e2d62a06b11617628c-pvc
     - mountPath: /etc/influxdb2
-      name: 0ef8bec1d4f74ecc07366abfe90077413b6a6ca093c510443e350b4a8c118288-pvc
+      name: 130b34101cdf2ca9f58b6166ea376a0f79c5fe18889a00c42f458d3259a8fd8e-pvc
+    - mountPath: /var/lib/influxdb2
+      name: 70d043a228ff0ccb924b9950887e9b947cfebed5956652cbf2d454ac26a66879-pvc
+  - args:
+    - /usr/sbin/mosquitto
+    - -c
+    - /mosquitto/config/mosquitto.conf
+    image: docker.io/library/eclipse-mosquitto:latest
+    name: mosquitto
+    resources: {}
+    securityContext:
+      capabilities:
+        drop:
+        - CAP_MKNOD
+        - CAP_NET_RAW
+        - CAP_AUDIT_WRITE
+    tty: true
+    volumeMounts:
+    - mountPath: /mosquitto/log
+      name: f01fc59a9790fea52fd1e862b517d10aaefa3af04ad70e912004b72fd64e95b0-pvc
+    - mountPath: /mosquitto/data
+      name: 3439da031be88b060d2c4fb4c835a309c573809fcfb45f98dfc12e281f6d263e-pvc
   enableServiceLinks: false
   hostname: monitoring
   restartPolicy: Never
   volumes:
-  - name: 36831ad4fbc16de21fa23d0036a1c5e96457432aee4485e2d62a06b11617628c-pvc
+  - name: 130b34101cdf2ca9f58b6166ea376a0f79c5fe18889a00c42f458d3259a8fd8e-pvc
     persistentVolumeClaim:
-      claimName: 36831ad4fbc16de21fa23d0036a1c5e96457432aee4485e2d62a06b11617628c
-  - name: 0ef8bec1d4f74ecc07366abfe90077413b6a6ca093c510443e350b4a8c118288-pvc
+      claimName: 130b34101cdf2ca9f58b6166ea376a0f79c5fe18889a00c42f458d3259a8fd8e
+  - name: 70d043a228ff0ccb924b9950887e9b947cfebed5956652cbf2d454ac26a66879-pvc
     persistentVolumeClaim:
-      claimName: 0ef8bec1d4f74ecc07366abfe90077413b6a6ca093c510443e350b4a8c118288
+      claimName: 70d043a228ff0ccb924b9950887e9b947cfebed5956652cbf2d454ac26a66879
+  - name: f01fc59a9790fea52fd1e862b517d10aaefa3af04ad70e912004b72fd64e95b0-pvc
+    persistentVolumeClaim:
+      claimName: f01fc59a9790fea52fd1e862b517d10aaefa3af04ad70e912004b72fd64e95b0
+  - name: 3439da031be88b060d2c4fb4c835a309c573809fcfb45f98dfc12e281f6d263e-pvc
+    persistentVolumeClaim:
+      claimName: 3439da031be88b060d2c4fb4c835a309c573809fcfb45f98dfc12e281f6d263e
 status: {}
-
 ```
 
 ### Test YAML file
 
-Delete container
+Delete containers
 
 ``` bash
 podman rm -vf influxdb
 ```
-
+``` bash
+podman rm -vf mosquitto
+```
 Delete pod
 
 ``` bash
