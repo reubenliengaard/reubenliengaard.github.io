@@ -14,8 +14,6 @@ sidebar_position: 4
 ``` bash
 #!/bin/bash
 
-
-
 # Install the PostgreSQL repository
 sudo rpm -i https://ftp.postgresql.org/pub/pgadmin/pgadmin4/yum/pgadmin4-fedora-repo-2-1.noarch.rpm
 
