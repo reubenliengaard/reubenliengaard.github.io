@@ -9,6 +9,7 @@ sidebar_position: 4
 - psql
 - pgadmin4
 - wallpaper
+- shell
 
 
 ``` bash
@@ -61,4 +62,8 @@ sudo dnf install -y ibm-plex-fonts-all 'google-roboto*' 'mozilla-fira*' fira-cod
 # Install TLP and vim
 sudo dnf install tlp tlp-rdw
 sudo dnf install -y unzip ranger vim
+
+# Install Qgis
+sudo dnf install qgis
+
 ```

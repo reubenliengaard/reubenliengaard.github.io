@@ -9,4 +9,3 @@ sudo dnf install qgis
 ```
 
 
-
