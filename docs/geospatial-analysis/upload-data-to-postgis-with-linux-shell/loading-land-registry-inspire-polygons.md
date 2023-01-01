@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Land registry polygons
+# Loading Land registry inspire polygons
 
 ### Download data
 
