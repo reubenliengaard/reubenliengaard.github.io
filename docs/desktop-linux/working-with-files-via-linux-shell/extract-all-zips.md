@@ -4,15 +4,7 @@ sidebar_position: 2
 
 # Rename all linux frendly
 
-## Introduction
-
-### What?
-
-### Why?
-
-## Body
-
-### How?
+### The command below will find all files with the .zip extension and then unzip them.
 
 ``` bash
 #!/usr/bin/bash

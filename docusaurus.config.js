@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Reuben Liengaard',
-  tagline: 'Simplifying Complexity  ',
+  tagline: 'Bridging the gap between nature and technology',
   url: 'https://reubenliengaard.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',

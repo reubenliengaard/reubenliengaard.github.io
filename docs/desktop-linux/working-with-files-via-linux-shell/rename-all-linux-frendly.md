@@ -4,21 +4,9 @@ sidebar_position: 3
 
 # Rename all linux frendly
 
-## Introduction
-
-### What?
-
-### Why?
-
-## Body
-
-### How?
-
+This command will rename all the files in the current directory, replacing any non-alphanumeric or non-period characters with nothing.
 ``` bash
-#!/usr/bin/bash
-find . -name "*.zip" -exec unzip {} \;
+for file in *; do mv "$file" "$(echo ${file//[^a-zA-Z0-9.]/})" ; done
 ```
-
-## Conclusion
 
 ## References
