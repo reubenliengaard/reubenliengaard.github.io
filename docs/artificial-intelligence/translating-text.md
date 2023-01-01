@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Generating text with OpenAI
+# Translating books with DeepL
 To obtain a workshop manual in your desired language for your van, follow these steps:
 
 Search for a workshop manual in the desired language (in this case, British English).
