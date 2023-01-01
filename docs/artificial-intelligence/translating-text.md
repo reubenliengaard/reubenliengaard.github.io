@@ -5,7 +5,7 @@ sidebar_position: 4
 # Translating books with DeepL
 
 ### Steps
-- cut off spin of book
+- cut off spine of book
 - scan in evey page
 - combine pages into pdf
 - split pdf into small pieces
