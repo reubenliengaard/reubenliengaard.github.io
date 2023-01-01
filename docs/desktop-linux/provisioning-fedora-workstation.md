@@ -46,7 +46,7 @@ sudo fwupdmgr update
 # Install Gnome Tweak Tool
 sudo dnf install gnome-tweak-tool
 
-# Install other tools
+# Install tool for working with CoreOS
 sudo dnf install -y rpi-imager coreos-installer butane ignition-validate
 
 # Enable display of battery percentage
