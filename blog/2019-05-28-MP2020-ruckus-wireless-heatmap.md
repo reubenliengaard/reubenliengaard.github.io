@@ -5,5 +5,4 @@ authors: reubenliengaard
 tags: [hola, docusaurus]
 ---
 
-# Asset trecking network hardware for IOW 2019
-
+# Manchester Pride - Ruckus wireless heatmap

@@ -5,4 +5,4 @@ authors: reubenliengaard
 tags: [hola, docusaurus]
 ---
 
-# Ruckus wireless heatmap for WHS 2018
+# Bath Festival - Ruckus wireless heatmap
