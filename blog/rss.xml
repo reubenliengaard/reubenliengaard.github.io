@@ -41,6 +41,8 @@
             <link>https://reubenliengaard.github.io/blog/flood-risk</link>
             <guid>flood-risk</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.]]></description>
+            <content:encoded><![CDATA[<p>A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.</p>]]></content:encoded>
             <category>hola</category>
             <category>docusaurus</category>
         </item>
@@ -49,6 +51,7 @@
             <link>https://reubenliengaard.github.io/blog/flood-risk</link>
             <guid>flood-risk</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.</p>]]></content:encoded>
             <category>hola</category>
             <category>docusaurus</category>
         </item>
@@ -57,6 +60,7 @@
             <link>https://reubenliengaard.github.io/blog/flood-risk</link>
             <guid>flood-risk</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.</p>]]></content:encoded>
             <category>hola</category>
             <category>docusaurus</category>
         </item>
@@ -65,6 +69,7 @@
             <link>https://reubenliengaard.github.io/blog/flood-risk</link>
             <guid>flood-risk</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.</p>]]></content:encoded>
             <category>hola</category>
             <category>docusaurus</category>
         </item>
