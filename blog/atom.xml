@@ -79,6 +79,7 @@
         <id>flood-risk</id>
         <link href="https://reubenliengaard.github.io/blog/flood-risk"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Royal Windsor Horse Show is the largest outdoor horse show in the UK. We provided connectivity to the staff and trader areas. After deployment, a wireless heat map was created by extensively taking geolocated signal strength readings on a smartphone from all over the site. This data was uploaded into ArcGIS and used to create a heat map, which highlighted areas with weak signal strength or wireless black spots. This heat map was overlaid on a georeferenced site map, with the locations of wireless access points, cable routes, and network switch locations marked.]]></summary>
         <content type="html"><![CDATA[<p>A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.</p>]]></content>
         <author>
             <name>Reuben Liengaard</name>
