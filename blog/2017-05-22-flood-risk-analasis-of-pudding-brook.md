@@ -9,7 +9,4 @@ tags: [hola, docusaurus]
 
 Digital Terrain Model LIDAR tiles were imported into QGIS and used to create contour polygons at 2m intervals. A graduated style was applied to color the polygons by their elevation. Potential sites for outbuildings were then selected in appropriate high ground locations.
 
-<<<<<<< HEAD
-![alt text](pudding-brook.jpg "Price Paid Style")
-=======
->>>>>>> adad42bc3dfa9612a02ef0f90f9083f3f4b104a9
+![alt3](pudding-brook.jpg "Price Paid Style")

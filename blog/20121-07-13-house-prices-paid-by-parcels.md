@@ -9,11 +9,8 @@ tags: [hello, docusaurus]
 
 
 
-<<<<<<< HEAD
-![alt text](house-price-paid-parcel.jpg "Price Paid Style")
+![alt2](./house-price-paid-parcel.jpg "Price Paid Style")
 
-=======
->>>>>>> adad42bc3dfa9612a02ef0f90f9083f3f4b104a9
 ## Prepare prices data
 
 Concatenating the three price paid files together into one file, removing unnecessary field quotes,
