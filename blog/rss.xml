@@ -31,8 +31,8 @@
             <link>https://reubenliengaard.github.io/blog/house-price-paid</link>
             <guid>house-price-paid</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[House prices paid by parish]]></description>
-            <content:encoded><![CDATA[<p>House prices paid by parish</p>]]></content:encoded>
+            <description><![CDATA[To obtain the latitude and longitude positions of each house sale value, the house price paid postcodes from the land registry were cross-referenced with OS code point data. The UK parish data was then uploaded to PostGIS, and an SQL query was used to calculate the average price within each parish. This information was imported into QGIS and used to apply a style to the parish polygons based on the average value.]]></description>
+            <content:encoded><![CDATA[<p>To obtain the latitude and longitude positions of each house sale value, the house price paid postcodes from the land registry were cross-referenced with OS code point data. The UK parish data was then uploaded to PostGIS, and an SQL query was used to calculate the average price within each parish. This information was imported into QGIS and used to apply a style to the parish polygons based on the average value.</p>]]></content:encoded>
             <category>hello</category>
             <category>docusaurus</category>
         </item>
