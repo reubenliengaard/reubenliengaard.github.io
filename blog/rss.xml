@@ -4,10 +4,27 @@
         <title>Reuben Liengaard Blog</title>
         <link>https://reubenliengaard.github.io/blog</link>
         <description>Reuben Liengaard Blog</description>
-        <lastBuildDate>Wed, 29 May 2019 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Jan 2020 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Flood Risk]]></title>
+            <link>https://reubenliengaard.github.io/blog/flood-risk</link>
+            <guid>flood-risk</guid>
+            <pubDate>Thu, 02 Jan 2020 00:00:00 GMT</pubDate>
+            <category>hola</category>
+            <category>docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[Flood Risk]]></title>
+            <link>https://reubenliengaard.github.io/blog/flood-risk</link>
+            <guid>flood-risk</guid>
+            <pubDate>Sun, 21 Jul 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Royal Windsor Horse Show is the largest outdoor horse show in the UK. We provided connectivity to the staff and trader areas. After deployment, a wireless heat map was created by extensively taking geolocated signal strength readings on a smartphone from all over the site. This data was uploaded into ArcGIS and used to create a heat map, which highlighted areas with weak signal strength or wireless black spots. This heat map was overlaid on a georeferenced site map, with the locations of wireless access points, cable routes, and network switch locations marked.]]></description>
+            <category>hola</category>
+            <category>docusaurus</category>
+        </item>
         <item>
             <title><![CDATA[Flat Parking]]></title>
             <link>https://reubenliengaard.github.io/blog/flat-parking</link>
@@ -27,52 +44,31 @@
             <category>docusaurus</category>
         </item>
         <item>
+            <title><![CDATA[Flood Risk]]></title>
+            <link>https://reubenliengaard.github.io/blog/flood-risk</link>
+            <guid>flood-risk</guid>
+            <pubDate>Wed, 18 Apr 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.]]></description>
+            <category>hola</category>
+            <category>docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[Flood Risk]]></title>
+            <link>https://reubenliengaard.github.io/blog/flood-risk</link>
+            <guid>flood-risk</guid>
+            <pubDate>Mon, 22 May 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Digital Terrain Model LIDAR tiles were imported into QGIS and used to create contour polygons at 2m intervals. A graduated style was applied to color the polygons by their elevation. Potential sites for outbuildings were then selected in appropriate high ground locations.]]></description>
+            <category>hola</category>
+            <category>docusaurus</category>
+        </item>
+        <item>
             <title><![CDATA[House Price Paid]]></title>
             <link>https://reubenliengaard.github.io/blog/house-price-paid</link>
             <guid>house-price-paid</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 14 Jul 0121 00:00:00 GMT</pubDate>
             <description><![CDATA[To obtain the latitude and longitude positions of each house sale value, the house price paid postcodes from the land registry were cross-referenced with OS code point data. The UK parish data was then uploaded to PostGIS, and an SQL query was used to calculate the average price within each parish. This information was imported into QGIS and used to apply a style to the parish polygons based on the average value.]]></description>
             <content:encoded><![CDATA[<p>To obtain the latitude and longitude positions of each house sale value, the house price paid postcodes from the land registry were cross-referenced with OS code point data. The UK parish data was then uploaded to PostGIS, and an SQL query was used to calculate the average price within each parish. This information was imported into QGIS and used to apply a style to the parish polygons based on the average value.</p>]]></content:encoded>
             <category>hello</category>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Flood Risk]]></title>
-            <link>https://reubenliengaard.github.io/blog/flood-risk</link>
-            <guid>flood-risk</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.]]></description>
-            <content:encoded><![CDATA[<p>A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.</p>]]></content:encoded>
-            <category>hola</category>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Flood Risk]]></title>
-            <link>https://reubenliengaard.github.io/blog/flood-risk</link>
-            <guid>flood-risk</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.</p>]]></content:encoded>
-            <category>hola</category>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Flood Risk]]></title>
-            <link>https://reubenliengaard.github.io/blog/flood-risk</link>
-            <guid>flood-risk</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Royal Windsor Horse Show is the largest outdoor horse show in the UK. We provided connectivity to the staff and trader areas. After deployment, a wireless heat map was created by extensively taking geolocated signal strength readings on a smartphone from all over the site. This data was uploaded into ArcGIS and used to create a heat map, which highlighted areas with weak signal strength or wireless black spots. This heat map was overlaid on a georeferenced site map, with the locations of wireless access points, cable routes, and network switch locations marked.]]></description>
-            <content:encoded><![CDATA[<p>A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.</p>]]></content:encoded>
-            <category>hola</category>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Flood Risk]]></title>
-            <link>https://reubenliengaard.github.io/blog/flood-risk</link>
-            <guid>flood-risk</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Digital Terrain Model LIDAR tiles were imported into QGIS and used to create contour polygons at 2m intervals. A graduated style was applied to color the polygons by their elevation. Potential sites for outbuildings were then selected in appropriate high ground locations.]]></description>
-            <content:encoded><![CDATA[<p>A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.</p>]]></content:encoded>
-            <category>hola</category>
             <category>docusaurus</category>
         </item>
     </channel>
