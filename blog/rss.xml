@@ -69,6 +69,7 @@
             <link>https://reubenliengaard.github.io/blog/flood-risk</link>
             <guid>flood-risk</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Digital Terrain Model LIDAR tiles were imported into QGIS and used to create contour polygons at 2m intervals. A graduated style was applied to color the polygons by their elevation. Potential sites for outbuildings were then selected in appropriate high ground locations.]]></description>
             <content:encoded><![CDATA[<p>A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.</p>]]></content:encoded>
             <category>hola</category>
             <category>docusaurus</category>
