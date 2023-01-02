@@ -8,9 +8,6 @@ tags: [hello, docusaurus]
 # House prices paid by parish
 
 
-
-![alt2](./house-price-paid-parcel.jpg "Price Paid Style")
-
 ## Prepare prices data
 
 Concatenating the three price paid files together into one file, removing unnecessary field quotes,
