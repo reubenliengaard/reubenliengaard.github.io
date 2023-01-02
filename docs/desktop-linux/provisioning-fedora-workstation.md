@@ -66,4 +66,11 @@ sudo dnf install -y unzip ranger vim
 # Install Qgis
 sudo dnf install qgis
 
+
+# Install zsh
+sudo dnf istall zsh fzf
+
+## Install on my-zsh
+git clone --depth 1 https://github.com/qoomon/my-zsh.git "$HOME/.zsh" && $HOME/.zsh/install.zsh
+
 ```
