@@ -9,7 +9,7 @@ tags: [hello, docusaurus]
 
 
 
-![alt text](/src/static/img/house-price-paid-parcel.jpg "Price Paid Style")
+![alt text](/img/house-price-paid-parcel.jpg "Price Paid Style")
 
 ## Prepare prices data
 
