@@ -9,7 +9,6 @@ tags: [hello, docusaurus]
 
 
 
-
 ## Prepare prices data
 
 Concatenating the three price paid files together into one file, removing unnecessary field quotes,
