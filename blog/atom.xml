@@ -8,9 +8,9 @@
     <subtitle>Reuben Liengaard Blog</subtitle>
     <icon>https://reubenliengaard.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Flood Risk]]></title>
-        <id>flood-risk</id>
-        <link href="https://reubenliengaard.github.io/blog/flood-risk"/>
+        <title type="html"><![CDATA[Manchester Pride - Ruckus wireless heatmap]]></title>
+        <id>manchester-pride</id>
+        <link href="https://reubenliengaard.github.io/blog/manchester-pride"/>
         <updated>2020-01-02T00:00:00.000Z</updated>
         <author>
             <name>Reuben Liengaard</name>
@@ -20,11 +20,12 @@
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Flood Risk]]></title>
-        <id>flood-risk</id>
-        <link href="https://reubenliengaard.github.io/blog/flood-risk"/>
+        <title type="html"><![CDATA[Royal Windsor Horse Show - Ruckus wireless heatmap]]></title>
+        <id>windsor-horse-show</id>
+        <link href="https://reubenliengaard.github.io/blog/windsor-horse-show"/>
         <updated>2019-07-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The Royal Windsor Horse Show is the largest outdoor horse show in the UK. We provided connectivity to the staff and trader areas. After deployment, a wireless heat map was created by extensively taking geolocated signal strength readings on a smartphone from all over the site. This data was uploaded into ArcGIS and used to create a heat map, which highlighted areas with weak signal strength or wireless black spots. This heat map was overlaid on a georeferenced site map, with the locations of wireless access points, cable routes, and network switch locations marked.]]></summary>
+        <content type="html"><![CDATA[<p>The Royal Windsor Horse Show is the largest outdoor horse show in the UK. We provided connectivity to the staff and trader areas. After deployment, a wireless heat map was created by extensively taking geolocated signal strength readings on a smartphone from all over the site. This data was uploaded into ArcGIS and used to create a heat map, which highlighted areas with weak signal strength or wireless black spots. This heat map was overlaid on a georeferenced site map, with the locations of wireless access points, cable routes, and network switch locations marked.</p>]]></content>
         <author>
             <name>Reuben Liengaard</name>
             <uri>https://reubenliengaard.github.io</uri>
@@ -33,9 +34,9 @@
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Flat Parking]]></title>
-        <id>flat-parking</id>
-        <link href="https://reubenliengaard.github.io/blog/flat-parking"/>
+        <title type="html"><![CDATA[Live network status map for WOMAD 2020]]></title>
+        <id>WOMAD2020</id>
+        <link href="https://reubenliengaard.github.io/blog/WOMAD2020"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Identify flat spots on in LIDAR data, then buffer roads by 2.5m, and hilight flat spots within these buffers.]]></summary>
         <content type="html"><![CDATA[<p>Identify flat spots on in LIDAR data, then buffer roads by 2.5m, and hilight flat spots within these buffers.</p>]]></content>
@@ -47,7 +48,7 @@
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Flat Sunny Spots]]></title>
+        <title type="html"><![CDATA[Identify areas of flat terrain which receive the most sun]]></title>
         <id>flat-sunny-spots</id>
         <link href="https://reubenliengaard.github.io/blog/flat-sunny-spots"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
@@ -59,11 +60,12 @@
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Flood Risk]]></title>
-        <id>flood-risk</id>
-        <link href="https://reubenliengaard.github.io/blog/flood-risk"/>
+        <title type="html"><![CDATA[Bath Festival - Ruckus wireless heatmap]]></title>
+        <id>bath-festival</id>
+        <link href="https://reubenliengaard.github.io/blog/bath-festival"/>
         <updated>2018-04-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.]]></summary>
+        <content type="html"><![CDATA[<p>A small deployment of Ruckus R600 access points was placed around the tents at the Bath Festival. Each access point was connected to a sector on an adjacent building via a point-to-point wireless link, connected to both a VDSL line and a temporary satellite on the roof. Using an Android app, I collected a series of geolocated signal strength data points and formatted them in Excel. This data was then uploaded into ArcGIS, where a tool was used to create a heat map, which was overlayed over the site plan.</p>]]></content>
         <author>
             <name>Reuben Liengaard</name>
             <uri>https://reubenliengaard.github.io</uri>
@@ -72,11 +74,12 @@
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Flood Risk]]></title>
-        <id>flood-risk</id>
-        <link href="https://reubenliengaard.github.io/blog/flood-risk"/>
+        <title type="html"><![CDATA[Flood risk analasis for pudding brooke]]></title>
+        <id>pudding-brook</id>
+        <link href="https://reubenliengaard.github.io/blog/pudding-brook"/>
         <updated>2017-05-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Digital Terrain Model LIDAR tiles were imported into QGIS and used to create contour polygons at 2m intervals. A graduated style was applied to color the polygons by their elevation. Potential sites for outbuildings were then selected in appropriate high ground locations.]]></summary>
+        <content type="html"><![CDATA[<p>Digital Terrain Model LIDAR tiles were imported into QGIS and used to create contour polygons at 2m intervals. A graduated style was applied to color the polygons by their elevation. Potential sites for outbuildings were then selected in appropriate high ground locations.</p>]]></content>
         <author>
             <name>Reuben Liengaard</name>
             <uri>https://reubenliengaard.github.io</uri>
@@ -85,7 +88,7 @@
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[House Price Paid]]></title>
+        <title type="html"><![CDATA[House prices paid by parish]]></title>
         <id>house-price-paid</id>
         <link href="https://reubenliengaard.github.io/blog/house-price-paid"/>
         <updated>0121-07-14T00:00:00.000Z</updated>
