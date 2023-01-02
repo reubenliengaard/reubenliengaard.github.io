@@ -1,6 +1,6 @@
 ---
-slug: flood-risk
-title: Flood Risk
+slug: manchester-pride
+title: Manchester Pride - Ruckus wireless heatmap
 authors: reubenliengaard
 tags: [hola, docusaurus]
 ---

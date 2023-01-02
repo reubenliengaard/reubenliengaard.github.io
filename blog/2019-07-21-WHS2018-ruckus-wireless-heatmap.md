@@ -1,6 +1,6 @@
 ---
-slug: flood-risk
-title: Flood Risk
+slug: windsor-horse-show
+title: Royal Windsor Horse Show - Ruckus wireless heatmap
 authors: reubenliengaard
 tags: [hola, docusaurus]
 ---

@@ -1,11 +1,11 @@
 ---
-slug: flat-parking
+slug: isle-of-wight
 title: Isle of Wight Festival Asset Tracking Network Hardware
 authors: reubenliengaard
 tags: [hello, docusaurus]
 ---
 
-# Live network status map for WOMAD 2020
+# Isle of Wight Festival Asset Tracking Network Hardware
 
 The Isle of Wight Festival 2019 took place at Seaclose Park on the Isle of Wight. It was a large site, covering 3km of arenas and fields. Network cabinets were set up in each arena and connected with miles of fiber optic cable. Each cabinet was connected to multiple ADSL connections that were bonded together. Smaller network switches were located within 100m of the cabinet and provided connectivity within the arena. Locations that were beyond the 100m limit for Ethernet were connected with wireless point-to-point links, either from poles attached to the sides of tents or by mounting wireless sectors on cherry pickers that could beam the signal out across the arena, where it could be picked up at distant locations through wireless point-to-point receivers attached to the sides of tents.
 

@@ -1,6 +1,6 @@
 ---
-slug: flood-risk
-title: Flood Risk
+slug: bath-festival
+title: Bath Festival - Ruckus wireless heatmap
 authors: reubenliengaard
 tags: [hola, docusaurus]
 ---

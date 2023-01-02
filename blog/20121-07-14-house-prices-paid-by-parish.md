@@ -1,6 +1,6 @@
 ---
 slug: house-price-paid
-title: House Price Paid
+title: House prices paid by parish
 authors: reubenliengaard
 tags: [hello, docusaurus]
 ---

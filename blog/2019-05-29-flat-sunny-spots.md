@@ -1,6 +1,6 @@
 ---
 slug: flat-sunny-spots
-title: Flat Sunny Spots
+title: Identify areas of flat terrain which receive the most sun
 authors: reubenliengaard
 tags: [hello, docusaurus]
 ---
