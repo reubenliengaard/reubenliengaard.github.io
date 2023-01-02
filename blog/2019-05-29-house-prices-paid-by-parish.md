@@ -5,4 +5,4 @@ authors: reubenliengaard
 tags: [hello, docusaurus]
 ---
 
-House price paid
+House prices paid by parish

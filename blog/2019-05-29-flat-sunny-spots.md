@@ -5,4 +5,4 @@ authors: reubenliengaard
 tags: [hello, docusaurus]
 ---
 
-flat sunny spots
+# Identify areas of flat terrain which receive the most sun
