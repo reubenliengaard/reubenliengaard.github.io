@@ -10,6 +10,9 @@ tags: [hello, docusaurus]
 
 ## Prepare prices data
 
+![Docusaurus Plushie](/img/price-paid-parcel.jpg)
+
+
 Concatenating the three price paid files together into one file, removing unnecessary field quotes,
 selecting only rows which contain the string GL followed by a number between zero and nine, then printing
 out only columns four and two, adding column names, then deleting rows containing null values.

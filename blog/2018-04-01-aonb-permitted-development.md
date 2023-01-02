@@ -6,3 +6,4 @@ tags: [hola, docusaurus]
 ---
 
 # AONB Permitted Development
+![Docusaurus Plushie](permitted-development.jpg)
