@@ -15,4 +15,4 @@ We combined three separate files containing price paid data into a single file, 
 
 ![Docusaurus Plushie](/img/price-paid-parcel.jpg)
 
-It appears that some of the postal codes are not being properly associated with the intended polygons. For the next project, we will use a set of polygons (parishes) with lower resolution to see if this improves the accuracy of the data.
+It appears that some of the postal codes are were properly associated with the intended polygons. For the next project, we used use a set of polygons (parishes) with lower resolution to see if this improved the accuracy of the data.
