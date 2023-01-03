@@ -1,6 +1,6 @@
 ---
-slug: designing-a-modular-circular-stage
-title: designing-a-modular-circular-stage
+slug: creating-a-modular-circular-stage
+title: Creating a modular circular stage
 authors: reubenliengaard
 tags: [hola, docusaurus]
 ---
