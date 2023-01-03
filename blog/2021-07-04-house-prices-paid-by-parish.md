@@ -14,3 +14,14 @@ To determine the latitude and longitude coordinates of each house sale, we used 
 
 ![Docusaurus Plushie](/img/price-paid-parish.jpg)
 
+We downloaded a CSV file that contained property price data for the past three years, along with the postal code coordinates and boundary line polygons.
+
+We used ogr2ogr to convert a file containing boundary lines (in a format called GeoPackage) into a PostgreSQL file, changed the projection of the data from OSGB1936 to WGS84, and imported it into a database.
+
+Starting a psql instance on the client in order to interact with the database on the server.
+
+We used point data that was already in the database from a previous project to create a new polygon for each point that was within the boundaries of a parish. We also added the price paid for each house (the point) to the corresponding polygon.
+
+Like in the the previous project, we calculated the average value for each of the duplicate polygons.
+
+
