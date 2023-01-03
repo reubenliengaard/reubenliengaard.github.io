@@ -9,4 +9,4 @@ tags: [hola, docusaurus]
 
 ![Docusaurus Plushie](/img/truss-1.jpg)
 ![Docusaurus Plushie](/img/truss-2.jpg)
-![Docusaurus Plushie](/img/truss-3.jpg)
+![Docusaurus Plushie](/img/truss-3.png)
