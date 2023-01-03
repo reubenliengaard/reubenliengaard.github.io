@@ -14,5 +14,5 @@ sidebar_position: 4
 - convert returned translated word documents back into pdf
 - combine all translated pdf pieces back into single translated pdf
 - print
-- 
+
 
