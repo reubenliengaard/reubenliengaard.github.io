@@ -2,18 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://reubenliengaard.github.io/blog</id>
     <title>Reuben Liengaard Blog</title>
-    <updated>2021-07-04T00:00:00.000Z</updated>
+    <updated>2023-01-03T15:47:54.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://reubenliengaard.github.io/blog"/>
     <subtitle>Reuben Liengaard Blog</subtitle>
     <icon>https://reubenliengaard.github.io/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[System for mounting wireless hardware to marquee keeder rail]]></title>
+        <id>system-for-mounting-wireless-hardware-to-marquee-keeder-rail</id>
+        <link href="https://reubenliengaard.github.io/blog/system-for-mounting-wireless-hardware-to-marquee-keeder-rail"/>
+        <updated>2023-01-03T15:47:54.000Z</updated>
+        <summary type="html"><![CDATA[Wireless access points and point-to-point links are installed on the aluminum extrusion structural elements of outdoor event marquees using a system that utilizes a keeder rail. This rail accommodates a cylindrical metal piece with a threaded hole drilled perpendicular to its length. This metal piece can slide along the keeder rail and be secured in place by turning a large, flat disk with a threaded hole in the center to tighten it in. This setup supports a pipe clamp that fits standard aluminum poles. Two of these are used per pole, to securly anchor the pole vertically on the side of the tent.]]></summary>
+        <content type="html"><![CDATA[<p>Wireless access points and point-to-point links are installed on the aluminum extrusion structural elements of outdoor event marquees using a system that utilizes a keeder rail. This rail accommodates a cylindrical metal piece with a threaded hole drilled perpendicular to its length. This metal piece can slide along the keeder rail and be secured in place by turning a large, flat disk with a threaded hole in the center to tighten it in. This setup supports a pipe clamp that fits standard aluminum poles. Two of these are used per pole, to securly anchor the pole vertically on the side of the tent.</p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Constructing a 3d egg shape from regular polygons]]></title>
         <id>constructing-a-3d-egg-shape-from-regular-polygons</id>
         <link href="https://reubenliengaard.github.io/blog/constructing-a-3d-egg-shape-from-regular-polygons"/>
         <updated>2021-07-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus Plushie]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/egg-1-2edd5330f8680fdf901b10dfe36b1e4f.jpg" width="655" height="527" class="img_ev3q"></p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/egg-2-128d75277af2454dd729a83dce079a5f.jpg" width="1209" height="512" class="img_ev3q"></p>]]></content>
+        <summary type="html"><![CDATA[We were asked by an artist to help find a a geometry which could be used to create a large egg sculpture.]]></summary>
+        <content type="html"><![CDATA[<p>We were asked by an artist to help find a a geometry which could be used to create a large egg sculpture.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/egg-1-2edd5330f8680fdf901b10dfe36b1e4f.jpg" width="655" height="527" class="img_ev3q"></p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/egg-2-128d75277af2454dd729a83dce079a5f.jpg" width="1209" height="512" class="img_ev3q"></p>]]></content>
         <author>
             <name>Reuben Liengaard</name>
             <uri>https://reubenliengaard.github.io</uri>
@@ -70,9 +84,7 @@
         <link href="https://reubenliengaard.github.io/blog/modeling-a-spherical-solar-concentrator"/>
         <updated>2021-07-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus Plushie]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/solar-concentrator-1-ad93c8af9d3ae3260d0f3868784455c9.jpg" width="4592" height="3448" class="img_ev3q">
-<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/solar-concentrator-3-e219fb0426d36846e8be8dc7d33746c2.jpg" width="718" height="521" class="img_ev3q">
-<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/solar-concentrator-4-5274580557a604c66ded0bb0545bc923.jpg" width="1700" height="1610" class="img_ev3q"></p><h1>Modeling a Spherical Solar Concentrator</h1>]]></content>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/solar-concentrator-3-e219fb0426d36846e8be8dc7d33746c2.jpg" width="718" height="521" class="img_ev3q"></p><p>If a mirror is positioned on the surface of a sphere and is perpendicular to a line that extends from the center of the sphere to a point on the surface of the sphere, light from outside the sphere that is directed towards the mirror will be reflected off the mirror's surface and into the center of the sphere.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/solar-concentrator-1-ad93c8af9d3ae3260d0f3868784455c9.jpg" width="4592" height="3448" class="img_ev3q"></p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/solar-concentrator-4-5274580557a604c66ded0bb0545bc923.jpg" width="1700" height="1610" class="img_ev3q"></p>]]></content>
         <author>
             <name>Reuben Liengaard</name>
             <uri>https://reubenliengaard.github.io</uri>
@@ -86,9 +98,7 @@
         <link href="https://reubenliengaard.github.io/blog/modeling-a-truss-connection"/>
         <updated>2021-07-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus Plushie]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-1-262854f9f04c2addb3451e2e0e292058.jpg" width="476" height="442" class="img_ev3q">
-<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-2-246d90b00e94dc787904ed511746731a.jpg" width="4592" height="3448" class="img_ev3q">
-<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-3-c6a73cf924e89c582875520935c6855e.png" width="573" height="324" class="img_ev3q"></p>]]></content>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-3-c6a73cf924e89c582875520935c6855e.png" width="573" height="324" class="img_ev3q"></p><p>We created a dodecahedron-shaped structural node for a truss, which is a device that joins multiple truss struts together at a single point. The node had 12 pentagonal faces, and each truss strut was attached to the center of one of these faces via a single bolt. This bolt passed through a hole in the center of the end cap of the strut and was secured in place by screwing it into a threaded hole in the center of the dodecahedron face. The node was made of steel and was capable of resisting the forces transmitted through the truss. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-1-262854f9f04c2addb3451e2e0e292058.jpg" width="476" height="442" class="img_ev3q"></p><p>It played a crucial role in distributing loads evenly and maintaining the stability and strength of the truss. The use of a single bolt per strut allowed for a high level of flexibility and adaptability, as the struts could be easily rearranged or removed due to their modular design.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-2-246d90b00e94dc787904ed511746731a.jpg" width="4592" height="3448" class="img_ev3q"></p>]]></content>
         <author>
             <name>Reuben Liengaard</name>
             <uri>https://reubenliengaard.github.io</uri>
