@@ -11,7 +11,7 @@ The Isle of Wight Festival 2019 took place at Seaclose Park on the Isle of Wight
 
 This deployment was massive and complex. While we had a site plan and list of locations that needed connectivity, the physical network structure had to be adapted to the site during construction. We had to navigate around obstacles such as roads and areas of the arena that were accessible to the public. Each main cabinet and sub-cabinet needed its own power supply, which we had to coordinate with the electricians on the fly. Sometimes, if they had been to a location before us, we could locate our cabinets near their distribution boxes by following their cables. Other times, they would move the distribution boxes or we would arrive first and they would provide us with one.
 
-![Docusaurus Plushie](/img/iow.png)
+
 
 At least one cherry picker, equipped with a pan-tilt-zoom CCTV camera, was stationed within each arena. CCTV cameras were also installed on scaffolding poles, gateway arches, and stage sides. All bars needed connectivity for their payment terminals. WiFi was provided in the crew and camping areas, and temporary offices were equipped with temporary WiFi and VoIP phones for both internal and external communication. This was necessary because the cellular network often becomes overloaded with the high number of people at events.
 
