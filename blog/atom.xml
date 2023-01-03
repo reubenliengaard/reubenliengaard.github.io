@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://reubenliengaard.github.io/blog</id>
     <title>Reuben Liengaard Blog</title>
-    <updated>2021-07-04T00:00:00.000Z</updated>
+    <updated>2023-01-03T00:34:13.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://reubenliengaard.github.io/blog"/>
     <subtitle>Reuben Liengaard Blog</subtitle>
     <icon>https://reubenliengaard.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Manchester Pride - Ruckus wireless heatmap]]></title>
+        <id>manchester-pride</id>
+        <link href="https://reubenliengaard.github.io/blog/manchester-pride"/>
+        <updated>2023-01-03T00:34:13.000Z</updated>
+        <summary type="html"><![CDATA[During this deployment, we faced a physically challenging task. We mounted two sectors on the 18th floor of a tower block that was next to the site. From there, we transmitted the signal to multiple wireless point-to-point stations that were attached to temporary structures and buildings within the site. We also provided indoor wireless coverage in an underground parking garage that was used as one of the event venues. I created a heat map of the wireless signal strength in this area. In addition, we established uplinks at various locations to support ticket booths, CCTV cameras, payment terminals for bars, a production office, and emergency liaison cabins.]]></summary>
+        <content type="html"><![CDATA[<p>During this deployment, we faced a physically challenging task. We mounted two sectors on the 18th floor of a tower block that was next to the site. From there, we transmitted the signal to multiple wireless point-to-point stations that were attached to temporary structures and buildings within the site. We also provided indoor wireless coverage in an underground parking garage that was used as one of the event venues. I created a heat map of the wireless signal strength in this area. In addition, we established uplinks at various locations to support ticket booths, CCTV cameras, payment terminals for bars, a production office, and emergency liaison cabins.</p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Designing a Spherical Solar Concentrator]]></title>
         <id>designing-a-spherical-solar-concentrator</id>
@@ -60,20 +74,6 @@ use a set of polygons with less resolution.</p>]]></content>
             <uri>https://reubenliengaard.github.io</uri>
         </author>
         <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manchester Pride - Ruckus wireless heatmap]]></title>
-        <id>manchester-pride</id>
-        <link href="https://reubenliengaard.github.io/blog/manchester-pride"/>
-        <updated>2020-01-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[During this deployment, we faced a physically challenging task. We mounted two sectors on the 18th floor of a tower block that was next to the site. From there, we transmitted the signal to multiple wireless point-to-point stations that were attached to temporary structures and buildings within the site. We also provided indoor wireless coverage in an underground parking garage that was used as one of the event venues. I created a heat map of the wireless signal strength in this area. In addition, we established uplinks at various locations to support ticket booths, CCTV cameras, payment terminals for bars, a production office, and emergency liaison cabins.]]></summary>
-        <content type="html"><![CDATA[<p>During this deployment, we faced a physically challenging task. We mounted two sectors on the 18th floor of a tower block that was next to the site. From there, we transmitted the signal to multiple wireless point-to-point stations that were attached to temporary structures and buildings within the site. We also provided indoor wireless coverage in an underground parking garage that was used as one of the event venues. I created a heat map of the wireless signal strength in this area. In addition, we established uplinks at various locations to support ticket booths, CCTV cameras, payment terminals for bars, a production office, and emergency liaison cabins.</p>]]></content>
-        <author>
-            <name>Reuben Liengaard</name>
-            <uri>https://reubenliengaard.github.io</uri>
-        </author>
-        <category label="hola" term="hola"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
