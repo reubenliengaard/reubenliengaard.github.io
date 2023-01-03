@@ -1,6 +1,6 @@
 ---
-slug: designing-a-spherical-solar-concentrator
-title: Designing a Spherical Solar Concentrator
+slug: modeling-a-spherical-solar-concentrator
+title: Modeling a Spherical Solar Concentrator
 authors: reubenliengaard
 tags: [hello, docusaurus]
 ---

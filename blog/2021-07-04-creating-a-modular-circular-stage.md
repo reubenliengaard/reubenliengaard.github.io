@@ -5,7 +5,7 @@ authors: reubenliengaard
 tags: [hola, docusaurus]
 ---
 
-# Designing a modular circular stage
+# Creating a modular circular stage
 
 ![Docusaurus Plushie](/img/stage-1.jpg)
 ![Docusaurus Plushie](/img/stage-2.jpg)
