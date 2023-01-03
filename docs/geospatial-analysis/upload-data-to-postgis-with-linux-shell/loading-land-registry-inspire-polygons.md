@@ -14,22 +14,23 @@ wget https://use-land-property-
 data.service.gov.uk/datasets/inspire/download/Stroud.zip \
 && unzip Stroud.zip
 ```
+### create table
+```sql
+CREATE TABLE shapefile_table (
+  geom geometry(Geometry,4326),
+  properties jsonb
+);
+```
 
 ### Import parcels
-
-Using ogr2ogr to convert the cadastral parcels GML file into PostgreSQL file, projecting it from OSGB
-to WGS84, and importing it into the database.
-
+Using ogr2ogr 
 ``` bash
-ogr2ogr \
--f "PostgreSQL" \
--a_srs "EPSG:27700" \
--t_srs "EPSG:4326" \
--nln parcels \
--progress \
-PG:"dbname='gis' host='$ip' port='5432' user='$user'
-password='$password'" \
-Land_Registry_Cadastral_Parcels.gml
+ogr2ogr -f "PostgreSQL" "PG:host=localhost user=username dbname=database_name password=password" path/to/shapefile.shp -nln shapefile_table
+```
+
+## Create spatial index
+``` sql
+CREATE INDEX shapefile_table_gist ON shapefile_table USING GIST (geom);
 ```
 
 ## References
