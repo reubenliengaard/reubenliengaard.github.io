@@ -5,8 +5,9 @@ authors: reubenliengaard
 tags: [hello, docusaurus]
 ---
 
-
-![Docusaurus Plushie](/img/price-paid-parish.jpg)
+![Docusaurus Plushie](/img/solar-concentrator-1)
+![Docusaurus Plushie](/img/solar-concentrator-3)
+![Docusaurus Plushie](/img/solar-concentrator-4)
 
 # Designing a Spherical Solar Concentrator
 
