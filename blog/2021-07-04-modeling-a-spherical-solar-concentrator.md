@@ -9,5 +9,5 @@ tags: [hello, docusaurus]
 ![Docusaurus Plushie](/img/solar-concentrator-3.jpg)
 ![Docusaurus Plushie](/img/solar-concentrator-4.jpg)
 
-# Designing a Spherical Solar Concentrator
+# Modeling a Spherical Solar Concentrator
 
