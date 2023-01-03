@@ -17,7 +17,7 @@ function HomepageHeader() {
         <p id="p">
         Welcome to my personal website! My name is Reuben Liengaard and I am an designer with a background in technology and innovation.
 
-As a hobbyist, I have a passion for using computation to solve complex problems and bridge the gap between nature and technology. My areas of expertise include desktop Linux, environmental monitoring, geospatial analysis, parametric modeling, and artificial intelligence. My goal is to simplify complexity and make the world a smarter, more sustainable place.
+As a hobbyist, I have a passion for using computation to solve complex problems. My areas of expertise include desktop Linux, environmental monitoring, geospatial analysis, parametric modeling, and artificial intelligence. My goal is to simplify complexity and make the world a smarter, more sustainable place.
 
 I am always looking for new and creative ways to make a positive impact, and I believe that by bringing together the worlds of nature and technology, we can find innovative solutions to some of the biggest challenges facing humanity. Thank you for visiting my website, and I hope you find my work and interests interesting and inspiring.
         </p>
