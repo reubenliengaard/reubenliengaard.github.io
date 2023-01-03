@@ -2,37 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://reubenliengaard.github.io/blog</id>
     <title>Reuben Liengaard Blog</title>
-    <updated>2023-01-03T00:34:13.000Z</updated>
+    <updated>2021-07-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://reubenliengaard.github.io/blog"/>
     <subtitle>Reuben Liengaard Blog</subtitle>
     <icon>https://reubenliengaard.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Manchester Pride - Ruckus wireless heatmap]]></title>
-        <id>manchester-pride</id>
-        <link href="https://reubenliengaard.github.io/blog/manchester-pride"/>
-        <updated>2023-01-03T00:34:13.000Z</updated>
-        <summary type="html"><![CDATA[During this deployment, we faced a physically challenging task. We mounted two sectors on the 18th floor of a tower block that was next to the site. From there, we transmitted the signal to multiple wireless point-to-point stations that were attached to temporary structures and buildings within the site. We also provided indoor wireless coverage in an underground parking garage that was used as one of the event venues. I created a heat map of the wireless signal strength in this area. In addition, we established uplinks at various locations to support ticket booths, CCTV cameras, payment terminals for bars, a production office, and emergency liaison cabins.]]></summary>
-        <content type="html"><![CDATA[<p>During this deployment, we faced a physically challenging task. We mounted two sectors on the 18th floor of a tower block that was next to the site. From there, we transmitted the signal to multiple wireless point-to-point stations that were attached to temporary structures and buildings within the site. We also provided indoor wireless coverage in an underground parking garage that was used as one of the event venues. I created a heat map of the wireless signal strength in this area. In addition, we established uplinks at various locations to support ticket booths, CCTV cameras, payment terminals for bars, a production office, and emergency liaison cabins.</p>]]></content>
-        <author>
-            <name>Reuben Liengaard</name>
-            <uri>https://reubenliengaard.github.io</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designing a Spherical Solar Concentrator]]></title>
-        <id>designing-a-spherical-solar-concentrator</id>
-        <link href="https://reubenliengaard.github.io/blog/designing-a-spherical-solar-concentrator"/>
+        <title type="html"><![CDATA[Constructing a 3d egg shape from regular polygons]]></title>
+        <id>constructing-a-3d-egg-shape-from-regular-polygons</id>
+        <link href="https://reubenliengaard.github.io/blog/constructing-a-3d-egg-shape-from-regular-polygons"/>
         <updated>2021-07-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus Plushie]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/price-paid-parish-7dab74e8696d5ee03d431495e4fbf360.jpg" width="1630" height="886" class="img_ev3q"></p><h1>Designing a Spherical Solar Concentrator</h1>]]></content>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/egg-1-2edd5330f8680fdf901b10dfe36b1e4f.jpg" width="655" height="527" class="img_ev3q"></p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/egg-2-128d75277af2454dd729a83dce079a5f.jpg" width="1209" height="512" class="img_ev3q"></p>]]></content>
         <author>
             <name>Reuben Liengaard</name>
             <uri>https://reubenliengaard.github.io</uri>
         </author>
         <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[designing-a-modular-circular-stage]]></title>
+        <id>designing-a-modular-circular-stage</id>
+        <link href="https://reubenliengaard.github.io/blog/designing-a-modular-circular-stage"/>
+        <updated>2021-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus Plushie]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-1-82e129b0df05a3dc89abe4fe84e5cd34.jpg" width="985" height="1547" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-2-96efdfde9bce24cd310ea2c85c3adbb5.jpg" width="1011" height="769" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-3-f13d41dad830cad645c00222c4afabd5.jpg" width="1018" height="1064" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-4-367f329abb10ff4d1f0e1eede7a9c0d6.jpg" width="1041" height="773" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-5-278fc0ade02420ca73add0abde41e7b0.jpg" width="1036" height="1000" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-6-2cb158e56730a299f2ecd3b9b490e4ac.jpg" width="1059" height="832" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-7-536a8dc3915c3bc552fc3a732e057602.jpg" width="1041" height="773" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-8-27308a0483995332cca67e02fbdec9fc.jpg" width="1058" height="752" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-9-dc6b311d324577aeffe08176ad45882d.jpg" width="818" height="870" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-10-ca0b1f0d0eec65bb8455d9793ed7390e.jpg" width="861" height="1302" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-11-7fd1ee6788b580ee27fe6c3a71e25d42.jpg" width="923" height="997" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
@@ -51,6 +61,52 @@ price paid to it.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="select">
             <uri>https://reubenliengaard.github.io</uri>
         </author>
         <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Manchester Pride - Ruckus wireless heatmap]]></title>
+        <id>manchester-pride</id>
+        <link href="https://reubenliengaard.github.io/blog/manchester-pride"/>
+        <updated>2021-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[During this deployment, we faced a physically challenging task. We mounted two sectors on the 18th floor of a tower block that was next to the site. From there, we transmitted the signal to multiple wireless point-to-point stations that were attached to temporary structures and buildings within the site. We also provided indoor wireless coverage in an underground parking garage that was used as one of the event venues. I created a heat map of the wireless signal strength in this area. In addition, we established uplinks at various locations to support ticket booths, CCTV cameras, payment terminals for bars, a production office, and emergency liaison cabins.]]></summary>
+        <content type="html"><![CDATA[<p>During this deployment, we faced a physically challenging task. We mounted two sectors on the 18th floor of a tower block that was next to the site. From there, we transmitted the signal to multiple wireless point-to-point stations that were attached to temporary structures and buildings within the site. We also provided indoor wireless coverage in an underground parking garage that was used as one of the event venues. I created a heat map of the wireless signal strength in this area. In addition, we established uplinks at various locations to support ticket booths, CCTV cameras, payment terminals for bars, a production office, and emergency liaison cabins.</p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modeling a Spherical Solar Concentrator]]></title>
+        <id>modeling-a-spherical-solar-concentrator</id>
+        <link href="https://reubenliengaard.github.io/blog/modeling-a-spherical-solar-concentrator"/>
+        <updated>2021-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus Plushie]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/solar-concentrator-1-ad93c8af9d3ae3260d0f3868784455c9.jpg" width="4592" height="3448" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/solar-concentrator-3-e219fb0426d36846e8be8dc7d33746c2.jpg" width="718" height="521" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/solar-concentrator-4-5274580557a604c66ded0bb0545bc923.jpg" width="1700" height="1610" class="img_ev3q"></p><h1>Designing a Spherical Solar Concentrator</h1>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modeling a truss connection]]></title>
+        <id>modeling-a-truss-connection</id>
+        <link href="https://reubenliengaard.github.io/blog/modeling-a-truss-connection"/>
+        <updated>2021-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus Plushie]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-1-262854f9f04c2addb3451e2e0e292058.jpg" width="476" height="442" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-2-246d90b00e94dc787904ed511746731a.jpg" width="4592" height="3448" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-3-c6a73cf924e89c582875520935c6855e.png" width="573" height="324" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
