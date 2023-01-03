@@ -13,9 +13,7 @@ tags: [hello, docusaurus]
 ![Docusaurus Plushie](/img/price-paid-parcel.jpg)
 
 
-Concatenating the three price paid files together into one file, removing unnecessary field quotes,
-selecting only rows which contain the string GL followed by a number between zero and nine, then printing
-out only columns four and two, adding column names, then deleting rows containing null values.
+We combined three separate files containing price paid data into a single file, removed unnecessary quotes, selected only rows that contained the string "GL" followed by a number between 0 and 9, and printed out only the fourth and second columns. We also added column names and deleted any rows that contained null values.
 
 ```
 $ cat pp-2018.csv pp-2019.csv pp-2020.csv | tr -d '"' > pp_3year.csv \
@@ -25,7 +23,7 @@ $ cat pp-2018.csv pp-2019.csv pp-2020.csv | tr -d '"' > pp_3year.csv \
 ```
 ## Prepare location data
 
-Applying the same process as for the price data, minus the concatenation.
+We used the same process to clean and filter the data as we did for the price data, except we did not need to concatenate multiple files together.
 
 ```
 $ awk -F"," '/GL+[0-9]/ { print $1 "," $8 "," $9}' open_postcode_geo.csv >
@@ -37,8 +35,7 @@ coordinates.csv \
 ## Import parcels
 
 
-Using ogr2ogr to convert the cadastral parcels GML file into PostgreSQL file, projecting it from OSGB
-to WGS84, and importing it into the database.
+We used ogr2ogr to convert a file containing cadastral parcel information (in GML format) into a PostgreSQL file, changed the projection of the data from OSGB to WGS84, and imported it into a database.
 
 ```
 ogr2ogr \
@@ -53,15 +50,14 @@ Land_Registry_Cadastral_Parcels.gml
 ```
 ## Connect to server
 
-Starting a psql instance on the client in order to interact with the database on the server.
+We started a psql session on the client computer to allow us to communicate with the database that is stored on the server.
 
 ```
 psql -h 192.168.88.10 -U postgres gis
 ```
 ## Create prices table
 
-Creating a new empty table, with an auto incrementing primary key of type serial, and text and integer
-columns for postcodes and pounds respectively.
+We created a new empty table with a primary key column of type serial (which will automatically increment) and two additional columns: one for text data (postcodes) and one for integer data (pounds).
 
 ```
 CREATE TABLE prices (
@@ -72,8 +68,7 @@ pounds INTEGER NOT NULL
 ```
 ## Create location table
 
-Creating a similar empty table for locations, but with latitude, and longitude columns rather instead of a
-pounds column.
+We created a similar empty table for storing location data, but with columns for latitude and longitude rather than a column for pounds.
 
 ```
 CREATE TABLE coordinates (
@@ -86,7 +81,7 @@ longitude FLOAT NOT NULL
 ## Populate prices table
 
 
-Importing the prices data into the new price column using the \copy command in psql.
+We used the \copy command in psql to import the price data into the new price column in the database.
 
 ```
 \copy prices(p_postcode, pounds) FROM '/home/reuben/Downloads/prices.csv'
@@ -94,7 +89,7 @@ DELIMITER ',' CSV HEADER;
 ```
 ## Populate coordinates table
 
-Repeating the process for the coordinates data.
+We repeat the process for the coordinates data.
 
 ```
 \copy coordinates(c_postcode, latitude, longitude) FROM
@@ -102,8 +97,7 @@ Repeating the process for the coordinates data.
 ```
 # Join coordinates and prices into points
 
-Using the SQL join command to make a new table containing the prices and coordinates which share the
-same postcode.
+We used the JOIN command in SQL to create a new table that combines the prices and coordinates data based on their shared postcodes.
 
 ### SELECT
 
@@ -119,15 +113,14 @@ ON coordinates.c_postcode = prices.p_postcode;
 ```
 # Add geometry column to points
 
-Adding an geometry column to the new table.
+We added a new column to the table to store geometry data.
 
 ```
 ALTER TABLE points ADD COLUMN geom GEOMETRY(Point, 4326 );
 ```
 # Update points from coordinates
 
-Populating the geometry column with points created using the contents of the latitude and longitude
-columns.
+We used the data in the latitude and longitude columns to create points and stored them in the geometry column.
 
 
 ```
@@ -136,8 +129,7 @@ latitude), 4326 );
 ```
 # Create priced polygons
 
-Creating a duplicate polygon for every point it contains, and appending the point price paid to it.
-
+For each point within a polygon, we created a new polygon and added the corresponding price paid for the point to it.
 ### SELECT
 
 ```
@@ -151,8 +143,7 @@ ON st_contains(parcels.wkb_geometry, points.geom);
 ```
 ## Find avarage point value for duplicate polygons
 
-Avaraging the values of the duplicate polygons into one. I'm sure there must be a more efficient way of
-doing this with less steps, I will have to look into it.
+We calculated the average value for each of the duplicate polygons.
 
 ```
 SELECT c_id,geom,avg(pounds)
@@ -162,7 +153,7 @@ GROUP BY geom;
 ```
 ## Import new price paid polygons to file
 
-Using Qgis to export the table from the database.
+We used QGIS to export the table from the database.
 
 ```
 Qgis > Database > DB Manager > Import Layer/File - Name: avg_polygons
@@ -178,7 +169,7 @@ Vector Dataset(s): .shp
 ```
 ## Colour polygons by attribute field
 
-Tweaking the layer properties in order to create a nice visual effect.
+We modified the layer properties in order to create a visually appealing effect.
 
 ```
 Right click: Layer > Properties
@@ -191,5 +182,4 @@ Colour Ramp: Spectral
 Invert Colour Ramp
 Segmentation: Equal Interval
 ```
-I think that some of the postcodes have fallen outside of their intended polygons, for the next project I will
-use a set of polygons with less resolution.
+It appears that some of the postal codes are not being properly associated with the intended polygons. For the next project, we will use a set of polygons with lower resolution to see if this improves the accuracy of the data.

@@ -2,4 +2,4 @@
 sidebar_position: 4
 ---
 
-# Designing a spherical solar concentrator with Lady Bug
+# Modeling a spherical solar concentrator with Lady Bug

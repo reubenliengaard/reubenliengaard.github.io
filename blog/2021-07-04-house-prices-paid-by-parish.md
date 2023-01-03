@@ -10,7 +10,7 @@ tags: [hello, docusaurus]
 
 # House prices paid by parish
 
-To obtain the latitude and longitude positions of each house sale value, the house price paid postcodes from the land registry were cross-referenced with OS code point data. The UK parish data was then uploaded to PostGIS, and an SQL query was used to calculate the average price within each parish. This information was imported into QGIS and used to apply a style to the parish polygons based on the average value..
+To determine the latitude and longitude coordinates of each house sale, we used information from the land registry about the price paid for each house and matched it with postal code data from the Ordnance Survey. We imported this data into a database called PostGIS and used a query written in SQL to calculate the average price of homes in each parish. We then used a software called QGIS to display this information visually by coloring the polygons (shapes) representing each parish based on the average price.
 
 
 
@@ -19,8 +19,7 @@ To obtain the latitude and longitude positions of each house sale value, the hou
 
 ## Download data
 
-Donloading a csv file of property price paid data for each of the last three years, postcode coordinates, and
-boundry line polygons.
+We downloaded a CSV file that contained property price data for the past three years, along with the postal code coordinates and boundary line polygons.
 
 ```
 $ wget bdline_gpkg_gb.zip
@@ -29,8 +28,7 @@ $ wget bdline_gpkg_gb.zip
 ```
 ## Import bdline
 
-Using ogr2ogr to convert the boundry line GeoPackage file into PostgreSQL file, reprojecting it from
-OSGB1936 to WGS84, and importing it into the database.
+We used ogr2ogr to convert a file containing boundary lines (in a format called GeoPackage) into a PostgreSQL file, changed the projection of the data from OSGB1936 to WGS84, and imported it into a database.
 
 ```
 ogr2ogr \
@@ -53,9 +51,7 @@ psql -h 192.168.88.10 -U postgres gis
 ```
 # Create priced paid polygons for every point
 
-Using the point data already present in the database from the previous project to create a duplicate
-polygon from the parish geometry table for every point each polygon contains, and appending the point
-price paid to it.
+We used point data that was already in the database from a previous project to create a new polygon for each point that was within the boundaries of a parish. We also added the price paid for each house (the point) to the corresponding polygon.
 
 ### SELECT
 
@@ -69,7 +65,7 @@ ON st_contains(parish.geom, points.geom);
 ```
 ## Find avarage point value for duplicate polygons
 
-As in the previous project, avaraging the values of the duplicate polygons back one.
+Like in the the previous project, we calculated the average value for each of the duplicate polygons.
 
 ```
 SELECT geom,avg(pounds)
