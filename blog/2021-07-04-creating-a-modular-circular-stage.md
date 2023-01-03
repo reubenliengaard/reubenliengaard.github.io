@@ -6,21 +6,21 @@ tags: [hola, docusaurus]
 ---
 
 # Creating a modular circular stage
-We were asked to design and build a circular stage for a Cyr wheel performance in Gifford's Circus. The stage had to have a diameter of 6 meters and be able to be broken down into pieces small enough to fit through the 3 meter wide door of the circus tent. 
+We were asked to design and build a circular stage for a Cyr wheel performance in Gifford's Circus. The stage had to have a diameter of 6 meters and be able to be broken down into pieces small enough to fit through the 2.6 meter wide door of the circus tent. 
 
 
 ![Docusaurus Plushie](/img/stage-3.jpg)
 
 
-It also had to be sturdy enough to support the weight of the performers, but light enough to be easily assembled by two people in a few minutes. The stage had to be flat and level, even on rough ground, and have a system for quickly leveling it. The pieces needed to connect securely and align easily without leaving a bump at the join, as this would interfere with the Cyr wheel. We considered many different patterns for the circle and sought a balance between making the pieces small enough to fit through the door and light enough to carry, but not so small that the stage would be difficult or time-consuming to assemble and have too many joins. 
+It also had to be sturdy enough to support the weight of the performers, but light enough to be easily assembled by two people in a few minutes, meaning each panel could weigh no more than 50kg. The stage had to be flat and level, despite being sited on rough ground, so we had to desig a system for quickly leveling it. The pieces needed to connect securely and align easily without a lip at the join, as this would interfere with the Cyr wheel. We considered many different patterns for the circle and sought a balance between making the pieces small enough to fit through the door and light enough to carry, but not so small that the stage would be difficult or time-consuming to assemble. 
 
 
 ![Docusaurus Plushie](/img/stage-4.jpg)
 
-We also had to consider the number of legs needed for stability and the speed of the leveling process. The stage had to be durable enough to withstand the rough handling and moisture of circus life. We researched various composite panels and ultimately chose one made of an XPS core sandwiched between two layers of glass fiber and coated with a hard, durable floor paint. 
+We also had to consider the number of legs needed for stability and the speed of the leveling process. The stage had to be durable enough to withstand the rough handling and moisture of circus life. We researched various composite panels and ultimately chose one made of an XPS core sandwiched between two layers of extra durable fibreglass, with a non slip coating.
 
 
-The material was cut into the necessary shapes and had a hot wire cutter with a rectangular profile used to remove the foam from the mating edges, leaving only the outer material. An aluminum extrusion was then bonded to the space with adhesive. The aluminum provided protection for the edge, supported the edge to prevent deflection, and had a slot that accommodated the removable leg structure connecting the panels. 
+The material was cut into the necessary shapes and a hot wire cutter with a rectangular profile was used to remove the foam from the mating edges, leaving only the outer fibreglass material. Adhesive was applied and aluminum extrusion pressed into the edges of the panels. The aluminum provided protection for the edge, supported the edge to prevent deflection, and provided the slot that accommodated the removable leg structure connecting the panels together. 
 
 ![Docusaurus Plushie](/img/stage-7.jpg)
 
