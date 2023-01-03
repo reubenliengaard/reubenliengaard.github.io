@@ -1,6 +1,6 @@
 ---
 slug: manchester-pride
-title: Manchester Pride - Ruckus wireless heatmap
+title: Manchester Pride  wireless heatmap
 authors: reubenliengaard
 tags: [hola, docusaurus]
 ---

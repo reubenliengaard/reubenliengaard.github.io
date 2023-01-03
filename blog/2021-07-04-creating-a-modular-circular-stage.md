@@ -27,6 +27,7 @@ The material was cut into the necessary shapes and a hot wire cutter with a rect
 ![Docusaurus Plushie](/img/stage-8.jpg)
 
 The leg structures were placed at the intersection of three panels and had three pieces of steel box section fitted within the aluminum U channels and welded at 120 degree increments to form a three-directional cross. 
+
 ![Docusaurus Plushie](/img/stage-2.jpg)
 
 
