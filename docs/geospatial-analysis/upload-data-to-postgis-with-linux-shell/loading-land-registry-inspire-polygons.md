@@ -14,9 +14,14 @@ wget https://use-land-property-
 data.service.gov.uk/datasets/inspire/download/Stroud.zip \
 && unzip Stroud.zip
 ```
+
+``` bash
+psql -h localhost -p 5432 -U postgres -P postgres -d public
+```
+
 ### create table
 ```sql
-CREATE TABLE shapefile_table (
+CREATE TABLE inspire-polygons-stroud (
   geom geometry(Geometry,4326),
   properties jsonb
 );
@@ -25,12 +30,12 @@ CREATE TABLE shapefile_table (
 ### Import parcels
 Using ogr2ogr 
 ``` bash
-ogr2ogr -f "PostgreSQL" "PG:host=localhost user=username dbname=database_name password=password" path/to/shapefile.shp -nln shapefile_table
+ogr2ogr -f "PostgreSQL" "PG:host=localhost user=postgres dbname=public password=passwopostgres rd" *.shp -nln inspire-polygons-stroud
 ```
 
 ## Create spatial index
 ``` sql
-CREATE INDEX shapefile_table_gist ON shapefile_table USING GIST (geom);
+CREATE INDEX inspire-polygons-stroud-gist ON inspire-polygons-stroud USING GIST (geom);
 ```
 
 ## References

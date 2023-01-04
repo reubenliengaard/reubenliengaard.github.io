@@ -4,9 +4,13 @@ sidebar_position: 1
 
 # Loading Bristol city council GeoJson files
 
+``` bash
+psql -h localhost -p 5432 -U postgres -P postgres -d public
+```
+
 ### Create table to store geojson data
 ``` sql
-CREATE TABLE geojson_table (
+CREATE TABLE bristol-council (
   geom geometry(Geometry,4326),
   properties jsonb
 );
@@ -14,14 +18,14 @@ CREATE TABLE geojson_table (
 
 ### Convert to PostGIS geometry format
 ```bash
-ogr2ogr -f "PostgreSQL" "PG:host=localhost user=username dbname=database_name password=password" path/to/geojson_data.geojson -nln geojson_table
+ogr2ogr -f "PostgreSQL" "PG:host=0.0.0.0 user=postgres dbname=public password=postgres" *.geojson -nln bristol-council
 ```
 
 
 ### Adda spatial index
 
 ``` sql
-CREATE INDEX geojson_table_gist ON geojson_table USING GIST (geom);
+CREATE INDEX bristol-council ON bristol-council USING GIST (geom);
 ```
 
 
