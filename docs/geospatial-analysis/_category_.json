@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Setup a spatial database, upload data into it, then perform spatial analasis by running spatial queries"
+    "description": "Geospatial analysis is another key area where AI and related technologies can be applied. By using a PostGIS database to store and analyze geospatial data, developers can create more accurate and detailed maps, as well as identify patterns and trends in the data. This can be particularly useful for applications such as disaster response, urban planning, and agriculture."
   }
 }
