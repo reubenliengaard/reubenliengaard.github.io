@@ -4,17 +4,13 @@ sidebar_position: 2
 
 # Installing Cisco Cloud Wireless Controller with KVM
 
-## To to
-- setup linux networking bridge
-
-## Introduction
-Cisco c9800-CL with KVM
+## Cisco c9800-CL with KVM
 
 ### What?
 
-> The Cisco Catalyst 9800-CL is the next generation of enterprise-class wireless controller for cloud that runs open Cisco IOS XE Software and sets the standard for always-on and secure wireless network, bringing the world's most popular wireless networking platform to AWS
+The Cisco Catalyst c9800-CL is a wireless controller that is part of the Cisco Catalyst 9800 series. It is designed to manage and secure wireless networks, and provides features such as wireless intrusion prevention, location services, and guest access. The c9800-CL model is a cloud-based controller that is designed to be deployed in a virtual environment, and can be used to manage both on-premises and cloud-based wireless networks.
 
-### 
+### Install KVM
 ``` bash
 sudo dnf group install --with-optional virtualization
 ```
@@ -25,11 +21,8 @@ sudo systemctl start libvirtd && sudo systemctl enable libvirtd
 
 > We use the backing_store option to virt-install --disk to quickly create a new disk image and avoid writing to the original image we have downloaded. This new disk image can be easily thrown away.
 
-CTRL + ] to exit kvm
-to destroy run
-virsh destroy fcos
-virsh undefine --remove-all-storage fcos
-
+## Create network bridge
+???
 
 ## Install Virtual Machine
 ``` bash
@@ -42,7 +35,7 @@ virt-install \
 --hvm \
 --import \
 --name=my_c9k_vm \
---disk path=C9800-CL.qcow2,bus=ide,format=qcow2 \
+--disk path=C9800-CL.qcow2,bus=ide,format=qcow2,backing_store \
 --vcpus=1,sockets=1,cores=1,threads=1 \
 --ram=4096 \
 --network=network:br10,model=virtio \
@@ -52,6 +45,14 @@ virt-install \
 
 ```
 
+### To exit kvm
+CTRL + ] 
+
+### To destroy
+``` bash
+virsh destroy fcos
+virsh undefine --remove-all-storage fcos
+```
 
 ### Enter these commands on the controller to setup the web gui
 
@@ -98,3 +99,7 @@ ntp server pool.ntp.org
 [FedoraVirtGuide](https://docs.fedoraproject.org/en-US/quick-docs/getting-started-with-virtualization/)
 
 [CiscoGuide](https://www.cisco.com/c/en/us/td/docs/wireless/controller/9800/9800-cloud/installation/b-c9800-cl-install-guide/installing_the_controller_in_kvm_environment.html)
+
+[CiscoSal](https://youtu.be/6ttSeDTODWM)
+
+[wireless_boi](https://youtu.be/MeDwvj0LxhU)

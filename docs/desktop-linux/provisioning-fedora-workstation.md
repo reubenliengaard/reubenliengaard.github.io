@@ -11,6 +11,7 @@ sidebar_position: 4
 - wallpaper
 - shell
 
+This script installs and updates various packages and tools on a Fedora system. It installs the PostgreSQL database management system, the RPM Fusion repositories, and the Flathub repository. It also updates the system's packages and firmware, installs the Gnome Tweak Tool, some tools for working with CoreOS, and sets some configuration options for dnf (the Fedora package manager).
 
 ``` bash
 #!/bin/bash
