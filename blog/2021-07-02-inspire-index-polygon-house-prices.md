@@ -1,12 +1,11 @@
 ---
-slug: house-price-parcels
-title: House prices paid parcels
+slug: inspire-index-polygon-house-prices
+title: INSPIRE Index Polygon House Prices - A Map of Average Sale Prices
 authors: reubenliengaard
 tags: [hello, docusaurus]
 ---
 
-# House prices paid by parish
-
+# INSPIRE Index Polygon House Prices - A Map of Average Sale Prices
 
 ## Prepare prices data
 
