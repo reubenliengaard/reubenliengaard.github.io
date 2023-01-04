@@ -9,7 +9,7 @@ sidebar_position: 5
 ### Connect to database
 
 ``` bash
-psql -h localhost -p 5432 -U postgres -P postgres -d public
+psql -h localhost -p 5432 -U postgres  -d public
 ```
 
 ## Create table
@@ -23,7 +23,7 @@ CREATE TABLE bristol-osmm-satellite-imagery (
 
 ### raster2pgsql
 ``` bash
-raster2pgsql -s 27700 -I -C -M *.tif -F bristol-osmm-satellite-imagery | psql -h localhost -d public -U username -P postgres
+raster2pgsql -s 27700 -I -C -M *.tif -F bristol-osmm-satellite-imagery | psql -h localhost -d public -U postgres -P postgres
 ```
 
 ### ogr2ogr

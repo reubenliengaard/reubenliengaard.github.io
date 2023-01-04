@@ -5,7 +5,7 @@ sidebar_position: 1
 # Loading Bristol city council GeoJson files
 
 ``` bash
-psql -h localhost -p 5432 -U postgres -P postgres -d public
+psql -h localhost -p 5432 -U postgres -d public
 ```
 
 ### Create table to store geojson data

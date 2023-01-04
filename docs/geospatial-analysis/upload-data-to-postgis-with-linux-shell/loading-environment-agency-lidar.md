@@ -5,7 +5,7 @@ sidebar_position: 5
 # Loading land registry lidar 
 
 ``` bash
-psql -h localhost -p 5432 -U postgres -P postgres -d public
+psql -h localhost -p 5432 -U postgres -d public
 ```
 
 ## Create table
@@ -19,7 +19,7 @@ CREATE TABLE bristol-lidar-dtm (
 
 ### raster2pgsql
 ``` bash
-raster2pgsql -s 27700 -I -C -M *.tif -F bristol-lidar-dtm | psql -h localhost -d public -U username -P postgres
+raster2pgsql -s 27700 -I -C -M *.tif -F bristol-lidar-dtm | psql -h localhost -d public -U postgres -P postgres
 ```
 
 ### ogr2ogr

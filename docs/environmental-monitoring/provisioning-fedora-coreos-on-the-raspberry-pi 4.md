@@ -4,12 +4,7 @@ sidebar_position: 1
 
 # Provisioning Fedora CoreOS on the Raspberry Pi 4
 
-## To do
-- setup MQTT gateway
-- write CoreOS to SD and boot pi with external monitor
-- test whether /dev/ttyAMA0 is accesible with CoreOS on RPI4
-
-### Install stuff
+### Install CoreOS tools
 ``` bash
 sudo dnf install -y rpi-imager coreos-installer butane ignition-validate
 ```
@@ -20,7 +15,7 @@ mkdir ~/coreos
 cd ~/coreos
 ``` 
 
-### Download image
+### Download CoreOS image
 ``` bash
 coreos-installer download -p qemu -f qcow2.xz --decompress
 ```
@@ -29,7 +24,6 @@ coreos-installer download -p qemu -f qcow2.xz --decompress
 ``` bash
 mv *.qcow2 fedora-coreos.qcow2
 ```
-
 
 ### Create rpict.bu 
 ``` yaml
@@ -125,8 +119,6 @@ virt-install --name=fcos --vcpus=2 --ram=2048 --os-variant=fedora-coreos-stable 
     --qemu-commandline="-fw_cfg name=opt/com.coreos/config,file=${PWD}/rpict.ign" \
     --disk=size=20,backing_store=${PWD}/fedora-coreos.qcow2
 ```
-
-
 ### Destroy
 CTRL + ] to exit kvm
 to destroy run
@@ -140,3 +132,8 @@ sudo coreos-installer install --architecture=aarch64 -i config.ign
 ```
 ## Reference
 [FedoraOnRpi](https://docs.fedoraproject.org/en-US/fedora-coreos/provisioning-raspberry-pi4/)
+
+### To do
+- setup MQTT gateway
+- write CoreOS to SD and boot pi with external monitor
+- test whether /dev/ttyAMA0 is accesible with CoreOS on RPI4

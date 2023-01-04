@@ -4,11 +4,6 @@ sidebar_position: 2
 
 # Setting up InfluxDB Database Server with Podman
 
-## To do
-- mosquitto configuration
-- influxdb directory
-
-
 First create a pod and inflluxdb container using podman, then generate a YAML file using podman play.
 
 The YAML file can be used to recreate the pod in podman, or in kubernetes.
@@ -167,3 +162,7 @@ podman play kube monitoring-stack.yaml
 
 ### Reference
 [Oracle-Base](https://oracle-base.com/articles/linux/podman-generate-and-play-kubernetes-yaml-files#:~:text=Podman%20can%20generate%20Kubernetes%20YAML,similar%20to%20Docker%20Compose%20files.)
+
+### To do
+- mosquitto configuration
+- influxdb directory
