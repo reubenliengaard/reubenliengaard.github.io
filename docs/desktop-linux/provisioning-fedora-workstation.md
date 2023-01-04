@@ -4,13 +4,6 @@ sidebar_position: 4
 
 # Provisioning Fedora Workstation
 
-## To do
-- qgis
-- psql
-- pgadmin4
-- wallpaper
-- shell
-
 This script installs and updates various packages and tools on a Fedora system. It installs the PostgreSQL database management system, the RPM Fusion repositories, and the Flathub repository. It also updates the system's packages and firmware, installs the Gnome Tweak Tool, some tools for working with CoreOS, and sets some configuration options for dnf (the Fedora package manager).
 
 ``` bash
@@ -57,3 +50,9 @@ sudo fwupdmgr update
 # Install Gnome Tweak Tool and tool for working with CoreOS
 sudo dnf install gnome-tweak-tool rpi-imager coreos-installer
 ```
+### To do
+- qgis
+- psql
+- pgadmin4
+- wallpaper
+- shell

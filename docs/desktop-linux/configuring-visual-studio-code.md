@@ -4,13 +4,14 @@ sidebar_position: 5
 
 # Configuring Visual Studio Code
 
-## Generate list of extensions from current install
+### Generate list of extensions from existing installation
 When this command is run, it will generate a list of all the installed Visual Studio Code extensions and save it to the extensions.md file. The extension names will be listed one per line in the file.
 
 ``` bash
 code --list-extensions > extensions.md
 ```
 
+Here's the resulting file
 ### extensions.md
 ``` md
 aaron-bond.better-comments
