@@ -15,25 +15,34 @@ sidebar_position: 4
 ``` bash
 #!/bin/bash
 
-# Install the PostgreSQL repository
-sudo rpm -i https://ftp.postgresql.org/pub/pgadmin/pgadmin4/yum/pgadmin4-fedora-repo-2-1.noarch.rpm
+# Set Fedora version
+FEDORA_VER=$(rpm -E %fedora)
 
-# Install pgadmin4
-sudo yum install pgadmin4
+# Set URLs for RPM Fusion repositories
+FREE_REPO_URL="https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-${FEDORA_VER}.noarch.rpm"
+NONFREE_REPO_URL="https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-${FEDORA_VER}.noarch.rpm"
+
+# Set URL for pgAdmin4 repository
+PGADMIN_REPO_URL="https://ftp.postgresql.org/pub/pgadmin/pgadmin4/yum/pgadmin4-fedora-repo-2-1.noarch.rpm"
 
 # Set dnf configuration options
 echo 'max_parallel_downloads=10' | sudo tee -a /etc/dnf/dnf.conf
 echo 'fastestmirror=True' | sudo tee -a /etc/dnf/dnf.conf
 
-# Update and upgrade packages
-sudo dnf update && sudo dnf upgrade
+# Add the PostgreSQL repository
+sudo rpm -i "$PGADMIN_REPO_URL"
+
+# Install pgadmin4
+sudo dnf install pgadmin4
 
 # Install RPM Fusion repositories
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install "$FREE_REPO_URL" "$NONFREE_REPO_URL"
 
 # Add Flathub repository
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+# Update and upgrade packages
+sudo dnf update && sudo dnf upgrade
 
 # Refresh package list and update core packages
 sudo dnf upgrade --refresh
@@ -44,33 +53,6 @@ sudo fwupdmgr refresh --force
 sudo fwupdmgr get-updates
 sudo fwupdmgr update
 
-# Install Gnome Tweak Tool
-sudo dnf install gnome-tweak-tool
-
-# Install tool for working with CoreOS
-sudo dnf install -y rpi-imager coreos-installer butane ignition-validate
-
-# Enable display of battery percentage
-gsettings set org.gnome.desktop.interface show-battery-percentage true
-
-# Install Gnome Extensions
-flatpak install org.gnome.Extensions
-
-# Install fonts
-sudo dnf install -y ibm-plex-fonts-all 'google-roboto*' 'mozilla-fira*' fira-code-fonts
-
-# Install TLP and vim
-sudo dnf install tlp tlp-rdw
-sudo dnf install -y unzip ranger vim
-
-# Install Qgis
-sudo dnf install qgis
-
-
-# Install zsh
-sudo dnf istall zsh fzf
-
-## Install on my-zsh
-git clone --depth 1 https://github.com/qoomon/my-zsh.git "$HOME/.zsh" && $HOME/.zsh/install.zsh
-
+# Install Gnome Tweak Tool and tool for working with CoreOS
+sudo dnf install gnome-tweak-tool rpi-imager coreos-installer
 ```
