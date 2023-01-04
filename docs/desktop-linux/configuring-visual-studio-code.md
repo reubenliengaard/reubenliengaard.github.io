@@ -29,8 +29,6 @@ yzhang.markdown-all-in-one
 
 ### Install extensions from md file
 
-This is a command that installs Visual Studio Code extensions from extensions.md.
-
 The xargs command is used to build and execute a command from standard input. It takes the input, splits it into separate arguments (using the -n1 option, which means to take one argument at a time), and then runs the specified command (in this case, code --install-extension) on each argument.
 
 The < extensions.md part of the command passes the contents of the extensions.md file as standard input to the xargs command.
