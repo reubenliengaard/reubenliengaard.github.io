@@ -2,16 +2,15 @@
 sidebar_position: 2
 ---
 
-# Rename all linux frendly
+# Extract all zips
 
-### The command below will find all files with the .zip extension and then unzip them.
+This script will find all .zip files in the current directory and its subdirectories, and it will unzip each of them.
 
 ``` bash
 #!/usr/bin/bash
 find . -name "*.zip" -exec unzip {} \;
 ```
 
-## Conclusion
 
 ## References
 
