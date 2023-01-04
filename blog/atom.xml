@@ -8,9 +8,9 @@
     <subtitle>Reuben Liengaard Blog</subtitle>
     <icon>https://reubenliengaard.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[System for mounting wireless hardware to marquee keeder rail]]></title>
-        <id>system-for-mounting-wireless-hardware-to-marquee-keeder-rail</id>
-        <link href="https://reubenliengaard.github.io/blog/system-for-mounting-wireless-hardware-to-marquee-keeder-rail"/>
+        <title type="html"><![CDATA[Mounting Wireless Hardware]]></title>
+        <id>mounting-wireless-hardware</id>
+        <link href="https://reubenliengaard.github.io/blog/mounting-wireless-hardware"/>
         <updated>2022-05-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Wireless access points and point-to-point links are installed on the aluminum extrusion structural elements of outdoor event marquees using a system that utilizes a keeder rail. This rail accommodates a cylindrical metal piece with a threaded hole drilled perpendicular to its length. This metal piece can slide along the keeder rail and be secured in place by turning a large, flat disk with a threaded hole in the center to tighten it in. This setup supports a pipe clamp that fits standard aluminum poles. Two of these are used per pole, to securly anchor the pole vertically on the side of the tent.]]></summary>
         <content type="html"><![CDATA[<p>Wireless access points and point-to-point links are installed on the aluminum extrusion structural elements of outdoor event marquees using a system that utilizes a keeder rail. This rail accommodates a cylindrical metal piece with a threaded hole drilled perpendicular to its length. This metal piece can slide along the keeder rail and be secured in place by turning a large, flat disk with a threaded hole in the center to tighten it in. This setup supports a pipe clamp that fits standard aluminum poles. Two of these are used per pole, to securly anchor the pole vertically on the side of the tent.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/clamp-2-e4b9c5f251ca653bb54536f8fbeac9e2.jpg" width="4032" height="3024" class="img_ev3q"></p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/clamp-3-bf41914d25c1ad3f8d67fd43bece0453.jpg" width="3120" height="4160" class="img_ev3q"></p>]]></content>
@@ -22,26 +22,12 @@
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Constructing a 3d egg shape from regular polygons]]></title>
-        <id>constructing-a-3d-egg-shape-from-regular-polygons</id>
-        <link href="https://reubenliengaard.github.io/blog/constructing-a-3d-egg-shape-from-regular-polygons"/>
-        <updated>2021-07-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We were asked by an artist to help find a a geometry which could be used to create a large egg sculpture.]]></summary>
-        <content type="html"><![CDATA[<p>We were asked by an artist to help find a a geometry which could be used to create a large egg sculpture.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/egg-1-2edd5330f8680fdf901b10dfe36b1e4f.jpg" width="655" height="527" class="img_ev3q"></p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/egg-2-128d75277af2454dd729a83dce079a5f.jpg" width="1209" height="512" class="img_ev3q"></p>]]></content>
-        <author>
-            <name>Reuben Liengaard</name>
-            <uri>https://reubenliengaard.github.io</uri>
-        </author>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating a modular circular stage]]></title>
-        <id>creating-a-modular-circular-stage</id>
-        <link href="https://reubenliengaard.github.io/blog/creating-a-modular-circular-stage"/>
-        <updated>2021-07-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We were asked to design and build a circular stage for a Cyr wheel performance in Gifford's Circus. The stage had to have a diameter of 6 meters and be able to be broken down into pieces small enough to fit through the 2.6 meter wide door of the circus tent.]]></summary>
-        <content type="html"><![CDATA[<p>We were asked to design and build a circular stage for a Cyr wheel performance in Gifford's Circus. The stage had to have a diameter of 6 meters and be able to be broken down into pieces small enough to fit through the 2.6 meter wide door of the circus tent. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-3-f13d41dad830cad645c00222c4afabd5.jpg" width="1018" height="1064" class="img_ev3q"></p><p>It also had to be sturdy enough to support the weight of the performers, but light enough to be easily assembled by two people in a few minutes, meaning each panel could weigh no more than 50kg. The stage had to be flat and level, despite being sited on rough ground, so we had to desig a system for quickly leveling it. The pieces needed to connect securely and align easily without a lip at the join, as this would interfere with the Cyr wheel. We considered many different patterns for the circle and sought a balance between making the pieces small enough to fit through the door and light enough to carry, but not so small that the stage would be difficult or time-consuming to assemble. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-4-367f329abb10ff4d1f0e1eede7a9c0d6.jpg" width="1041" height="773" class="img_ev3q"></p><p>We also had to consider the number of legs needed for stability and the speed of the leveling process. The stage had to be durable enough to withstand the rough handling and moisture of circus life. We researched various composite panels and ultimately chose one made of an XPS core sandwiched between two layers of extra durable fibreglass, with a non slip coating.</p><p>The material was cut into the necessary shapes and a hot wire cutter with a rectangular profile was used to remove the foam from the mating edges, leaving only the outer fibreglass material. Adhesive was applied and aluminum extrusion pressed into the edges of the panels. The aluminum provided protection for the edge, supported the edge to prevent deflection, and provided the slot that accommodated the removable leg structure connecting the panels together. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-7-536a8dc3915c3bc552fc3a732e057602.jpg" width="1041" height="773" class="img_ev3q"></p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-8-27308a0483995332cca67e02fbdec9fc.jpg" width="1058" height="752" class="img_ev3q"></p><p>The leg structures were placed at the intersection of three panels and had three pieces of steel box section fitted within the aluminum U channels and welded at 120 degree increments to form a three-directional cross. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-2-96efdfde9bce24cd310ea2c85c3adbb5.jpg" width="1011" height="769" class="img_ev3q"></p><p>A hole was left at the intersection, into which a threaded tube was welded. An internal hex bolt or long grub screw with a foot plate on the bottom was threaded into the tube and could be adjusted from above through a small hole in the stage using an allen key bit on an impact driver. This arrangement allowed for a push-fit assembly process that was fast, and the legs were extended until they touched the ground to level the stage. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-6-2cb158e56730a299f2ecd3b9b490e4ac.jpg" width="1059" height="832" class="img_ev3q"></p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-1-82e129b0df05a3dc89abe4fe84e5cd34.jpg" width="985" height="1547" class="img_ev3q"></p><p>The pieces were held together with inner steel box section curved on the outer curved edge and a large ratchet strap was used to wrap around the entire structure and compress the circle inward, pulling all the pieces together.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-10-ca0b1f0d0eec65bb8455d9793ed7390e.jpg" width="861" height="1302" class="img_ev3q"></p>]]></content>
+        <title type="html"><![CDATA[Manchester Pride  wireless heatmap]]></title>
+        <id>manchester-pride</id>
+        <link href="https://reubenliengaard.github.io/blog/manchester-pride"/>
+        <updated>2021-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[During this deployment, we faced a physically challenging task. We mounted two sectors on the 18th floor of a tower block that was next to the site. From there, we transmitted the signal to multiple wireless point-to-point stations that were attached to temporary structures and buildings within the site. We also provided indoor wireless coverage in an underground parking garage that was used as one of the event venues. We created a heat map of the wireless signal strength in this area. In addition, we established uplinks at various locations to support ticket booths, CCTV cameras, payment terminals for bars, a production office, and emergency liaison cabins.]]></summary>
+        <content type="html"><![CDATA[<p>During this deployment, we faced a physically challenging task. We mounted two sectors on the 18th floor of a tower block that was next to the site. From there, we transmitted the signal to multiple wireless point-to-point stations that were attached to temporary structures and buildings within the site. We also provided indoor wireless coverage in an underground parking garage that was used as one of the event venues. We created a heat map of the wireless signal strength in this area. In addition, we established uplinks at various locations to support ticket booths, CCTV cameras, payment terminals for bars, a production office, and emergency liaison cabins.</p>]]></content>
         <author>
             <name>Reuben Liengaard</name>
             <uri>https://reubenliengaard.github.io</uri>
@@ -53,7 +39,7 @@
         <title type="html"><![CDATA[House prices paid by parish]]></title>
         <id>house-price-paid-parish</id>
         <link href="https://reubenliengaard.github.io/blog/house-price-paid-parish"/>
-        <updated>2021-07-04T00:00:00.000Z</updated>
+        <updated>2021-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We used property sale data from the land registry and postal code data from the Ordnance Survey to determine the latitude and longitude coordinates of each house sale. We imported this data into a PostGIS database, ran an SQL query to calculate the average home price for each parish, and used QGIS to visualize the information by coloring the polygons representing each parish based on the average price.]]></summary>
         <content type="html"><![CDATA[<p>We used property sale data from the land registry and postal code data from the Ordnance Survey to determine the latitude and longitude coordinates of each house sale. We imported this data into a PostGIS database, ran an SQL query to calculate the average home price for each parish, and used QGIS to visualize the information by coloring the polygons representing each parish based on the average price. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/price-paid-parish-7dab74e8696d5ee03d431495e4fbf360.jpg" width="1630" height="886" class="img_ev3q"></p>]]></content>
         <author>
@@ -61,20 +47,6 @@
             <uri>https://reubenliengaard.github.io</uri>
         </author>
         <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manchester Pride  wireless heatmap]]></title>
-        <id>manchester-pride</id>
-        <link href="https://reubenliengaard.github.io/blog/manchester-pride"/>
-        <updated>2021-07-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[During this deployment, we faced a physically challenging task. We mounted two sectors on the 18th floor of a tower block that was next to the site. From there, we transmitted the signal to multiple wireless point-to-point stations that were attached to temporary structures and buildings within the site. We also provided indoor wireless coverage in an underground parking garage that was used as one of the event venues. We created a heat map of the wireless signal strength in this area. In addition, we established uplinks at various locations to support ticket booths, CCTV cameras, payment terminals for bars, a production office, and emergency liaison cabins.]]></summary>
-        <content type="html"><![CDATA[<p>During this deployment, we faced a physically challenging task. We mounted two sectors on the 18th floor of a tower block that was next to the site. From there, we transmitted the signal to multiple wireless point-to-point stations that were attached to temporary structures and buildings within the site. We also provided indoor wireless coverage in an underground parking garage that was used as one of the event venues. We created a heat map of the wireless signal strength in this area. In addition, we established uplinks at various locations to support ticket booths, CCTV cameras, payment terminals for bars, a production office, and emergency liaison cabins.</p>]]></content>
-        <author>
-            <name>Reuben Liengaard</name>
-            <uri>https://reubenliengaard.github.io</uri>
-        </author>
-        <category label="hola" term="hola"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
@@ -92,20 +64,6 @@
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Modeling a truss connection]]></title>
-        <id>modeling-a-truss-connection</id>
-        <link href="https://reubenliengaard.github.io/blog/modeling-a-truss-connection"/>
-        <updated>2021-07-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus Plushie]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-3-c6a73cf924e89c582875520935c6855e.png" width="573" height="324" class="img_ev3q"></p><p>We created a dodecahedron-shaped structural node for a truss, which is a device that joins multiple truss struts together at a single point. The node had 12 pentagonal faces, and each truss strut was attached to the center of one of these faces via a single bolt. This bolt passed through a hole in the center of the end cap of the strut and was secured in place by screwing it into a threaded hole in the center of the dodecahedron face. The node was made of steel and was capable of resisting the forces transmitted through the truss. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-1-262854f9f04c2addb3451e2e0e292058.jpg" width="476" height="442" class="img_ev3q"></p><p>It played a crucial role in distributing loads evenly and maintaining the stability and strength of the truss. The use of a single bolt per strut allowed for a high level of flexibility and adaptability, as the struts could be easily rearranged or removed due to their modular design.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-2-246d90b00e94dc787904ed511746731a.jpg" width="4592" height="3448" class="img_ev3q"></p>]]></content>
-        <author>
-            <name>Reuben Liengaard</name>
-            <uri>https://reubenliengaard.github.io</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[House prices paid parcels]]></title>
         <id>house-price-parcels</id>
         <link href="https://reubenliengaard.github.io/blog/house-price-parcels"/>
@@ -117,6 +75,48 @@
             <uri>https://reubenliengaard.github.io</uri>
         </author>
         <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Constructing a 3d egg shape from regular polygons]]></title>
+        <id>constructing-a-3d-egg-shape-from-regular-polygons</id>
+        <link href="https://reubenliengaard.github.io/blog/constructing-a-3d-egg-shape-from-regular-polygons"/>
+        <updated>2021-03-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We were asked by an artist to help find a a geometry which could be used to create a large egg sculpture.]]></summary>
+        <content type="html"><![CDATA[<p>We were asked by an artist to help find a a geometry which could be used to create a large egg sculpture.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/egg-1-2edd5330f8680fdf901b10dfe36b1e4f.jpg" width="655" height="527" class="img_ev3q"></p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/egg-2-128d75277af2454dd729a83dce079a5f.jpg" width="1209" height="512" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modeling a truss connection]]></title>
+        <id>modeling-a-truss-connection</id>
+        <link href="https://reubenliengaard.github.io/blog/modeling-a-truss-connection"/>
+        <updated>2021-03-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus Plushie]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-3-c6a73cf924e89c582875520935c6855e.png" width="573" height="324" class="img_ev3q"></p><p>We created a dodecahedron-shaped structural node for a truss, which is a device that joins multiple truss struts together at a single point. The node had 12 pentagonal faces, and each truss strut was attached to the center of one of these faces via a single bolt. This bolt passed through a hole in the center of the end cap of the strut and was secured in place by screwing it into a threaded hole in the center of the dodecahedron face. The node was made of steel and was capable of resisting the forces transmitted through the truss. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-1-262854f9f04c2addb3451e2e0e292058.jpg" width="476" height="442" class="img_ev3q"></p><p>It played a crucial role in distributing loads evenly and maintaining the stability and strength of the truss. The use of a single bolt per strut allowed for a high level of flexibility and adaptability, as the struts could be easily rearranged or removed due to their modular design.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-2-246d90b00e94dc787904ed511746731a.jpg" width="4592" height="3448" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating a modular circular stage]]></title>
+        <id>creating-a-modular-circular-stage</id>
+        <link href="https://reubenliengaard.github.io/blog/creating-a-modular-circular-stage"/>
+        <updated>2021-02-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We were asked to design and build a circular stage for a Cyr wheel performance in Gifford's Circus. The stage had to have a diameter of 6 meters and be able to be broken down into pieces small enough to fit through the 2.6 meter wide door of the circus tent.]]></summary>
+        <content type="html"><![CDATA[<p>We were asked to design and build a circular stage for a Cyr wheel performance in Gifford's Circus. The stage had to have a diameter of 6 meters and be able to be broken down into pieces small enough to fit through the 2.6 meter wide door of the circus tent. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-3-f13d41dad830cad645c00222c4afabd5.jpg" width="1018" height="1064" class="img_ev3q"></p><p>It also had to be sturdy enough to support the weight of the performers, but light enough to be easily assembled by two people in a few minutes, meaning each panel could weigh no more than 50kg. The stage had to be flat and level, despite being sited on rough ground, so we had to desig a system for quickly leveling it. The pieces needed to connect securely and align easily without a lip at the join, as this would interfere with the Cyr wheel. We considered many different patterns for the circle and sought a balance between making the pieces small enough to fit through the door and light enough to carry, but not so small that the stage would be difficult or time-consuming to assemble. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-4-367f329abb10ff4d1f0e1eede7a9c0d6.jpg" width="1041" height="773" class="img_ev3q"></p><p>We also had to consider the number of legs needed for stability and the speed of the leveling process. The stage had to be durable enough to withstand the rough handling and moisture of circus life. We researched various composite panels and ultimately chose one made of an XPS core sandwiched between two layers of extra durable fibreglass, with a non slip coating.</p><p>The material was cut into the necessary shapes and a hot wire cutter with a rectangular profile was used to remove the foam from the mating edges, leaving only the outer fibreglass material. Adhesive was applied and aluminum extrusion pressed into the edges of the panels. The aluminum provided protection for the edge, supported the edge to prevent deflection, and provided the slot that accommodated the removable leg structure connecting the panels together. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-7-536a8dc3915c3bc552fc3a732e057602.jpg" width="1041" height="773" class="img_ev3q"></p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-8-27308a0483995332cca67e02fbdec9fc.jpg" width="1058" height="752" class="img_ev3q"></p><p>The leg structures were placed at the intersection of three panels and had three pieces of steel box section fitted within the aluminum U channels and welded at 120 degree increments to form a three-directional cross. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-2-96efdfde9bce24cd310ea2c85c3adbb5.jpg" width="1011" height="769" class="img_ev3q"></p><p>A hole was left at the intersection, into which a threaded tube was welded. An internal hex bolt or long grub screw with a foot plate on the bottom was threaded into the tube and could be adjusted from above through a small hole in the stage using an allen key bit on an impact driver. This arrangement allowed for a push-fit assembly process that was fast, and the legs were extended until they touched the ground to level the stage. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-6-2cb158e56730a299f2ecd3b9b490e4ac.jpg" width="1059" height="832" class="img_ev3q"></p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-1-82e129b0df05a3dc89abe4fe84e5cd34.jpg" width="985" height="1547" class="img_ev3q"></p><p>The pieces were held together with inner steel box section curved on the outer curved edge and a large ratchet strap was used to wrap around the entire structure and compress the circle inward, pulling all the pieces together.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/stage-10-ca0b1f0d0eec65bb8455d9793ed7390e.jpg" width="861" height="1302" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
