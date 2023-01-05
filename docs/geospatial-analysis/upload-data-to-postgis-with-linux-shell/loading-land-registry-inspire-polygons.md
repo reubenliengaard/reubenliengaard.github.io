@@ -6,8 +6,7 @@ sidebar_position: 2
 
 ### Download data
 
-Downloading a csv file of property price paid data for each of the last three years, postcode coordinates,
-and land registry cadastral parcels for Stoud.
+Downloading a csv file of property price paid data for each of the last three years, postcode coordinates, and land registry cadastral parcels for Stoud.
 
 ``` bash
 wget https://use-land-property-
