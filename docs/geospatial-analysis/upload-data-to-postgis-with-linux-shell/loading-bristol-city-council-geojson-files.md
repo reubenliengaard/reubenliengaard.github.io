@@ -14,11 +14,11 @@ This script will create a new table in the PostgreSQL database for each .geojson
 conn_string="host=0.0.0.0 user=postgres dbname=postgres password=postgres"
 
 # Loop over all .geojson files in the directory
-for file in /path/to/directory/*.geojson; do
+for file in *.geojson; do
     # Extract the file name without the .geojson extension
     tablename=$(basename "$file" .geojson)
     # Use ogr2ogr to import the file into a new table
-    ogr2ogr -f "PostgreSQL" PG:"$conn_string" "$file" -nln "$tablename"
+    ogr2ogr -f "PostgreSQL" -s_srs EPSG:4326 -t_srs EPSG:27700 PG:"$conn_string" "$file" -nln "$tablename"
 done
 ```
 
