@@ -15,14 +15,18 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <p id="p">
-        Welcome to my personal website! My name is Reuben Liengaard and I am an designer with a background in technology and innovation.
+My name is Reuben Liengaard and I am an designer with a background in applied technology.
 
-As a hobbyist, I have a passion for using computation to solve complex problems. My areas of expertise include linux, networking, environmental monitoring, geospatial analysis, parametric modeling, and artificial intelligence. My goal is to simplify complexity and make the world a smarter, more sustainable place.
+I have a passion for using computation to solve complex problems. 
 
-I am always looking for new and creative ways to make a positive impact, and I believe that by bringing together the worlds of nature and technology, we can find innovative solutions to some of the biggest challenges facing humanity. Thank you for visiting my website, and I hope you find my work and interests interesting and inspiring.
+My areas of expertise include linux, networking, environmental monitoring, geospatial analysis, parametric modeling, and artificial intelligence. 
+
+My goal is to simplify complexity by simple code that deals with large qauntities of data in order to make the world a smarter, more sustainable place.
+
+I am always looking for creative ways to make a positive impact. I believe that by bringing together the worlds of nature and technology, we can find innovative solutions. for example we can identify  heat loss in buildings using infra-red satelite imagery, we can use data querying to find locate wildlife corridors. Thank you for visiting my website, I hope you find my work inspiring.
 
 
-Reuben's professional background encompasses a range of fields, including architecture, stone masonry, and network engineering.
+My professional background encompasses a range of fields, including architecture, stone masonry, and network engineering.
     
 He practices dry stone walling, a time-honored technique for building walls with stones. 
     
