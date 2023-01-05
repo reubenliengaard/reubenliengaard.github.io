@@ -5,7 +5,7 @@ sidebar_position: 5
 # Loading land registry lidar 
 
 ``` bash
-psql -h localhost -p 5432 -U postgres -d public
+psql -h localhost -p 5432 -U postgres 
 ```
 
 ## Create table
@@ -14,6 +14,8 @@ CREATE TABLE bristol-lidar-dtm (
   rast raster
 );
 ```
+
+SELECT * FROM public.postgres WHERE grantee='postgres';
 
 ### Load sattelite data with either raster2pgsql or ogr2ogr
 
