@@ -203,18 +203,4 @@
         <category label="hola" term="hola"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
-    <entry>
-        <title type="html"><![CDATA[Flood Risk Assessment of Pudding Brooke]]></title>
-        <id>flood-risk-assessment-of-pudding-brook</id>
-        <link href="https://reubenliengaard.github.io/blog/flood-risk-assessment-of-pudding-brook"/>
-        <updated>2017-03-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Digital Terrain Model LIDAR tiles were imported into QGIS and used to create contour polygons at 0.25m intervals. A graduated style was applied to color the polygons by their elevation. Potential sites for outbuildings were then selected in appropriate high ground locations.]]></summary>
-        <content type="html"><![CDATA[<p>Digital Terrain Model LIDAR tiles were imported into QGIS and used to create contour polygons at 0.25m intervals. A graduated style was applied to color the polygons by their elevation. Potential sites for outbuildings were then selected in appropriate high ground locations.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/pudding-brook-d25c192f63cca338f2a181d2f09cd3e2.jpg" width="1112" height="577" class="img_ev3q"></p>]]></content>
-        <author>
-            <name>Reuben Liengaard</name>
-            <uri>https://reubenliengaard.github.io</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
 </feed>
