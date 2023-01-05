@@ -30,19 +30,24 @@ We used ogr2ogr to convert a file containing cadastral parcel information (in GM
 ogr2ogr \
 -f "PostgreSQL" \
 -a_srs "EPSG:27700" \
--t_srs "EPSG:4326" \
+-t_srs "EPSG:27700" \
 -nln parcels \
 -progress \
-PG:"dbname='gis' host='$ip' port='5432' user='$user'
-password='$password'" \
+PG:"dbname='postgres' host='0.0.0.0' port='5432' user='postgres'
+password='postgres'" \
 Land_Registry_Cadastral_Parcels.gml
 ```
 ## Connect to server
 
+## set psql password
+``` bash
+export PGPASSWORD=postgres
+```
+
 We started a psql session on the client computer to allow us to communicate with the database that is stored on the server.
 
-```
-psql -h 192.168.88.10 -U postgres gis
+``` bash
+psql -h 0.0.0.0 -U postgres
 ```
 ## Create prices table
 
@@ -171,7 +176,7 @@ Colour Ramp: Spectral
 Invert Colour Ramp
 Segmentation: Equal Interval
 ```
-
+![Docusaurus Plushie](/img/price-paid-parcel.jpg)
 
 
 

@@ -56,6 +56,7 @@ GROUP BY geom;
 > Invert Colour Ramp
 > Segmentation: Equal Interval
 
-## Conclusion
+
+![Docusaurus Plushie](/img/price-paid-parish.jpg)
 
 ## References

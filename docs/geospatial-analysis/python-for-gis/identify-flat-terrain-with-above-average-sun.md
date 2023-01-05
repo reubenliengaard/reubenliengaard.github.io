@@ -6,14 +6,14 @@ sidebar_position: 1
 
 To identify flat areas in lidar data using GDAL and GRASS in Python, you can use the following steps:
 
-Import the necessary modules:
+### Import the necessary modules
 
 ``` python
 from osgeo import gdal
 import grass.script as gs
 ```
 
-Set the GRASS GIS environment:
+### Set the GRASS GIS environment
 
 ``` python
 gisbase = '/usr/local/grass78'
@@ -23,7 +23,7 @@ mapset = 'mapset'
 gs.run_command('g.proj', georef='path/to/georeferenced_file.tif', location=location)
 ```
 
-Import the lidar data into GRASS GIS:
+### Import the lidar data into GRASS GIS
 
 ``` python
 gs.run_command('r.in.lidar', input='path/to/lidar_data.las', output='lidar_data', flags='e')
@@ -34,7 +34,7 @@ Calculate the slope of the lidar data using the r.slope.aspect module:
 gs.run_command('r.slope.aspect', elevation='lidar_data', slope='slope', aspect='aspect')
 ``` 
 
-Identify flat areas by selecting pixels with a slope less than a certain threshold. For example:
+### Identify flat areas by selecting pixels with a slope less than a certain threshold
 
 ``` python
 gs.mapcalc("flat = if(slope < 0.1, 1, null())")
