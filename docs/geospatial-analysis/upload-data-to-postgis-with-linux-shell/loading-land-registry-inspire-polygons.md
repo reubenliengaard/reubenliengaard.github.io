@@ -16,7 +16,7 @@ data.service.gov.uk/datasets/inspire/download/Stroud.zip \
 ```
 
 ``` bash
-psql -h localhost -p 5432 -U postgres -P postgres -d public
+psql -h localhost -p 5432 -U postgres 
 ```
 
 ### create table

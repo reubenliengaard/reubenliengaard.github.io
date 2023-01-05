@@ -9,35 +9,24 @@ sidebar_position: 1
 podman pod create -p 8080:8080 -p 5432:5432 -n geospatial
 ```
 
-### Pull geoserver image
-``` bash
-podman pull kartoza/geoserver
-```
-
 ### Run image in pod
 ``` bash
-podman run -d -t \
---name geoserver \
+podman run \
 --pod geospatial \
--e GEOSERVER_ADMIN_USER=postgres \
--e GEOSERVER_ADMIN_PASSWORD=postgres \
-kartoza/geoserver 
-```
-
-### Pull postgis image
-``` bash
-podman pull kartoza/postgis
-```
-
-### Run image in pod
-``` bash
-podman run -d -t \
 --name postgis \
---pod geospatial \
--e POSTGRES_PASS=postgres \
--e POSTGRES_USER=postgres \
-kartoza/postgis
+-e POSTGRES_PASSWORD=postgres \
+-d postgis/postgis
 ```
+
+``` bash
+podman start postgis
+```
+
+## Check
+``` bash
+psql -h localhost -p 5432 -U postgres 
+```
+
 
 ### Generate YAML file
 ``` bash

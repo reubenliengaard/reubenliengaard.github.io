@@ -12,6 +12,9 @@ This script installs and updates various packages and tools on a Fedora system. 
 # Set Fedora version
 FEDORA_VER=$(rpm -E %fedora)
 
+# Remove any old pgadmin repos
+sudo rpm -e pgadmin4-fedora-repo
+
 # Set URLs for RPM Fusion repositories
 FREE_REPO_URL="https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-${FEDORA_VER}.noarch.rpm"
 NONFREE_REPO_URL="https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-${FEDORA_VER}.noarch.rpm"
@@ -52,8 +55,9 @@ sudo dnf install gnome-tweak-tool rpi-imager coreos-installer
 # Install Qgis
 sudo dnf install qgis python3-qgis qgis-grass qgis-server
 
+
 # Install pgadmin4
-sudo dnf install pgadmin4
+sudo tum install pgadmin4
 
 # Install ranger
 sudo dnf ranger

@@ -15,6 +15,7 @@ CREATE TABLE bristol-council (
   properties jsonb
 );
 ```
+/home/reuben/Loader/source/6065398-ST6070.gz
 
 ### Convert to PostGIS geometry format
 ```bash
