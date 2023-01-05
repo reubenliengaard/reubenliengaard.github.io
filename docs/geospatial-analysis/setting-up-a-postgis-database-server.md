@@ -24,12 +24,12 @@ podman generate systemd postgis >
 /home/$user/.config/systemd/user/postgis.service
 ```
 
-### start
+### start postgis service
 ``` bash
 systemctl start --user postgis.service
 ```
 
-### enable
+### enable postgis service
 ``` bash
 systemctl start --user postgis.service
 ```
@@ -37,7 +37,6 @@ systemctl start --user postgis.service
 ``` bash
 podman start postgis
 ```
-
 ## Check
 ``` bash
 psql -h localhost -p 5432 -U postgres 

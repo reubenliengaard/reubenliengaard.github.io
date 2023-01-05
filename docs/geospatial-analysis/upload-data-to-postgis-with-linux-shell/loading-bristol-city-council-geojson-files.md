@@ -4,12 +4,6 @@ sidebar_position: 1
 
 # Loading Bristol city council GeoJson files
 
-
-
-
-# LOOP
-
-
 ### Loop over geojson files and create a new table for each and upload
 
 This script will create a new table in the PostgreSQL database for each .geojson file in the specified directory, using the file name (without the .geojson extension) as the table name. The GeoJSON data from each file will be imported into the corresponding table.
