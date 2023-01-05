@@ -17,7 +17,7 @@ This script will create a new table in the PostgreSQL database for each .geojson
 #!/bin/bash
 
 # Set the database connection string
-conn_string="host=localhost user=myuser dbname=mydatabase password=mypassword"
+conn_string="host=0.0.0.0 user=postgres dbname=postgres password=postgres"
 
 # Loop over all .geojson files in the directory
 for file in /path/to/directory/*.geojson; do
@@ -29,7 +29,7 @@ done
 ```
 
 
-### Adda spatial index
+### Add a spatial index
 
 ``` sql
 CREATE INDEX bristol-council ON bristol-council USING GIST (geom);
