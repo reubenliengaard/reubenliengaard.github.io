@@ -18,6 +18,22 @@ podman run \
 -d postgis/postgis
 ```
 
+### auto gen systemd file
+``` bash
+podman generate systemd postgis >
+/home/$user/.config/systemd/user/postgis.service
+```
+
+### start
+``` bash
+systemctl start --user postgis.service
+```
+
+### enable
+``` bash
+systemctl start --user postgis.service
+```
+
 ``` bash
 podman start postgis
 ```

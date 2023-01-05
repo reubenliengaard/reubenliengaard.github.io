@@ -4,22 +4,28 @@ sidebar_position: 1
 
 # Loading Bristol city council GeoJson files
 
-``` bash
-psql -h localhost -p 5432 -U postgres -d public
-```
 
-### Create table to store geojson data
-``` sql
-CREATE TABLE bristol-council (
-  geom geometry(Geometry,4326),
-  properties jsonb
-);
-```
-/home/reuben/Loader/source/6065398-ST6070.gz
 
-### Convert to PostGIS geometry format
+
+# LOOP
+
+
+### Loop over geojson files and create a new table for each and upload
+
+This script will create a new table in the PostgreSQL database for each .geojson file in the specified directory, using the file name (without the .geojson extension) as the table name. The GeoJSON data from each file will be imported into the corresponding table.
 ```bash
-ogr2ogr -f "PostgreSQL" "PG:host=0.0.0.0 user=postgres dbname=public password=postgres" *.geojson -nln bristol-council
+#!/bin/bash
+
+# Set the database connection string
+conn_string="host=localhost user=myuser dbname=mydatabase password=mypassword"
+
+# Loop over all .geojson files in the directory
+for file in /path/to/directory/*.geojson; do
+    # Extract the file name without the .geojson extension
+    tablename=$(basename "$file" .geojson)
+    # Use ogr2ogr to import the file into a new table
+    ogr2ogr -f "PostgreSQL" PG:"$conn_string" "$file" -nln "$tablename"
+done
 ```
 
 

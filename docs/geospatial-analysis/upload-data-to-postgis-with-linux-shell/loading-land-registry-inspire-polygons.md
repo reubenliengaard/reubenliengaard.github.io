@@ -29,7 +29,7 @@ CREATE TABLE inspire-polygons-stroud (
 ### Import parcels
 Using ogr2ogr 
 ``` bash
-ogr2ogr -f "PostgreSQL" "PG:host=localhost user=postgres dbname=public password=postgres" *.shp -nln inspire-polygons-stroud
+ogr2ogr -f "PostgreSQL" "PG:host=0.0.0.0 user=postgres dbname=public password=postgres" *.shp -nln inspire-polygons-stroud
 ```
 
 ## Create spatial index
