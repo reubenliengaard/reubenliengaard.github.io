@@ -1,11 +1,11 @@
 ---
-slug: identifying-potential-wildlife-corridors
-title: Identifying Potential Wildlife Corridors 
+slug: using-data-queries-to-enhance-wildlife-connectivity
+title: Using Data Queries to Enhance Wildlife Connectivity
 authors: reubenliengaard
 tags: [hello, docusaurus]
 ---
 
-# Identifying Potential Wildlife Corridors
+# Using Data Queries to Enhance Wildlife Connectivity
 
 ![Docusaurus Plushie](/img/wildlife-corridors-2.png)
 

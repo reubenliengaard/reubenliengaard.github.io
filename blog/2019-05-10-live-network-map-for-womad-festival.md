@@ -13,16 +13,25 @@ tags: [hello, docusaurus]
 A BASH script was developed to produce fake data for testing the app. One of these scripts, written in Linux shell language, generates a CSV file containing random MAC addresses, asset tags, device models, and locations. This CSV file is then uploaded to the database for testing purposes.
 ``` bash
 #!/bin/bash
+
+# Generate 100 random devices
 for i in {1..100}
 do
-mac=$(c=0;until [ $c -eq "6" ];do printf ":%02X" $(( $RANDOM % 256 ));let c=c+1;done|sed s/://)
-asset=$(( $RANDOM % 9999 + 1000 ))
-location=$(shuf -n 1 locations.txt)
-model=$(shuf -n 1 models.txt)
+  # Generate a random MAC address
+  mac=$(c=0; until [ $c -eq "6" ]; do printf ":%02X" $(( $RANDOM % 256 )); let c=c+1; done | sed s/://)
 
-   echo "$asset, $mac, $mod"
+  # Generate a random asset number
+  asset=$(( $RANDOM % 9999 + 1000 ))
 
-done > dev.csv
+  # Choose a random location from the locations.txt file
+  location=$(shuf -n 1 locations.txt)
+
+  # Choose a random model from the models.txt file
+  model=$(shuf -n 1 models.txt)
+
+  # Output the device information to a CSV file
+  echo "$asset, $mac, $model, $location"
+done > devices.csv
 ```
 
 
