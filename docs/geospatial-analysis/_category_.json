@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Geospatial analysis is another key area where AI and related technologies can be applied. By using a PostGIS database to store and analyze geospatial data, developers can create more accurate and detailed maps, as well as identify patterns and trends in the data. This can be particularly useful for applications such as disaster response, urban planning, and agriculture."
+    "description": "Geospatial analysis is the process of using geographic data and tools to analyze and understand spatial relationships and patterns. Geospatial analysis is important because it allows us to understand and visualize the spatial aspects of phenomena and events, and to make informed decisions about the use and management of resources."
   }
 }

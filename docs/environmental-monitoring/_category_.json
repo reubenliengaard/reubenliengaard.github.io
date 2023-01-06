@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Environmental monitoring is another important application of AI and related technologies. By using sensors to collect data on various environmental factors, such as temperature, humidity, and air quality, developers can use MQTT and InfluxDB to transmit and store this data for analysis. This data can then be used to develop more accurate and effective environmental models, as well as to identify and address any potential issues."
+    "description": "Environmental monitoring is the process of collecting and analyzing data on the state of the environment, including air quality, water quality, soil conditions, and wildlife populations. Environmental monitoring is important because it helps us to understand and assess the impacts of human activities on the environment, and to identify and address environmental problems and risks."
   }
 }
