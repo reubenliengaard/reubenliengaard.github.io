@@ -255,12 +255,73 @@
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Creating a Unique and Functional Building - A Synthesis of Minimum Technologies]]></title>
+        <id>creating-a-unique</id>
+        <link href="https://reubenliengaard.github.io/blog/creating-a-unique"/>
+        <updated>2017-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Our goal in this design process is to create a building that meets all of the functional needs of the occupant. To do this, we are exploring different building systems and considering how they can be redesigned or integrated to improve their efficiency. We want the form of the building to reflect the elegance and creativity of its organization, and we want the building systems to be visible and constructed with materials that match their character.]]></summary>
+        <content type="html"><![CDATA[<p>Our goal in this design process is to create a building that meets all of the functional needs of the occupant. To do this, we are exploring different building systems and considering how they can be redesigned or integrated to improve their efficiency. We want the form of the building to reflect the elegance and creativity of its organization, and we want the building systems to be visible and constructed with materials that match their character.
+We are focused on synthesizing the minimum number of building technologies needed to fulfill the design brief for each specific building, in order to create a unique and functional building. To start, we created a large web diagram of different technologies and how they could be integrated to serve the occupant. From this web, we can draw connections to create smaller conceptual designs, which we call "flows." To give these flows a physical shape, we need to calculate the size of their components relative to each other. However, the unique scaling ratios of these components and the fact that we have not yet defined their exact 3d arrangement make it difficult to have a detailed understanding of their size. As a result, we use rough rules of thumb to estimate their relative sizes.
+Now that we have these parts relatively scaled in 2d or 3d, we can begin to create 3d conceptual designs. We can explore their aesthetic and ergonomic qualities, and either iterate through a feedback loop for a more detailed analysis of their behavior or move directly into building models to test their functionality and consider suitable materials for their structure and appearance.</p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring the Unique Characteristics of Natural Building Materials]]></title>
+        <id>exploring-the-unique-characteristics-of-natural-building-materials</id>
+        <link href="https://reubenliengaard.github.io/blog/exploring-the-unique-characteristics-of-natural-building-materials"/>
+        <updated>2017-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Inspired to use natural building materials, we wanted to understand the unique characteristics and personalities of each material in order to design something innovative. We wanted to place each material in its proper location within the building based on where it is most commonly found in nature. For example, we know that stone is typically found underground and often in conjunction with water, while wood is found on the surface and high in the air. We wanted to capture the mood of these natural environments in our design.]]></summary>
+        <content type="html"><![CDATA[<p>Inspired to use natural building materials, we wanted to understand the unique characteristics and personalities of each material in order to design something innovative. We wanted to place each material in its proper location within the building based on where it is most commonly found in nature. For example, we know that stone is typically found underground and often in conjunction with water, while wood is found on the surface and high in the air. We wanted to capture the mood of these natural environments in our design.
+We explored the combination of wood and air through lightweight hazel structures, and we were particularly interested in the mysterious underground world of stone and water. We decided to dig a tunnel into the side of a hill to see what we could discover, but the largest cavity we found was only two feet wide. Despite the challenges, it was an exciting and rewarding experience.
+To support the roof of the tunnel, we ended up building concrete block load-bearing walls with concrete lintels supporting the stone above. This solution took up a lot of space and lost the rustic charm of the original design, but it was necessary for safety.
+According to our cross-sectional diagram, there is a third layer in between the stone and wood, a thin layer of mud from which all life springs. We have not researched this material as thoroughly as the others for use in construction, but we have conducted extensive research and design in regards to the organic life it can support. We envision the wood as the ideal location for sleeping quarters, dry and warm in the loft. The ground floor would be reserved for the kitchen, toilet, and other organic activities, including food production. Finally, there may be some kind of underground stone cavernous space beneath the building for an as-yet-unknown purpose.</p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Flood Risk Assessment of Pudding Brooke]]></title>
         <id>flood-risk-assessment-of-pudding-brook</id>
         <link href="https://reubenliengaard.github.io/blog/flood-risk-assessment-of-pudding-brook"/>
         <updated>2017-03-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Digital Terrain Model LIDAR tiles were imported into QGIS and used to create contour polygons at 0.25m intervals. A graduated style was applied to color the polygons by their elevation. Potential sites for outbuildings were then selected in appropriate high ground locations.]]></summary>
         <content type="html"><![CDATA[<p>Digital Terrain Model LIDAR tiles were imported into QGIS and used to create contour polygons at 0.25m intervals. A graduated style was applied to color the polygons by their elevation. Potential sites for outbuildings were then selected in appropriate high ground locations.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/pudding-brook-d25c192f63cca338f2a181d2f09cd3e2.jpg" width="1112" height="577" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vertical Farming for Continuous Salad Production]]></title>
+        <id>vertical-farming-for-continuous-salad-production</id>
+        <link href="https://reubenliengaard.github.io/blog/vertical-farming-for-continuous-salad-production"/>
+        <updated>2017-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We have an idea for a self-sustaining salad bar that utilizes vertical space to meet production needs. Conventional terrestrial agriculture methods are not practical for accessing crops at heights, so we propose planting seedlings in a steel cable reinforced fiber matting that hangs vertically above the counter. This matting is supported by two large drums at the top and bottom and rotates at a speed calculated based on the height of the assembly, the maturation time of the chosen crop, and the desired harvesting frequency. This way, a seedling planted at the bottom will be ready for harvest by the time it reaches the top and returns to the bottom. Once fully stocked, this system will allow for perpetual harvesting to meet the salad bar's demand for fresh produce. We also propose supplying the plants with dissolved nutrients by producing an ultrasonic fog in the chamber between the two planting surfaces. Maintaining a stable temperature in this internal space will help the plants survive small outdoor temperature fluctuations. In colder climates, a vertical poly tunnel may be necessary to protect the plants.]]></summary>
+        <content type="html"><![CDATA[<p>We have an idea for a self-sustaining salad bar that utilizes vertical space to meet production needs. Conventional terrestrial agriculture methods are not practical for accessing crops at heights, so we propose planting seedlings in a steel cable reinforced fiber matting that hangs vertically above the counter. This matting is supported by two large drums at the top and bottom and rotates at a speed calculated based on the height of the assembly, the maturation time of the chosen crop, and the desired harvesting frequency. This way, a seedling planted at the bottom will be ready for harvest by the time it reaches the top and returns to the bottom. Once fully stocked, this system will allow for perpetual harvesting to meet the salad bar's demand for fresh produce. We also propose supplying the plants with dissolved nutrients by producing an ultrasonic fog in the chamber between the two planting surfaces. Maintaining a stable temperature in this internal space will help the plants survive small outdoor temperature fluctuations. In colder climates, a vertical poly tunnel may be necessary to protect the plants.</p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing a Living Building - An Organism with a Symbiotic Relationship with Its Occupants]]></title>
+        <id>designing-a-living-building:-an-organism-with-a-symbiotic-relationship-with-its-occupants</id>
+        <link href="https://reubenliengaard.github.io/blog/designing-a-living-building:-an-organism-with-a-symbiotic-relationship-with-its-occupants"/>
+        <updated>2017-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We should consider the building as an organism with a symbiotic relationship with its occupants. The building should be organized like a system of interdependent organisms, with each organism fulfilling a specific function within the larger structure. These organisms might include microalgae, vermiculture, fish, guinea pigs, leafy green plants, and bacteria. The building should function like a shell or frame that provides a home for these organisms, and we can use environment-specific creatures to keep different systems separate, creating an urban jungle inside the building.]]></summary>
+        <content type="html"><![CDATA[<p>We should consider the building as an organism with a symbiotic relationship with its occupants. The building should be organized like a system of interdependent organisms, with each organism fulfilling a specific function within the larger structure. These organisms might include microalgae, vermiculture, fish, guinea pigs, leafy green plants, and bacteria. The building should function like a shell or frame that provides a home for these organisms, and we can use environment-specific creatures to keep different systems separate, creating an urban jungle inside the building.</p>]]></content>
         <author>
             <name>Reuben Liengaard</name>
             <uri>https://reubenliengaard.github.io</uri>
