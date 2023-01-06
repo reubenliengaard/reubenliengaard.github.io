@@ -1,6 +1,6 @@
 ---
-slug: creating-a-unique-and-functional-building:-a-synthesis-of-minimum-technologies
-title: Creating a Unique and Functional Building: A Synthesis of Minimum Technologies
+slug: creating-a-unique
+title: Creating a Unique and Functional Building - A Synthesis of Minimum Technologies
 authors: reubenliengaard
 tags: [hola, docusaurus]
 ---
