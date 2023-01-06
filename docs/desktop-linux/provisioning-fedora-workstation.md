@@ -29,8 +29,6 @@ echo 'fastestmirror=True' | sudo tee -a /etc/dnf/dnf.conf
 # Add the PostgreSQL repository
 sudo rpm -i "$PGADMIN_REPO_URL"
 
-
-
 # Install RPM Fusion repositories
 sudo dnf install "$FREE_REPO_URL" "$NONFREE_REPO_URL"
 
@@ -55,7 +53,6 @@ sudo dnf install gnome-tweak-tool rpi-imager coreos-installer
 # Install Qgis
 sudo dnf install qgis python3-qgis qgis-grass qgis-server
 
-
 # Install pgadmin4
 sudo tum install pgadmin4
 
@@ -65,12 +62,14 @@ sudo dnf ranger
 # Install zsh
 sudo dnf zsh
 
+# Install kitty
+sudo dnf kitty
+
+# Install psql
+sudo dnf psql
+
 # Oh My ZSH
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 sh install.sh
 ```
 
-### To do
-- psql
-- wallpaper
-- shell
