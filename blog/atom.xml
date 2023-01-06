@@ -36,20 +36,6 @@
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Provisioning Cisco Cloud Wireless Controller]]></title>
-        <id>provisioning-cisco-cloud-wireless-controller</id>
-        <link href="https://reubenliengaard.github.io/blog/provisioning-cisco-cloud-wireless-controller"/>
-        <updated>2021-09-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We installed and configured the Cisco Catalyst c9800-CL wireless controller using KVM (Kernel-based Virtual Machine). The c9800-CL is a cloud-based wireless controller that can be used to manage both on-premises and cloud-based wireless networks, and is a part of the Cisco Catalyst 9800 series. It offers features such as wireless intrusion prevention, location services, and guest access.]]></summary>
-        <content type="html"><![CDATA[<p>We installed and configured the Cisco Catalyst c9800-CL wireless controller using KVM (Kernel-based Virtual Machine). The c9800-CL is a cloud-based wireless controller that can be used to manage both on-premises and cloud-based wireless networks, and is a part of the Cisco Catalyst 9800 series. It offers features such as wireless intrusion prevention, location services, and guest access.</p><p>To begin, we installed virtualization software and enabled the libvirtd service. Then, we created a network bridge using the brctl command. After that, we used the virt-install command to install the c9800-CL on a new virtual machine, specifying options such as the connection to the virtualization server, the operating system variant, the architecture of the virtual machine, and the CPU type.</p><p>Once the virtual machine was set up and the c9800-CL was installed, we provided a script to configure the controller. This script included steps such as setting the hostname, creating a user account, configuring the Gigabit Ethernet interfaces, creating a VLAN, setting up static routes, shutting down and re-enabling the radio frequencies, and setting the country code. We also configured the virtual wireless LAN controller (VWLC) and set the DNS and NTP servers.</p><p>Finally, we showed you how to access the GUI of the c9800-CL at the specified IP address and go through the zero-day configuration steps to set up a wireless network.</p>]]></content>
-        <author>
-            <name>Reuben Liengaard</name>
-            <uri>https://reubenliengaard.github.io</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Parish House Prices - A Map of Average Sale Prices]]></title>
         <id>parish-house-prices</id>
         <link href="https://reubenliengaard.github.io/blog/parish-house-prices"/>
@@ -106,12 +92,51 @@
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Provisioning Cisco Cloud Wireless Controller]]></title>
+        <id>provisioning-cisco-cloud-wireless-controller</id>
+        <link href="https://reubenliengaard.github.io/blog/provisioning-cisco-cloud-wireless-controller"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We installed and configured the Cisco Catalyst c9800-CL wireless controller using KVM (Kernel-based Virtual Machine). The c9800-CL is a cloud-based wireless controller that can be used to manage both on-premises and cloud-based wireless networks, and is a part of the Cisco Catalyst 9800 series. It offers features such as wireless intrusion prevention, location services, and guest access.]]></summary>
+        <content type="html"><![CDATA[<p>We installed and configured the Cisco Catalyst c9800-CL wireless controller using KVM (Kernel-based Virtual Machine). The c9800-CL is a cloud-based wireless controller that can be used to manage both on-premises and cloud-based wireless networks, and is a part of the Cisco Catalyst 9800 series. It offers features such as wireless intrusion prevention, location services, and guest access.</p><p>To begin, we installed virtualization software and enabled the libvirtd service. Then, we created a network bridge using the brctl command. After that, we used the virt-install command to install the c9800-CL on a new virtual machine, specifying options such as the connection to the virtualization server, the operating system variant, the architecture of the virtual machine, and the CPU type.</p><p>Once the virtual machine was set up and the c9800-CL was installed, we provided a script to configure the controller. This script included steps such as setting the hostname, creating a user account, configuring the Gigabit Ethernet interfaces, creating a VLAN, setting up static routes, shutting down and re-enabling the radio frequencies, and setting the country code. We also configured the virtual wireless LAN controller (VWLC) and set the DNS and NTP servers.</p><p>Finally, we showed you how to access the GUI of the c9800-CL at the specified IP address and go through the zero-day configuration steps to set up a wireless network.</p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Truss Connection Node Modeling]]></title>
         <id>truss-connection-node-modeling</id>
         <link href="https://reubenliengaard.github.io/blog/truss-connection-node-modeling"/>
         <updated>2021-03-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus Plushie]]></summary>
         <content type="html"><![CDATA[<p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-3-c6a73cf924e89c582875520935c6855e.png" width="573" height="324" class="img_ev3q"></p><p>We created a dodecahedron-shaped structural node for a truss, which is a device that joins multiple truss struts together at a single point. The node had 12 pentagonal faces, and each truss strut was attached to the center of one of these faces via a single bolt. This bolt passed through a hole in the center of the end cap of the strut and was secured in place by screwing it into a threaded hole in the center of the dodecahedron face. The node was made of steel and was capable of resisting the forces transmitted through the truss. </p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-1-262854f9f04c2addb3451e2e0e292058.jpg" width="476" height="442" class="img_ev3q"></p><p>It played a crucial role in distributing loads evenly and maintaining the stability and strength of the truss. The use of a single bolt per strut allowed for a high level of flexibility and adaptability, as the struts could be easily rearranged or removed due to their modular design.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/truss-2-246d90b00e94dc787904ed511746731a.jpg" width="4592" height="3448" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Reuben Liengaard</name>
+            <uri>https://reubenliengaard.github.io</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating 3d Buildings From Mastermap With Qgis]]></title>
+        <id>creating-3d-buildings-from-mastermap-with-qgis</id>
+        <link href="https://reubenliengaard.github.io/blog/creating-3d-buildings-from-mastermap-with-qgis"/>
+        <updated>2021-02-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We can create 3D models of buildings using data from the Ordnance Survey Mastermap Topography Layer, the Building Height Attribute (BHA), and the Environment Agency LiDAR Digital Terrain Model (DTM). The BHA data provides information on the heights of buildings and is available in File Geodatabase format from Digimap. We can visualize the BHA data in 3D using the Qgis2ThreeJS plugin in QGIS. To do this, we must first install the plugin and load the BHA data, DTM data, and any additional desired layers into the QGIS project. We can then use the Qgis2ThreeJS plugin to style the BHA data and create a 3D model by specifying the BHA data and the desired height attribute for extrusion. The resulting 3D model can be saved as an HTML file and viewed in a web browser. When combined with the LiDAR DTM, this data provides a fairly accurate 3D model that can be opened in Grasshopper, a visual programming language and environment that runs within the Rhinoceros 3D CAD application. With the addition of the Ladybug plugin, we can use this 3D model to perform detailed analyses of climate data and create customized, interactive visualizations for environmentally-informed design, such as sunlight studies.]]></summary>
+        <content type="html"><![CDATA[<p>We can create 3D models of buildings using data from the Ordnance Survey Mastermap Topography Layer, the Building Height Attribute (BHA), and the Environment Agency LiDAR Digital Terrain Model (DTM). The BHA data provides information on the heights of buildings and is available in File Geodatabase format from Digimap. We can visualize the BHA data in 3D using the Qgis2ThreeJS plugin in QGIS. To do this, we must first install the plugin and load the BHA data, DTM data, and any additional desired layers into the QGIS project. We can then use the Qgis2ThreeJS plugin to style the BHA data and create a 3D model by specifying the BHA data and the desired height attribute for extrusion. The resulting 3D model can be saved as an HTML file and viewed in a web browser. When combined with the LiDAR DTM, this data provides a fairly accurate 3D model that can be opened in Grasshopper, a visual programming language and environment that runs within the Rhinoceros 3D CAD application. With the addition of the Ladybug plugin, we can use this 3D model to perform detailed analyses of climate data and create customized, interactive visualizations for environmentally-informed design, such as sunlight studies.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/bha-1-43f5d793112b5e7d965dd45b486ad82e.png" width="849" height="519" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/bha-2-8cbb5ba2a17084da185d97d130f94089.png" width="849" height="519" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/bha-3-02b772b8c9905ff1d1ad5f175ada8c7f.png" width="849" height="519" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/bha-4-ec53deac98415e65bcd3d9a83ce662de.png" width="849" height="519" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/bha-5-0837bbfde76f3cace5346b723ccf3f01.png" width="849" height="519" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/bha-6-8391a5b4741d6b85cb51feabd31d5d9e.png" width="849" height="519" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/bha-7-5dba3500b25db255c1561d822aaddb58.png" width="849" height="519" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/bha-8-0df5a16690d814e3846e2204c1160f06.png" width="849" height="519" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/bha-9-337f5cad895cc88b4703da28a5e97070.png" width="849" height="519" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/bha-10-dfcbbad19705932c13a95718ea657cb5.png" width="849" height="519" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/bha-11-60332f3067091585939f287871665169.png" width="849" height="519" class="img_ev3q">
+<img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/bha-12-767c10f258be4ccea3fd505a9fe69224.png" width="1288" height="605" class="img_ev3q"></p><h1>References</h1><p><a href="https://digimap.edina.ac.uk/help/gis/qgis/qgis_bha/" target="_blank" rel="noopener noreferrer">qgis bha</a></p>]]></content>
         <author>
             <name>Reuben Liengaard</name>
             <uri>https://reubenliengaard.github.io</uri>
