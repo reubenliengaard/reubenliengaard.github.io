@@ -18,6 +18,13 @@ find . -type f | while read -r filename; do
   mkdir -p "${sanitized_ext}"
   mv "$filename" "${sanitized_ext}/${sanitized_base}_${counter}.${sanitized_ext}"
 done
+
+
+## now test there is files in the directories  
+
+
+
+
 ```
 
 If a file with the same name already exists in the destination directory, it will append a number to the file name to make it unique. For example, if the file "example.txt" already exists in the "txt" directory, the script will move the new file "example.txt" to "txt/example_1.txt". If there is already a file "example_1.txt" in the "txt" directory, the script will move the new file to "txt/example_2.txt", and so on.
