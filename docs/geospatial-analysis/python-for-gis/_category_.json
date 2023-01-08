@@ -1,0 +1,8 @@
+{
+  "label": "Python for GIS",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Scripts for manipulating and analysing spatial data"
+  }
+}

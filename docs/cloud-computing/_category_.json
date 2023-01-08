@@ -1,0 +1,8 @@
+{
+  "label": "Cloud Computing",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Cloud computing is a model for delivering computing resources over the internet."
+  }
+}
