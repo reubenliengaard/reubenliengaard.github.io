@@ -163,6 +163,10 @@ podman play kube monitoring-stack.yaml
 ### Reference
 [Oracle-Base](https://oracle-base.com/articles/linux/podman-generate-and-play-kubernetes-yaml-files#:~:text=Podman%20can%20generate%20Kubernetes%20YAML,similar%20to%20Docker%20Compose%20files.)
 
+
+
+
+
 ### To do
 - mosquitto configuration
 - influxdb directory

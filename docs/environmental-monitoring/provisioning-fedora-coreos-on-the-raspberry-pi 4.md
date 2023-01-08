@@ -3,6 +3,20 @@ sidebar_position: 1
 ---
 
 # Provisioning Fedora CoreOS on the Raspberry Pi 4
+### prep seperate usb for firmware
+``` bash
+VERSION=v1.32  # use latest one from https://github.com/pftf/RPi4/releases
+UEFIDISK=/dev/sdX
+sudo mkfs.vfat $UEFIDISK
+mkdir /tmp/UEFIdisk
+sudo mount $UEFIDISK /tmp/UEFIdisk
+pushd /tmp/UEFIdisk
+sudo curl -LO https://github.com/pftf/RPi4/releases/download/${VERSION}/RPi4_UEFI_Firmware_${VERSION}.zip
+sudo unzip RPi4_UEFI_Firmware_${VERSION}.zip
+sudo rm RPi4_UEFI_Firmware_${VERSION}.zip
+popd
+sudo umount /tmp/UEFIdisk
+```
 
 ### Install CoreOS tools
 ``` bash
@@ -102,36 +116,57 @@ storage:
 butane --pretty --strict rpict.bu --output rpict.ign
 ```
 
-### Test
+## Test ignition file in virtual machine
 ``` bash
 ignition-validate rpict.ign && echo 'Success!'
 ```
 
-### Setup the correct SELinux label to allow access to the config
+#### Setup the correct SELinux label to allow access to the config
 ``` bash
 chcon --verbose --type svirt_home_t rpict.ign
 ```
 
-### Start a Fedora CoreOS virtual machine
+#### Start a Fedora CoreOS virtual machine
 ``` bash
 virt-install --name=fcos --vcpus=2 --ram=2048 --os-variant=fedora-coreos-stable \
     --import --network=bridge=virbr0 --graphics=none \
     --qemu-commandline="-fw_cfg name=opt/com.coreos/config,file=${PWD}/rpict.ign" \
     --disk=size=20,backing_store=${PWD}/fedora-coreos.qcow2
 ```
-### Destroy
-CTRL + ] to exit kvm
-to destroy run
+#### Exit and destroy virtual machine 
+> CTRL + ] to exit kvm
+### to destroy run
+``` bash
 virsh destroy fcos
 virsh undefine --remove-all-storage fcos
+```
 
 ### Write to disk
 ``` bash
+## set disc
 FCOSDISK=/dev/sdX
-sudo coreos-installer install --architecture=aarch64 -i config.ign 
 ```
+
+``` bash
+# Create customized.iso which:
+coreos-installer iso customize \
+    --architecture=aarch64 \
+    --dest-device $FCOSDISK \ # - Automatically installs to /dev/sda
+    --dest-ignition config.ign \ # - Provisions with config.ign
+    --network-keyfile $networkManagerConnectionFile  \ # -  network configuration
+    --ignition-ca ca.pem \ # - Trusts HTTPS certificates signed by ca.pem
+    --post-install post.sh \ # - Runs post.sh after installing
+    -o custom.iso input.iso
+```
+
 ## Reference
 [FedoraOnRpi](https://docs.fedoraproject.org/en-US/fedora-coreos/provisioning-raspberry-pi4/)
+
+[customizing-install](https://coreos.github.io/coreos-installer/customizing-install/#customize-options)
+
+[pftf](https://github.com/pftf/RPi4)
+
+
 
 ### To do
 - setup MQTT gateway

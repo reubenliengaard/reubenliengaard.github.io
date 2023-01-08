@@ -4,4 +4,4 @@ sidebar_position: 1
 
 # Introduction
 
-Emerging technologies can significantly improve efficiency and effectiveness, and staying current is crucial for career advancement and competitiveness.
+This section contains detailed documentation of previous work, which serves as a reference for me in case I need to repeat any of the steps for any reason.
