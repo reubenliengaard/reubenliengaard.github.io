@@ -3,6 +3,6 @@
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Parametric modeling is the process of using mathematical models that are based on a set of parameters to represent and analyze data. Parametric modeling is important because it allows us to make predictions and draw conclusions about the data, and to understand the relationships between different variables. It is often used in fields such as engineering, finance, and science to analyze and understand complex systems and processes."
+    "description": "Welcome to the parametric modeling tutorial! In this section, we will be exploring the process of using mathematical models that are based on a set of parameters to represent and analyze data. Parametric modeling is a powerful tool that allows us to make predictions and draw conclusions about data, and to understand the relationships between different variables. It is widely used in fields such as engineering, finance, and science to analyze and understand complex systems and processes. In this tutorial, we will introduce the basics of parametric modeling, including how to select and fit appropriate models to data, and how to use these models to make predictions and draw conclusions. By the end of this tutorial, you will have a solid understanding of parametric modeling and be well-equipped to use these techniques in your own data analysis projects. So let's get started!"
   }
 }
