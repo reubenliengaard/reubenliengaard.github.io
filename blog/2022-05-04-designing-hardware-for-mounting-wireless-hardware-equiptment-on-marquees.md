@@ -7,7 +7,7 @@ tags: [hola, docusaurus]
 
 # Designing Hardware for Mounting Wireless Equipment on Marquees
 
-Wireless access points and point-to-point links are installed on the aluminum extrusion structural elements of outdoor event marquees using a system that utilizes a keeder rail. This rail accommodates a cylindrical metal piece with a threaded hole drilled perpendicular to its length. This metal piece can slide along the keeder rail and be secured in place by turning a large, flat disk with a threaded hole in the center to tighten it in. This setup supports a pipe clamp that fits standard aluminum poles. Two of these are used per pole, to securly anchor the pole vertically on the side of the tent.
+Wireless access points and point-to-point links have been installed on the aluminum extrusion structural elements of outdoor event marquees using a innovative system that employs a keeder rail. The keeder rail accommodates a cylindrical metal piece with a threaded hole drilled perpendicular to its length, which can be easily secured in place by turning a large, flat disk with a threaded hole in the center. This setup supports a pipe clamp that is designed to fit standard aluminum poles, with two clamps used per pole to securely anchor the pole vertically on the side of the tent. This innovative method of installation allows for reliable and secure connectivity during events, while also maintaining the aesthetic integrity of the marquees.
 
 
 ![Docusaurus Plushie](/img/clamp-2.jpg)

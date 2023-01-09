@@ -6,7 +6,11 @@ tags: [hola, docusaurus]
 ---
 # Visualizing AONB Permitted Development Zones with QGIS
 
-We imported topographic polygons from the OS MasterMap into GIS software, and used the buffer tool to create lines to identify what we could build where. In areas of outstanding beauty, outbuildings over 10m2 in area must be within 20 meters of main dwelling house. We used the buffer tool with a radius of 20 meters on the main dwelling house polygon. If the proposed outbuilding is within 2 meters of the property boundary, it is limited in overall height to only 2.4m. To help us identify the best area to build, we created a buffer around the property boundary. We are allowed to build an outbuilding with a pitched roof up to 4 meters tall (with an eaves height of 2.5 meters) or a flat roof up to 3 meters tall in the area where the buffer around the dwelling house overlaps the inverse of the buffer around the property boundary.
+We often use GIS software to help us identify the most suitable areas for building development. One way we do this is by importing topographic polygons from the OS MasterMap into the software and using the buffer tool to create lines around these polygons. This allows us to see where we are permitted to build based on various zoning and regulatory restrictions.
+
+For example, in areas of outstanding beauty, outbuildings with a floor area of over 10m2 must be located within 20 meters of the main dwelling house. To identify the areas where we can build outbuildings in compliance with this regulation, we use the buffer tool with a radius of 20 meters around the main dwelling house polygon. This creates a line around the dwelling house that represents the area within which we are permitted to build outbuildings.
+
+Additionally, if the proposed outbuilding is located within 2 meters of the property boundary, it is limited in overall height to only 2.4 meters. To help us identify the best area to build within these constraints, we create a buffer around the property boundary using the buffer tool. The area where the buffer around the dwelling house overlaps the inverse of the buffer around the property boundary represents the area where we are allowed to build an outbuilding with a pitched roof up to 4 meters tall (with an eaves height of 2.5 meters) or a flat roof up to 3 meters tall. By using these GIS tools, we are able to efficiently and accurately identify the most suitable areas for building development.
 
 
 ![Docusaurus Plushie](/img/permitted-development.jpg)
